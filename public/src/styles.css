@@ -1,0 +1,163 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(68, 130, 158);
+    overflow: hidden;
+    font-family: sans-serif;
+  } */
+  body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Roboto";
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+.groovestreet-home
+{
+    height: 120vh;
+    background: rgb(94, 182, 255);
+    /* overflow: hidden; */
+}
+  /* canvas {
+    display: block
+  } */
+  
+  
+  #container {
+    width: 100vw;
+    height: 100vw;
+  }
+  
+  .layer1 {
+    margin-left: -400px;
+}
+
+  .layer2 {
+    margin-left: -300px;
+}
+
+  .layer3 {
+    margin-left: -500px;
+}
+
+  .layer4 {
+    margin-left: -500px;
+}
+
+  .layer5 {
+    margin-left: -500px;
+}
+
+  .layer6  {
+    margin-left: -500px;
+}
+
+  .layer7 {
+    margin-left: -500px;
+}
+
+#About
+{
+    margin-top: -50px;
+}
+
+.writings
+{
+    margin-top: -700px;
+    margin-left: 1330px;
+}
+
+.writings h1
+{
+    font-size: 60px;
+}
+
+.writings2
+{
+    margin-top: 90px;
+    margin-left: 1000px;
+}
+
+.writings2 h1
+{
+    font-size: 25px;
+}
+
+#Orgs
+{
+    margin-top: 450px;
+    background: rgb(232,241,239);
+    height: 1080px;
+}
+
+.logo img
+{
+    height: 1000px;
+}
+.logo1 img
+{
+    height: 100px;
+    margin-top: 00px;
+    margin-left: 1000px;
+}
+.logo2 img
+{
+    height: 100px;
+}
+.logo3 img
+{
+    height: 100px;
+}
+.logo4 img
+{
+    height: 100px;
+}
+.logo5 img
+{
+    height: 100px;
+}
+.logo6 img
+{
+    height: 100px;
+}
+
+#Timeline
+{
+    margin-top: ;
+    background: #94EB8D;
+    height: 1080px;
+}
+
+.timeline_png img
+{
+    height: 1080px
+}
+
+#Sponsors
+{
+    margin-top: ;
+    background: #29E6E0;
+    height: 1080px;
+}
+
+#MadeBy
+{
+    margin-top: ;
+    background: #282DC9;
+    height: 1080px;
+}
+  /* canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  } */
+  

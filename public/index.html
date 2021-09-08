@@ -10,6 +10,7 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/src/styles.css" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -26,9 +27,47 @@
     -->
     <title>WOC-2.0</title>
   </head>
-  <body>
+  <body >
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <section id="Homepage" class="groovestreet-home">
+
+      <div id = "container">  
+          <div></div>
+          <div data-depth="0.1" class="layer7">
+          <img src="./Assets/Parallax_landscape/Layer7.png" alt="" />
+          </div>
+          <div data-depth="0.15" class="layer6">
+          <img src="./Assets/Parallax_landscape/Layer6.png" alt="" />
+          </div>
+          <div data-depth="0.2" class="layer5">
+          <img src="./Assets/Parallax_landscape/Layer5.png" alt="" />
+          </div>
+          <div data-depth="0.21" class="layer4">
+          <img src="./Assets/Parallax_landscape/Layer4_unchanged.png" alt="" />
+          </div>
+          <div data-depth="0.21" class="layer4">
+          <img src="./Assets/Parallax_landscape/WATER.png" alt="" />
+          </div>
+          <div data-depth="0.4" class="layer3">
+          <img src="./Assets/Parallax_landscape/Layer3.png" alt="" />
+          </div>
+          <div data-depth="0.7" class="layer2">
+          <img src="./Assets/Parallax_landscape/Layer2.png" alt="" />
+          </div>
+          <div data-depth="1.0" class="layer1">
+          <img src="./Assets/Parallax_landscape/Layer1.png" alt="" />
+          </div>
+      </div>
+
+  </section>
+
+  <section id="root">
+
+  </section>
+  <!-- <section id="About"> </section>
+  <section id="Orgs"> </section> -->
+    <!-- <div id="root"></div> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +78,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="%PUBLIC_URL%/src/index.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+	<script> 
+		var scene = document.getElementById("container");
+		var parallaxInstance = new Parallax(scene, {scalarY: 0.0});
+		
+		console.log(Parallax)
+		</script>
+
   </body>
 </html>
