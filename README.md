@@ -8,3 +8,5 @@
    2.2 - cd Winter-of-Code-2.0-frontend
    2.3 npm install
    2.4 npm start
+
+Thank you
