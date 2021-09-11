@@ -1,12 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function MadeBy(props) {
-
-    return (
-    <section id="MadeBy"> 
-	</section>
-    );
-
+  return <section id="MadeBy">Contributed by</section>;
 }
 
 export default MadeBy;
