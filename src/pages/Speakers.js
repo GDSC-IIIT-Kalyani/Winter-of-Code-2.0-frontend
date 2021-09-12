@@ -1,25 +1,58 @@
 import React from "react";
 import "./Speakers.css";
+import thinkFace from "./png_thinkface_papercut.png";
+import logo from "../assets/images/speaker.png";
 
 const Speakers = () => {
-  return <div class = "speakers_sec">
-    <h1 class="heading">Speakers</h1>
-    <div class="container">
-        <div class="speakers">
-            <div class="speaker_sec1">
-                <div class="image_in"><img src="png_thinkface_papercut.png" alt="Error!"/><a href="">Speaker's name</a></div>
-                <div class="image_in"><img src="" alt="Error!"/><a href="">Speaker's name</a></div>
-                <div class="image_in"><img src="" alt="Error!"/><a href="">Speaker's name</a></div>
-            </div>
-            <div class="speaker_sec2">
-                <div class="image_in"><img src="" alt="Error!"/><a href="">Speaker's name</a></div>
-                <div class="image_in"><img src="" alt="Error!"/><a href="">Speaker's name</a></div>
-                <div class="image_in"><img src="" alt="Error!"/><a href="">Speaker's name</a></div>
-            </div>
+  return (
+    <div className="speakers_sec">
+      <div className="heading">
+        <h1 className="heading-title">Speakers</h1>
+      </div>
+      <div className="container">
+        <div className="speakers">
+          <div className="image_in">
+            <img src={logo} alt="speakerLogo" />
+            <a href="###">Speaker's name</a>
+          </div>
+          <div className="image_in">
+            <img src={logo} alt="speakerLogo" />
+            <a href="###">Speaker's name</a>
+          </div>
+          <div className="image_in">
+            <img src={logo} alt="speakerLogo" />
+            <a href="###">Speaker's name</a>
+          </div>
+          <div className="image_in">
+            <img src={logo} alt="speakerLogo" />
+            <a href="###">Speaker's name</a>
+          </div>
+          <div className="image_in">
+            <img src={logo} alt="speakerLogo" />
+            <a href="###">Speaker's name</a>
+          </div>
+          <div className="image_in">
+            <img src={logo} alt="speakerLogo" />
+            <a href="###">Speaker's name</a>
+          </div>
+          <div className="image_in">
+            <img src={logo} alt="speakerLogo" />
+            <a href="###">Speaker's name</a>
+          </div>
+          <div className="image_in">
+            <img src={logo} alt="speakerLogo" />
+            <a href="###">Speaker's name</a>
+          </div>
+          <div>
+            <button>Show More</button>
+          </div>
         </div>
-        <div class="image_out img7"></div>
+        <div className="speaker-thinkFace">
+          <img src={thinkFace} alt="think face" height="800" width="700" />
+        </div>
+      </div>
     </div>
-  </div>;
+  );
 };
 
 export default Speakers;
