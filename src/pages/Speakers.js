@@ -11,35 +11,35 @@ const Speakers = () => {
       </div>
       <div className="container">
         <div className="speakers">
-          <div className="image_in">
+          <div className="speakers_img">
             <img src={logo} alt="speakerLogo" />
             <a href="###">Speaker's name</a>
           </div>
-          <div className="image_in">
+          <div className="speakers_img">
             <img src={logo} alt="speakerLogo" />
             <a href="###">Speaker's name</a>
           </div>
-          <div className="image_in">
+          <div className="speakers_img">
             <img src={logo} alt="speakerLogo" />
             <a href="###">Speaker's name</a>
           </div>
-          <div className="image_in">
+          <div className="speakers_img">
             <img src={logo} alt="speakerLogo" />
             <a href="###">Speaker's name</a>
           </div>
-          <div className="image_in">
+          <div className="speakers_img">
             <img src={logo} alt="speakerLogo" />
             <a href="###">Speaker's name</a>
           </div>
-          <div className="image_in">
+          <div className="speakers_img">
             <img src={logo} alt="speakerLogo" />
             <a href="###">Speaker's name</a>
           </div>
-          <div className="image_in">
+          <div className="speakers_img">
             <img src={logo} alt="speakerLogo" />
             <a href="###">Speaker's name</a>
           </div>
-          <div className="image_in">
+          <div className="speakers_img">
             <img src={logo} alt="speakerLogo" />
             <a href="###">Speaker's name</a>
           </div>

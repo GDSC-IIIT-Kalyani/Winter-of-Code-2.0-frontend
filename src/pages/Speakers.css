@@ -30,7 +30,7 @@
   width: 60vw;
 }
 
-.image_in {
+.speakers_img {
   display: flex;
   height: 15rem;
   width: 15rem;
@@ -40,27 +40,27 @@
   border-radius: 100%;
 }
 
-.image_in {
+.speakers_img {
   margin: 0rem 1.25rem 2.7rem 1.25rem;
   transition-duration: 0.5s;
 }
-.image_in a {
+.speakers_img a {
   color: rgb(238, 0, 0);
   text-decoration: none;
   font-size: 150%;
 }
 
-.image_in img {
+.speakers_img img {
   border-radius: 100%;
 }
 
-.image_in :hover {
+.speakers_img :hover {
   color: rgb(66, 230, 16);
   text-decoration: underline;
   font-size: 160%;
 }
 
-.image_in:hover {
+.speakers_img:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -72,92 +72,3 @@
   justify-content: space-around;
   overflow: hidden;
 }
-
-/* * {
-  margin: 0;
-  padding: 0;
-}
-
-.speakers_sec {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(94 41 199),
-    white,
-    white
-  );
-  top: 0px;
-  display: flex;
-  flex-direction: column;
-}
-
-.heading {
-  text-align: center;
-  font-size: 390%;
-  color: purple;
-  padding-top: 2rem;
-}
-
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 4rem;
-}
-
-@media screen and (max-width: 630px) {
-  .image_out {
-    display: none;
-  }
-}
-
-.speaker_sec1,
-.speaker_sec2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.image_in,
-.image_out {
-  margin: 0rem 1.25rem 2.7rem 1.25rem;
-  transition-duration: 0.5s;
-}
-
-.image_in:hover {
-  transform: scale(1.1);
-}
-
-.image_in {
-  display: flex;
-  height: 12rem;
-  width: 12rem;
-  flex-direction: column;
-  text-align: center;
-  border-radius: 100%;
-}
-
-.image_in a {
-  color: rgb(238, 0, 0);
-  text-decoration: none;
-  font-size: 150%;
-}
-
-.image_in img {
-  border-radius: 100%;
-}
-
-.image_in a:hover {
-  color: rgb(66, 230, 16);
-  text-decoration: underline;
-  font-size: 160%;
-}
-
-.image_out {
-  height: 33rem;
-  min-width: 26rem;
-  margin-top: -3rem;
-}
-
-.img7 {
-  background: url("png_thinkface_papercut.png") no-repeat center center/cover;
-} */
