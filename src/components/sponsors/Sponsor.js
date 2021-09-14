@@ -1,8 +1,8 @@
 import React from "react";
-import "./Sponsors.css";
-import SponsorImg from "./Sponsors.jpg";
+import "./Sponsor.css";
+import SponsorImg from "../../assets/images/Sponsors.jpg";
 
-const Sponsors = () => {
+const Sponsor = () => {
   return (
     <div className="sponsors">
       <div className="top">
@@ -34,4 +34,4 @@ const Sponsors = () => {
   );
 };
 
-export default Sponsors;
+export default Sponsor;

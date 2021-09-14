@@ -1,0 +1,6 @@
+#timeline {
+  background: #94eb8d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

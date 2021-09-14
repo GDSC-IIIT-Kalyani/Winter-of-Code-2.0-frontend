@@ -1,9 +1,9 @@
 import React from "react";
-import "./Speakers.css";
-import thinkFace from "./png_thinkface_papercut.png";
-import logo from "../assets/images/speaker.png";
+import "./Speaker.css";
+import thinkFace from "../../assets/images/png_thinkface_papercut.png";
+import logo from "../../assets/images/speaker.png";
 
-const Speakers = () => {
+const Speaker = () => {
   return (
     <div className="speakers_sec">
       <div className="heading">
@@ -56,4 +56,4 @@ const Speakers = () => {
   );
 };
 
-export default Speakers;
+export default Speaker;

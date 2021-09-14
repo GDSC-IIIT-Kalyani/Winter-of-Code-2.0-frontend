@@ -1,25 +1,20 @@
 import React from "react";
-import PopUp from "./components/UI/popup/PopUp";
-import About from "./pages/About";
-import MadeBy from "./pages/MadeBy";
-import Orgs from "./pages/Orgs";
-import Speakers from "./pages/Speakers";
-import Timeline from "./pages/Timeline";
-import Sponsor from "./pages/Sponsor";
-
-function App(props) {
+import About from "./components/about/About";
+import Project from "./components/projects/Project";
+import TimeLine from "./components/timeline/TimeLine";
+import Sponsor from "./components/sponsors/Sponsor";
+import Speaker from "./components/speakers/Speaker";
+import DevTeam from "./components/developers/DevTeam";
+function App() {
   return (
     <>
-      <PopUp></PopUp>
       <About />
-      <Orgs />
-      <Timeline />
-      <Sponsor></Sponsor>
-
-      <Speakers></Speakers>
-      <MadeBy />
+      <Project />
+      <TimeLine />
+      <Sponsor />
+      <Speaker />
+      <DevTeam />
     </>
   );
 }
-
 export default App;
