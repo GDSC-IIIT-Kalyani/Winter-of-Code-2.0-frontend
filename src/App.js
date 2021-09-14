@@ -4,8 +4,8 @@ import About from "./pages/About";
 import MadeBy from "./pages/MadeBy";
 import Orgs from "./pages/Orgs";
 import Speakers from "./pages/Speakers";
-import Sponsors from "./pages/Sponsors";
 import Timeline from "./pages/Timeline";
+import Sponsor from "./pages/Sponsor";
 
 function App(props) {
   return (
@@ -14,7 +14,8 @@ function App(props) {
       <About />
       <Orgs />
       <Timeline />
-      <Sponsors />
+      <Sponsor></Sponsor>
+
       <Speakers></Speakers>
       <MadeBy />
     </>

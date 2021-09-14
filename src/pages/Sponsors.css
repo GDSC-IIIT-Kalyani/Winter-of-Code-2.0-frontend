@@ -1,0 +1,48 @@
+.sponsors {
+  background-image: linear-gradient(
+    to bottom left,
+    white,
+    rgb(230, 225, 231),
+    purple
+  );
+  min-height: 100vh;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsor_img {
+  margin: 0rem 1.25rem 2.7rem 1.25rem;
+  transition-duration: 0.5s;
+}
+.sponsor_img a {
+  color: rgb(238, 0, 0);
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.sponsor_img img {
+  width: 15vw;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.sponsor_img :hover {
+  color: rgb(66, 230, 16);
+  text-decoration: underline;
+  font-size: 160%;
+}
+
+.sponsor_img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
