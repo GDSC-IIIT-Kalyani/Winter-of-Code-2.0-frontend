@@ -9,35 +9,35 @@
   flex-direction: column;
 }
 
-.container {
-  display: flex;
-}
-
 .heading {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .heading-title {
-  font-weight: 800px;
-  font-size: 50px;
+  font-size: 2.5rem;
 }
+
+.container {
+  display: flex;
+}
+
 .speakers {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  width: 60vw;
+  width: 65vw;
 }
 
 .speakers_img {
   display: flex;
-  height: 15rem;
-  width: 15rem;
+  height: 13rem;
+  width: 13rem;
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
-  border-radius: 100%;
 }
 
 .speakers_img {
@@ -51,7 +51,7 @@
 }
 
 .speakers_img img {
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .speakers_img :hover {
@@ -70,5 +70,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  overflow: hidden;
+}
+
+.speaker-thinkFace img {
+  height: 52rem;
+  width: 52rem;
 }
