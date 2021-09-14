@@ -47,8 +47,9 @@ const Speakers = () => {
             <button>Show More</button>
           </div>
         </div>
+
         <div className="speaker-thinkFace">
-          <img src={thinkFace} alt="think face" height="800" width="700" />
+          <img src={thinkFace} alt="think face" />
         </div>
       </div>
     </div>
