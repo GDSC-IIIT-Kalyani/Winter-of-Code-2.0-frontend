@@ -1,7 +1,5 @@
 import React from "react";
 import "./Card.css";
-import MadeByIMG from "../../../assets/images/MadeBy.jpg";
-
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Card = ({ name, image, role, socialMedia }) => {

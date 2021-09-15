@@ -9,54 +9,61 @@
   flex-direction: column;
 }
 
-.heading {
+.speaker_heading {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 5px;
 }
 
-.heading-title {
+.heading_title {
   font-size: 2.5rem;
 }
 
 .container {
   display: flex;
+  padding: 20px;
 }
 
 .speakers {
   display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.speakers_card {
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
-  width: 65vw;
+  justify-content: space-around;
 }
 
 .speakers_img {
   display: flex;
-  height: 13rem;
-  width: 13rem;
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
-}
-
-.speakers_img {
   margin: 0rem 1.25rem 2.7rem 1.25rem;
   transition-duration: 0.5s;
 }
+
 .speakers_img a {
-  color: rgb(238, 0, 0);
+  color: rgb(112, 71, 71);
   text-decoration: none;
   font-size: 150%;
 }
 
 .speakers_img img {
   border-radius: 50%;
+  min-width: 30px;
+  height: auto;
 }
 
 .speakers_img :hover {
-  color: rgb(66, 230, 16);
-  text-decoration: underline;
+  color: rgb(7, 19, 4);
   font-size: 160%;
 }
 
@@ -67,12 +74,8 @@
 
 .speaker-thinkFace {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
 }
 
 .speaker-thinkFace img {
-  height: 52rem;
-  width: 52rem;
+  position: absolute;
 }

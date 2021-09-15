@@ -1,6 +1,6 @@
 import React from "react";
 import "./DevTeam.css";
-import Card from "../UI/card/Card";
+import ProfileCard from "../UI/profileCard/ProfileCard";
 import developers from "./teamData";
 
 function DevTeam() {
@@ -10,7 +10,7 @@ function DevTeam() {
 
       <div className="developer-cards">
         {developers.map((developer, index) => (
-          <Card
+          <ProfileCard
             name={developer.name}
             image={developer.image}
             role={developer.role}
