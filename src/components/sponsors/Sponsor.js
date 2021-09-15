@@ -1,6 +1,7 @@
 import React from "react";
 import "./Sponsor.css";
 import SponsorImg from "../../assets/images/Sponsors.jpg";
+import sponsorData from "./sponsorsData";
 
 const Sponsor = () => {
   return (
@@ -10,13 +11,16 @@ const Sponsor = () => {
       </div>
 
       <div className="bottom">
-        <div className="sponsor_img">
+        {/* <div className="sponsor_img">
           <img src={SponsorImg} alt="skit.png"></img>
-        </div>
-        <div className="sponsor_img">
-          <img src={SponsorImg} alt="f.png"></img>
-        </div>
+        </div> */}
 
+        {sponsorData.map((data, index) => (
+          <div key={index} className="sponsor_img">
+            <img src={data.src} alt="f.png"></img>
+          </div>
+        ))}
+        {/* 
         <div className="sponsor_img">
           <img src={SponsorImg} alt="g.png"></img>
         </div>
@@ -28,7 +32,7 @@ const Sponsor = () => {
         </div>
         <div className="sponsor_img">
           <img src={SponsorImg} alt="g.png" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

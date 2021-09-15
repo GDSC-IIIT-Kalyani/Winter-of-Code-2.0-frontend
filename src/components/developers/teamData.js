@@ -2,7 +2,7 @@ import MadeByIMG from "../../assets/images/profile.png";
 
 const developers = [
   {
-    name: "John Doe",
+    name: "Divya",
     image: MadeByIMG,
     role: "Developer",
     socialMedia: {
@@ -58,6 +58,17 @@ const developers = [
   },
   {
     name: "John Doe",
+    image: MadeByIMG,
+    role: "Developer",
+    socialMedia: {
+      facebook: "###",
+      twitter: "###",
+      linkedin: "###",
+      instagram: "###",
+    },
+  },
+  {
+    name: "Yash",
     image: MadeByIMG,
     role: "Developer",
     socialMedia: {

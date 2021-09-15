@@ -58,6 +58,12 @@
     <script>
       var scene = document.getElementById("homePage_container");
       var parallaxInstance = new Parallax(scene, { scalarY: 0.0 });
+      const path = window.location.pathname;
+      console.log(path);
+      if (path === "/projects" || path === "/login") {
+        var homePage = document.getElementById("Homepage");
+        homePage.style.display = "none";
+      }
     </script>
   </body>
 </html>

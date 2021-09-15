@@ -4,7 +4,7 @@ import "./Button.css";
 const Button = ({ text }) => {
   return (
     <>
-      <button>{text}</button>
+      <button id="button">{text}</button>
     </>
   );
 };
