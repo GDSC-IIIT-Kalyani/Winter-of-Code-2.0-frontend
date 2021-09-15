@@ -2,8 +2,8 @@
   background-image: linear-gradient(
     to bottom left,
     white,
-    rgb(230, 225, 231),
-    purple
+    white,
+    rgb(94 41 199)
   );
   min-height: 100vh;
 }
@@ -46,3 +46,4 @@
   transform: scale(1.1);
   cursor: pointer;
 }
+
