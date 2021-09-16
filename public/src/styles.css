@@ -41,3 +41,13 @@ body {
 .layer7 {
   margin-left: -500px;
 }
+
+@media (max-width: 768px) {
+  #Homepage {
+    display: none;
+  }
+
+  #About > div > img {
+    display: none;
+  }
+}

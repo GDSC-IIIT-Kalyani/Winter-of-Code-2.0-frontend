@@ -17,7 +17,6 @@
     />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
     <title>Winter Of Code 2.0</title>
   </head>
   <body>
@@ -57,11 +56,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script>
       var scene = document.getElementById("homePage_container");
+      var homePage = document.getElementById("Homepage");
       var parallaxInstance = new Parallax(scene, { scalarY: 0.0 });
       const path = window.location.pathname;
-      console.log(path);
       if (path === "/projects" || path === "/login") {
-        var homePage = document.getElementById("Homepage");
         homePage.style.display = "none";
       }
     </script>

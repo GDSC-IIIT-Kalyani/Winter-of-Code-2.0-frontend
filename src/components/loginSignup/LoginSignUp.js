@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import LoginImg from "../../assets/images/login.jpg";
 import SignUp from "../../assets/images/signup.jpg";
 import "./LoginSignUp.css";
 
 const LoginSignUp = () => {
+  const [signIn, setSignIn] = useState({});
+  const [signUp, setSignUp] = useState({});
+
   function toggleForm() {
     var container = document.querySelector(".container");
     var section = document.querySelector("section");
@@ -26,7 +29,7 @@ const LoginSignUp = () => {
               <input type="submit" name="submitButton" value="Login" />
               <p className="signup">
                 don't have an account?{" "}
-                <a href="##" onclick={toggleForm}>
+                <a href="##" onClick={toggleForm}>
                   Sign up.
                 </a>
               </p>
@@ -44,7 +47,7 @@ const LoginSignUp = () => {
               <input type="submit" name="" value="Sign up" />
               <p className="signup">
                 Already have an account?
-                <a href="##" onclick={toggleForm}>
+                <a href="##" onClick={toggleForm}>
                   Sign in.
                 </a>
               </p>

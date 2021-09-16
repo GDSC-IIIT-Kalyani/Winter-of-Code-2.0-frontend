@@ -27,7 +27,6 @@
 
 .speakers {
   display: flex;
-  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
@@ -78,4 +77,29 @@
 
 .speaker-thinkFace img {
   position: absolute;
+}
+
+@media (max-width: 768px) {
+  .speaker-thinkFace {
+    display: none;
+  }
+
+  .speaker_heading {
+    align-items: flex-start;
+    /* justify-content: center; */
+    /* margin: 5px; */
+  }
+
+  .heading_title {
+    transform: rotate(90deg);
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+  .speakers_sec {
+    flex-direction: row;
+  }
+
+  .speakers {
+    flex-direction: row;
+  }
 }

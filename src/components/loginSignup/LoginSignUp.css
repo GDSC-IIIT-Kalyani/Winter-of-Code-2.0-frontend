@@ -1,24 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 section {
   position: relative;
   min-height: 100vh;
-  /*background: #557085;*/
   display: flex;
   padding: 20px;
   justify-content: center;
   align-items: center;
   transition: 0.5s;
 }
-/*section.active
-{
-	background: #5a5a5a;
-}*/
+
 section .container {
   position: relative;
   width: 800px;
@@ -156,4 +147,4 @@ section .container.active .signinBx .imgBx {
   section .container.active .signinBx .formBx {
     top: -100%;
   }
-}
+} */

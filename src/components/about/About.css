@@ -19,3 +19,18 @@
 .writings2 h1 {
   font-size: 25px;
 }
+
+/* @media (max-width: 768px) {
+  #About {
+    display: flex;
+  }
+  .writings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .writings h1 {
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+} */
