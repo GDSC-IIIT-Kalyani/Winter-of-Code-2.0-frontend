@@ -9,10 +9,10 @@ const NavBar = () => {
     setIsMobView(!isMobView);
     setIsCrossBurger(!isCrossBurger);
     const nav_links = document.querySelectorAll(".navBar_link-item");
-    nav_links.forEach((link, number) => {
+    nav_links.forEach((link, number, event) => {
       if (link.style.animation) link.style.animation = "";
       else
-        link.style.animation = `fade 0.1s ease forwards ${number / 7 + 0.2}s`;
+        link.style.animation = `fade 0.5s ease forwards ${number / 7 + 0.2}s`;
     });
   };
 
@@ -21,25 +21,25 @@ const NavBar = () => {
       <div className="navBar_container">
         <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
           <li className="navBar_link-item">
-            <a href="####">HOME</a>
+            <a href="####">Home</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">ABOUT</a>
+            <a href="####">About</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">TIMELINE</a>
+            <a href="####">Timeline</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">SPONSORS</a>
+            <a href="####">Sponsors</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">SPEAKERS</a>
+            <a href="####">Speakers</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">PROJECTS</a>
+            <a href="####">Projects</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">CONTRIBUTED BY</a>
+            <a href="####">Contributed by</a>
           </li>
         </ul>
         <div
