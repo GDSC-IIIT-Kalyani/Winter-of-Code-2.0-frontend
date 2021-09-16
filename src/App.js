@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import NavBar from "./components/header/NavBar";
 import About from "./components/about/About";
 import Project from "./components/projects/Project";
 import TimeLine from "./components/timeline/TimeLine";
@@ -13,6 +14,7 @@ function App() {
   const pathName = window.location.pathname;
   return (
     <BrowserRouter>
+    <NavBar/>
       {pathName === "/login" || pathName === "/projects" ? null : (
         <>
           <About />
