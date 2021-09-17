@@ -7,15 +7,15 @@ import sawo from '../../assets/projectAssests/saw_;labs_png.png';
 function Orgs() {
   return (
     <div className='mid'>
-      <img
-        src={skit}
-        alt='sponsor_Logo'
-      />
-      <img src={fossasia} alt='sponsor_Logo' />
-      <img src={githubLogo} alt='sponsor_Logo' />
-      <img src={sawo} alt='sponsor_Logo' />
-      <img src={githubLogo} alt='sponsor_Logo' />
-      <img src={githubLogo} alt='sponsor_Logo' />
+      <ul className="project_sponsors">
+      <li><img src={skit} alt='sponsor_Logo'/></li>
+      <li><img src={fossasia} alt='sponsor_Logo' /></li>
+      <li><img src={githubLogo} alt='sponsor_Logo' /></li>
+      <li><img src={sawo} alt='sponsor_Logo' /></li>
+      <li><img src={githubLogo} alt='sponsor_Logo' /></li>
+      <li><img src={githubLogo} alt='sponsor_Logo' /></li>
+    </ul>
+    <div class="desc">ORGANISATIONS</div>
     </div>
   );
 }
