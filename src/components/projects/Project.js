@@ -12,12 +12,10 @@ const Project = () => {
         </div>
         <div className="right">
             <ul class="list">
-                <li class="items"><h2>10+</h2><br/>Projects</li>
-                <li class="items"><h2>150+</h2><br/>Hackers All Around</li>
-                <li class="items"><h2>30+</h2><br/>Day Event</li>
+                <li class="items"><h2>10+</h2><br/>Projects <br /></li>
+                <li class="items"><h2>150+</h2><br/>Hackers <br/> All Around</li>
+                <li class="items"><h2>30+</h2><br/>Day Event <br/></li>
             </ul>
-            <div className="top">
-            </div>
             <Orgs />
             <button><a href="#">PROJECTS</a></button>
         </div>
