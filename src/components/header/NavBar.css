@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 1000 !important;
   top: 0;
-  right: 1rem;
+  right: 0;
   position: fixed;
 }
 
@@ -10,6 +10,7 @@
   display: flex;
   list-style: none;
   margin-top: 1.5rem;
+  padding-right: 1rem;
   justify-content: right;
 }
 
@@ -27,14 +28,35 @@
 }
 
 .navBar_link-item:hover {
-  text-decoration: underline;
-  background-color: rgb(0, 0, 0);
   border-radius: 8px;
   transform: scale(1.14);
 }
 
 .navBar_link-item:hover a {
-  color: white;
+  color: rgb(255, 0, 0);
+}
+
+.navBar_link-item::after, .navBar_link-item::before{
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  border-radius: 100%;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.4s ease-in;
+}
+.navBar_link-item::after{
+  bottom: 0;
+  transform-origin: right;
+}
+.navBar_link-item::before{
+  top: 0;
+  transform-origin: left;
+}
+.navBar_link-item:hover::after, .navBar_link-item:hover::before{
+  transform: scale(1);
 }
 
 .navBar_hamburger {
@@ -50,7 +72,7 @@
   width: 2rem;
   height: 4px;
   margin: 4px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .navBar_hamburger:hover div {
@@ -72,7 +94,7 @@
     height: 94vh;
     margin-top: 0;
     padding-top: 6vh;
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -83,7 +105,15 @@
   }
   .navBar_link-item {
     opacity: 0;
-    margin: 0;
+  }
+  .navBar_link-item a {
+    color: white;
+  }
+  .navBar_link-item:hover a {
+    color: rgb(44, 218, 58);
+  }
+  .navBar_link-item::after, .navBar_link-item::before{
+    background-color: white;
   }
   .navBar_hamburger {
     display: block;
@@ -96,6 +126,9 @@
 @media screen and (max-width: 650px) {
   .navBar_links {
     width: 65vw;
+  }
+  .navBar_link-item:hover {
+    transform: scale(1.14) !important;
   }
 }
 
@@ -122,11 +155,12 @@
 }
 
 .cross-burger .navBar_line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-405deg) translate(-5px, 6px);
 }
 .cross-burger .navBar_line2 {
   opacity: 0;
+  transform: translateX(-2rem);
 }
 .cross-burger .navBar_line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(405deg) translate(-5px, -6px);
 }
