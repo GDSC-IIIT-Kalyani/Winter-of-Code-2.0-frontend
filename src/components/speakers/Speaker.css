@@ -95,7 +95,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 550px) {
   .speakers_sec {
     display: flex;
     flex-direction: row-reverse;
