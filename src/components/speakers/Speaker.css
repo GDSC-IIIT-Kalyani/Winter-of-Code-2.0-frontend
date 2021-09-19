@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .speakers_sec {
   display: flex;
   background-image: linear-gradient(
@@ -7,36 +11,31 @@
     white
   );
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .speaker_heading {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 5px;
-}
-
-.heading_title {
-  font-size: 2.5rem;
+  text-align: center;
+  font-size: 180%;
+  margin: 1.2rem 0rem;
 }
 
 .container {
   display: flex;
   padding: 20px;
+  align-items: center;
 }
 
 .speakers {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   flex-direction: column;
-  width: 60vw;
 }
 
 .speakers_card {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-around;
 }
 
@@ -44,15 +43,15 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-between;
   margin: 0rem 1.25rem 2.7rem 1.25rem;
   transition-duration: 0.5s;
 }
 
 .speakers_img a {
-  color: rgb(112, 71, 71);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 150%;
+  transition-duration: 0.5s;
 }
 
 .speakers_img img {
@@ -62,7 +61,8 @@
 }
 
 .speakers_img a:hover {
-  color: rgb(7, 19, 4);
+  color: blue;
+  text-decoration:underline;
   transform: scale(1.1);
 }
 
@@ -71,35 +71,63 @@
   cursor: pointer;
 }
 
+button {
+  cursor: pointer;
+  transition-duration: 0.5s;
+  padding: 2.5px;
+}
+
+button:hover {
+  transform: scale(1.14);
+  background-color: black;
+  color: white;
+}
+
 .speaker-thinkFace {
   display: flex;
+  align-self: flex-start;
 }
 
-.speaker-thinkFace img {
-  position: absolute;
-}
-
-@media (max-width: 768px) {
+@media screen and (max-width: 1095px) {
   .speaker-thinkFace {
     display: none;
   }
+}
 
-  .speaker_heading {
-    align-items: flex-start;
-    /* justify-content: center; */
-    /* margin: 5px; */
+@media screen and (max-width: 566px) {
+  *{
+    margin-left: -18px;
+    margin-right: 17px;
   }
-
-  .heading_title {
-    transform: rotate(90deg);
-    font-weight: bolder;
-    font-size: 3rem;
-  }
-  .speakers_sec {
+  .speakers_sec{
     flex-direction: row;
   }
+  .container{
+    padding: 0;
+  }
+  .speakers_img{
+    margin: 1.5rem 0px 0px 0px;
+  }
+  .speakers_img img{
+    width: 100%;
+    height: auto;
+  }
+  button{
+    display: none;
+  }
+  .speaker_heading{
+    margin-left: 1.1rem;
+    margin-top: 10rem;
+    align-self: flex-start;
+  }
+  .heading_title{
+    letter-spacing: 5px;
+    transform: rotate(-90deg);
+  }
+}
 
-  .speakers {
-    flex-direction: row;
+@media screen and (max-width: 430px) {
+  .speaker_heading{
+    font-size: 140%;
   }
 }
