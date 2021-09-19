@@ -32,25 +32,26 @@ const NavBar = () => {
       <div className="navBar_container">
         <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
           <li className="navBar_link-item">
-            <a href="####">Home</a>
+            <a href="#Homepage">Home</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">About</a>
+            <a href="#About">About</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">Timeline</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">Sponsors</a>
+            <a href="#timeline">Timeline</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">Speakers</a>
+            <a href="#sponsors">Sponsors</a>
           </li>
           <li className="navBar_link-item">
-            <a href="####">Projects</a>
+            <a href="#speakers">Speakers</a>
           </li>
+
           <li className="navBar_link-item">
-            <a href="####">Contributed by</a>
+            <a href="#developer">Contributed by</a>
           </li>
         </ul>
         <div

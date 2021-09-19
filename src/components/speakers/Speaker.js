@@ -6,7 +6,7 @@ import Button from "../UI/button/Button";
 
 const Speaker = () => {
   return (
-    <div className="speakers_sec">
+    <div className="speakers_sec" id="speakers">
       <div className="speaker_heading">
         <h1 className="heading_title">Speakers</h1>
       </div>
