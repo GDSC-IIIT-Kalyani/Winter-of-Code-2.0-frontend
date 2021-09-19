@@ -4,14 +4,19 @@
   top: 0;
   right: 0;
   position: fixed;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  transition: background-color 0.5s ease;
 }
 
+/* navbar links container */
 .navBar_links {
   display: flex;
   list-style: none;
-  margin-top: 1.5rem;
   padding-right: 1rem;
-  justify-content: right;
 }
 
 .navBar_link-item a {
@@ -19,6 +24,7 @@
   color: black;
 }
 
+/* navbar links */
 .navBar_link-item {
   font-size: 120%;
   margin: 0rem 0.4rem 0rem 0.4rem;
@@ -33,13 +39,14 @@
 }
 
 .navBar_link-item:hover a {
-  color: rgb(255, 0, 0);
+  color: red;
 }
 
-.navBar_link-item::after, .navBar_link-item::before{
-  content: '';
+/* navbar link hover effect */
+.navBar_link-item::after,
+.navBar_link-item::before {
+  content: "";
   width: 100%;
-  height: 2px;
   position: absolute;
   background-color: rgb(0, 0, 0);
   border-radius: 100%;
@@ -47,18 +54,22 @@
   transform: scaleX(0);
   transition: transform 0.4s ease-in;
 }
-.navBar_link-item::after{
+.navBar_link-item::after {
   bottom: 0;
+  height: 2.5px;
   transform-origin: right;
 }
-.navBar_link-item::before{
+.navBar_link-item::before {
   top: 0;
+  height: 2px;
   transform-origin: left;
 }
-.navBar_link-item:hover::after, .navBar_link-item:hover::before{
+.navBar_link-item:hover::after,
+.navBar_link-item:hover::before {
   transform: scale(1);
 }
 
+/* hamburger */
 .navBar_hamburger {
   display: none;
   background-color: lavender;
@@ -71,7 +82,7 @@
   border-radius: 20%;
   width: 2rem;
   height: 4px;
-  margin: 4px;
+  margin: 5px;
   transition: all 0.4s ease-in-out;
 }
 
@@ -79,6 +90,7 @@
   background-color: rgb(0, 0, 0);
 }
 
+/* hamburger application at 920px width */
 @media screen and (max-width: 920px) {
   body {
     overflow-x: hidden;
@@ -88,12 +100,12 @@
   }
   .navBar_links {
     width: 50vw;
-    font-size: 150%;
     position: absolute;
     text-align: center;
     height: 94vh;
     margin-top: 0;
     padding-top: 6vh;
+    padding-right: 0;
     background-color: rgb(0, 0, 0);
     flex-direction: column;
     align-items: center;
@@ -106,13 +118,19 @@
   .navBar_link-item {
     opacity: 0;
   }
+  .navBar_link-item:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.14) !important;
+  }
   .navBar_link-item a {
     color: white;
+    font-size: 150%;
   }
   .navBar_link-item:hover a {
     color: rgb(44, 218, 58);
   }
-  .navBar_link-item::after, .navBar_link-item::before{
+  .navBar_link-item::after,
+  .navBar_link-item::before {
     background-color: white;
   }
   .navBar_hamburger {
@@ -123,6 +141,7 @@
   }
 }
 
+/* width of sliding window from hamburger increased */
 @media screen and (max-width: 650px) {
   .navBar_links {
     width: 65vw;
@@ -139,10 +158,12 @@
   }
 }
 
+/* for sliding window, when hamburger is not clicked*/
 .mob-view {
   transform: translateX(0%);
 }
 
+/* animation for nav links */
 @keyframes fade {
   from {
     opacity: 0;
@@ -154,13 +175,33 @@
   }
 }
 
+/* animation for hamburger */
 .cross-burger .navBar_line1 {
-  transform: rotate(-405deg) translate(-5px, 6px);
+  transform: rotate(-405deg) translate(-5px, 8px);
 }
 .cross-burger .navBar_line2 {
   opacity: 0;
   transform: translateX(-2rem);
 }
 .cross-burger .navBar_line3 {
-  transform: rotate(405deg) translate(-5px, -6px);
+  transform: rotate(405deg) translate(-5px, -8px);
+}
+
+/* adding background color on scrolling */
+.navBar_scroll {
+  background-color: rgb(27, 109, 6);
+  box-shadow: 0px 3px 10px black;
+}
+
+.navBar_scroll .navBar_link-item a {
+  color: white;
+}
+.navBar_scroll .navBar_link-item::before {
+  background-color: rgb(81, 255, 0);
+}
+.navBar_scroll .navBar_link-item::after {
+  background-color: rgb(81, 255, 0);
+}
+.navBar_scroll .navBar {
+  height: 3.5rem;
 }
