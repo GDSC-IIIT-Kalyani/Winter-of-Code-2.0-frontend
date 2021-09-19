@@ -16,15 +16,19 @@ const NavBar = () => {
         link.style.animation = `fade 0.5s ease forwards ${number / 7 + 0.2}s`;
     });
   };
-  const handleScrollDown = ()=>{
+  const handleScrollDown = () => {
     var width = document.body.clientWidth;
+    console.log(width);
+
     var isScroll = window.scrollY;
-      if(width > 920 && isScroll > 0)
-        setIsScrollDown(!isScrollDown); 
+    if (width > 920 && isScroll > 0) setIsScrollDown(!isScrollDown);
   };
 
   return (
-    <nav className={`navBar ${isScrollDown ? "navBar_scroll" : null}`} onScroll = {handleScrollDown}>
+    <nav
+      className={`navBar ${isScrollDown ? "navBar_scroll" : null}`}
+      onScroll={handleScrollDown}
+    >
       <div className="navBar_container">
         <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
           <li className="navBar_link-item">
