@@ -7,9 +7,9 @@ import Button from "../UI/button/Button";
 const Speaker = () => {
   return (
     <div className="speakers_sec">
-      <div className="speaker_heading">
+      <inline className="speaker_heading">
         <h1 className="heading_title">Speakers</h1>
-      </div>
+      </inline>
       <div className="container">
         <div className="speakers">
           <div className="speakers_card">
