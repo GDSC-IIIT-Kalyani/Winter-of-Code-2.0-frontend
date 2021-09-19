@@ -6,10 +6,10 @@ import Button from "../UI/button/Button";
 
 const Speaker = () => {
   return (
-    <div className="speakers_sec">
-      <inline className="speaker_heading">
+    <div className="speakers_sec" id="speakers" >
+      <div className="speaker_heading">
         <h1 className="heading_title">Speakers</h1>
-      </inline>
+      </div>
       <div className="container">
         <div className="speakers">
           <div className="speakers_card">

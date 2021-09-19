@@ -1,11 +1,11 @@
 import React from "react";
 import "./Sponsor.css";
-import SponsorImg from "../../assets/images/Sponsors.jpg";
+// import SponsorImg from "../../assets/images/Sponsors.jpg";
 import sponsorData from "./sponsorsData";
 
 const Sponsor = () => {
   return (
-    <div className="sponsors">
+    <div className="sponsors" id="sponsors">
       <div className="top">
         <h1>SPONSORS</h1>
       </div>

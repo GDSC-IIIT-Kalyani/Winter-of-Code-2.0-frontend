@@ -8,7 +8,7 @@ const Project = () => {
     <section id="projects">
       <div id="flex-container">
         <div class="left">
-          <img src={leftLogo} alt="Image" />
+          <img src={leftLogo} alt="" />
         </div>
         <div className="right">
           <ul class="list">
@@ -30,7 +30,7 @@ const Project = () => {
           </ul>
           <Orgs />
           <button>
-            <a href="#">PROJECTS</a>
+            <a href="/projects">PROJECTS</a>
           </button>
         </div>
       </div>

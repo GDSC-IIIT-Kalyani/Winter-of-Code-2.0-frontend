@@ -10,11 +10,12 @@ import DevTeam from "./components/developers/DevTeam";
 import Projects from "./components/projects/allProjects/Projects";
 // import Footer from "./components/footer/Footer";
 import LoginSignUp from "./components/loginSignup/LoginSignUp";
+import Auth from "./components/loginSignup/Auth";
 function App() {
   const pathName = window.location.pathname;
   return (
     <BrowserRouter>
-    <NavBar/>
+      <NavBar />
       {pathName === "/login" || pathName === "/projects" ? null : (
         <>
           <About />
@@ -27,7 +28,7 @@ function App() {
       )}
       <Switch>
         <Route path="/projects" exact component={Projects} />
-        <Route path="/login" exact component={LoginSignUp} />
+        <Route path="/login" exact component={Auth} />
       </Switch>
       {/* <Footer /> */}
     </BrowserRouter>

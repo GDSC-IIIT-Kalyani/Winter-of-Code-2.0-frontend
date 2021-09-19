@@ -21,7 +21,8 @@
 
 .navBar_link-item a {
   text-decoration: none;
-  color: black;
+  /* color: black; */
+  color: white;
 }
 
 /* navbar links */
