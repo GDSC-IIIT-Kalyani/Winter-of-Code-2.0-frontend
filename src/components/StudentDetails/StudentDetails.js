@@ -1,19 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import "./StudentDetails.css";
 const StudentDetails = () => {
+  const [studentData, setStudentData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    github: "",
+    linkedIn: "",
+    twitter: "",
+    portfolio: "",
+    openSourceWork: "",
+    role: "",
+  });
+
+  const handleInputChange = (event) => {
+    setStudentData({
+      ...studentData,
+      [event.target.name]: event.target.value,
+    });
+  };
+
+  const handleStudentDetails = (event) => {
+    event.preventDefault();
+    console.log(studentData);
+  };
+
   return (
     <div>
       <header>
-        <h1>Contact form</h1>
+        <h1>Registration Form</h1>
       </header>
       <div id="form">
         <div className="fish" id="fish"></div>
         <div className="fish" id="fish2"></div>
         <div className="fish" id="fish3"></div>
-        <form id="waterform" method="post">
+        <form id="waterform">
           <div class="formgroup" id="name-form">
             <label for="name">Your name*</label>
-            <input type="text" id="name" name="name" placeholder="Your name" />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+              value={studentData.name}
+              onChange={handleInputChange}
+            />
           </div>
           <div className="formgroup" id="email-form">
             <label for="email">Your e-mail*</label>
@@ -22,6 +54,9 @@ const StudentDetails = () => {
               id="email"
               name="email"
               placeholder="Your e-mail"
+              required
+              value={studentData.email}
+              onChange={handleInputChange}
             />
           </div>
           <div className="formgroup" id="phone-form">
@@ -31,6 +66,9 @@ const StudentDetails = () => {
               id="phone"
               name="phone"
               placeholder="Your phone number"
+              required
+              value={studentData.phone}
+              onChange={handleInputChange}
             />
           </div>
           <div className="formgroup" id="github-form">
@@ -40,6 +78,8 @@ const StudentDetails = () => {
               id="github"
               name="github"
               placeholder="Your github profile link"
+              value={studentData.github}
+              onChange={handleInputChange}
             />
           </div>
           <div className="formgroup" id="linkedin-form">
@@ -47,8 +87,10 @@ const StudentDetails = () => {
             <input
               type="text"
               id="linkedin"
-              name="linkedin"
+              name="linkedIn"
               placeholder="Your LinkedIn profile link"
+              value={studentData.linkedIn}
+              onChange={handleInputChange}
             />
           </div>
           <div className="formgroup" id="twitter-form">
@@ -58,6 +100,8 @@ const StudentDetails = () => {
               id="twitter"
               name="twitter"
               placeholder="Yout twitter profile link"
+              value={studentData.twitter}
+              onChange={handleInputChange}
             />
           </div>
           <div className="formgroup" id="portfolio-form">
@@ -67,6 +111,8 @@ const StudentDetails = () => {
               id="portfolio"
               name="portfolio"
               placeholder="Your portfolio profile link"
+              value={studentData.portfolio}
+              onChange={handleInputChange}
             />
           </div>
           <div className="formgroup" id="others-form">
@@ -74,19 +120,31 @@ const StudentDetails = () => {
             <input
               type="text"
               id="others"
-              name="others"
+              name="openSourceWork"
               placeholder="Open source contributions link"
+              value={studentData.openSourceWork}
+              onChange={handleInputChange}
             />
           </div>
           <div className="formgroup" id="join-form">
             <label for="join">Joining as*</label>
-            <select id="join" name="join">
-              <option value="">Joining as</option>
+            <select
+              id="join"
+              name="role"
+              required
+              value={studentData.role}
+              onChange={handleInputChange}
+            >
+              <option value="none">Joining as</option>
               <option value="mentor">Mentor</option>
               <option value="student">Student</option>
             </select>
           </div>
-          <input type="submit" value="Send your message!"></input>
+          <input
+            type="submit"
+            value="Submit details!"
+            onClick={handleStudentDetails}
+          ></input>
         </form>
       </div>
     </div>
