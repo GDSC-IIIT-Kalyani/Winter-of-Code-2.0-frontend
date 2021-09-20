@@ -4,9 +4,9 @@ import "./TimeLine.css";
 function TimeLine() {
   return (
     <section id="timeline">
-      <div class="timeline_png">
+      {/* <div class="timeline_png">
         <img src="./Assets/TImeline final.png" alt="" />
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -7,7 +7,7 @@ function About() {
       <div>
         <img src="./Assets/About_papercut.png" alt="" />
       </div>
-      <div class="writings">
+      {/* <div class="writings">
         <h1>ABOUT</h1>
       </div>
 
@@ -21,7 +21,7 @@ function About() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
         </h1>
-      </div>
+      </div> */}
     </section>
   );
 }
