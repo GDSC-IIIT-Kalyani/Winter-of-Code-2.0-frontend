@@ -5,19 +5,21 @@
     white,
     rgb(94 41 199)
   );
-  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .top {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 35vh;
 }
 
 .bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  min-height: 65vh;
 }
 
 .sponsor_img {
@@ -31,7 +33,7 @@
 }
 
 .sponsor_img img {
-  width: 15vw;
+  width: 200px;
   height: 100%;
   border-radius: 50%;
 }
@@ -46,4 +48,10 @@
   transform: scale(1.1);
   cursor: pointer;
 }
-
+@media (max-width: 650px) 
+{
+  .bottom 
+  {
+    flex-direction: column;justify-content: center;align-items: center;
+  }
+}
