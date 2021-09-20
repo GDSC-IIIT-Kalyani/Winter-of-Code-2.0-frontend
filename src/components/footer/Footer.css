@@ -1,58 +1,58 @@
 .footer {
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 100vw;
-    background-color: brown;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100vw;
+  background-color: rgb(152, 190, 240);
+  align-items: center;
+  justify-content: center;
 }
 
-.contact{
-    display: flex;
-    flex-direction: row;
-    min-width: 100vw;
-    min-height: 15vh;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.contact {
+  display: flex;
+  flex-direction: row;
+  min-width: 100vw;
+  min-height: 15vh;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.copyright{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    min-width: 100vw;
-    min-height: 10vh;
-    align-items: center;
-    justify-content: center;
-    color: white;
+.copyright {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 100vw;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
-.icon{
-    width: 50px;
-    height: 50px;
-    color: white;
-    margin: 15px 50px 0px 50px;
+.icon {
+  width: 50px;
+  height: 50px;
+  color: white;
+  margin: 15px 50px 0px 50px;
 }
 
-.icon:hover{
-    height: 80px;
-    transition-duration: 500ms;
-    transform: rotate(360deg);
+.icon:hover {
+  height: 80px;
+  transition-duration: 500ms;
+  transform: rotate(360deg);
 }
 
-.twitter:hover{
-    color: cyan;
+.twitter:hover {
+  color: cyan;
 }
 
-.instagram:hover{
-    color: magenta;
+.instagram:hover {
+  color: magenta;
 }
 
-.linkedin:hover{
-    color:cyan;
+.linkedin:hover {
+  color: cyan;
 }
 
-.github:hover{
-    color: black;
+.github:hover {
+  color: black;
 }
