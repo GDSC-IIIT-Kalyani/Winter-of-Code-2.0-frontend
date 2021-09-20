@@ -50,9 +50,9 @@ const NavBar = ({ userLoggedIn }) => {
             <a href="#speakers">Speakers</a>
           </li>
 
-          {/* <li className="navBar_link-item">
-            <a href="#developer">Contributed by</a>
-          </li> */}
+          <li className="navBar_link-item">
+            <a href="/register"> Student</a>
+          </li>
           {userLoggedIn ? (
             <li className="navBar_link-item">
               <a href="/login">Logout</a>

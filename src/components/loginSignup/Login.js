@@ -19,7 +19,6 @@ function Login({ setUserLoggedIn }) {
     setShowloginButton(false);
     setShowlogoutButton(true);
     setUserLoggedIn(true);
-    console.log(history);
   };
 
   const onLoginFailure = () => {
@@ -32,6 +31,7 @@ function Login({ setUserLoggedIn }) {
     setShowloginButton(true);
     setShowlogoutButton(false);
     setUserLoggedIn(false);
+    window.location.pathname = "/";
   };
 
   return (
@@ -39,7 +39,7 @@ function Login({ setUserLoggedIn }) {
       {showloginButton ? (
         <GoogleLogin
           clientId={clientId}
-          buttonText="Sign In with Google"
+          buttonText="Click here to SignIn"
           onSuccess={onLoginSuccess}
           onFailure={onLoginFailure}
           cookiePolicy={"single_host_origin"}
@@ -50,7 +50,7 @@ function Login({ setUserLoggedIn }) {
       {showlogoutButton ? (
         <GoogleLogout
           clientId={clientId}
-          buttonText="Sign Out"
+          buttonText="Click here to SignOut"
           onLogoutSuccess={onSignoutSuccess}
         ></GoogleLogout>
       ) : null}

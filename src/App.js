@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import NavBar from "./components/header/NavBar";
 import Projects from "./components/projects/allProjects/Projects";
 import Auth from "./components/loginSignup/Auth";
@@ -10,13 +10,6 @@ function App() {
   const [userLoggedIn, setUserLoggedIn] = useState(
     localStorage.getItem("wocLogin") ? true : false
   );
-
-  // useEffect(() => {
-  //   const data = localStorage.getItem("wocLogin");
-  //   if (data) {
-  //     setUserLoggedIn(true);
-  //   }
-  // }, []);
 
   return (
     <BrowserRouter>
@@ -31,9 +24,14 @@ function App() {
         <Route path="/login" exact>
           <Auth setUserLoggedIn={setUserLoggedIn} />
         </Route>
-        <Route path="/register" exact>
-          <StudentDetails />
-        </Route>
+
+        {userLoggedIn ? (
+          <Route path="/register" exact>
+            <StudentDetails />
+          </Route>
+        ) : (
+          <Redirect to={{ pathname: "/login" }} />
+        )}
       </Switch>
       <Footer />
     </BrowserRouter>
