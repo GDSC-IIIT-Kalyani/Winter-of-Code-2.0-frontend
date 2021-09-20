@@ -2,10 +2,10 @@ import React from "react";
 import Login from "./Login";
 import "./Auth.css";
 
-const Auth = () => {
+const Auth = ({ setUserLoggedIn }) => {
   return (
     <div className="g-signin">
-      <Login></Login>
+      <Login setUserLoggedIn={setUserLoggedIn}></Login>
     </div>
   );
 };

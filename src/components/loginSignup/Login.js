@@ -1,29 +1,37 @@
 import React, { useState } from "react";
 import { GoogleLogin, GoogleLogout } from "react-google-login";
+import { Redirect, useHistory } from "react-router-dom";
 
 const clientId =
   "718358310359-d2qgjh0f7dc0pe4r1eifiqag3vdh5l9t.apps.googleusercontent.com";
 
-function Login() {
+function Login({ setUserLoggedIn }) {
   const [showloginButton, setShowloginButton] = useState(true);
   const [showlogoutButton, setShowlogoutButton] = useState(false);
 
+  const history = useHistory();
   const onLoginSuccess = (res) => {
-    console.log("Login Success:", res);
-    console.log(res.profileObj);
+    const loginDetails = {
+      id_token: res.tokenObj.id_token,
+      profile: res.profileObj,
+    };
+    localStorage.setItem("wocLogin", JSON.stringify(loginDetails));
     setShowloginButton(false);
     setShowlogoutButton(true);
+    setUserLoggedIn(true);
+    console.log(history);
   };
 
-  const onLoginFailure = (res) => {
-    console.log("Login Failed:", res);
+  const onLoginFailure = () => {
+    alert("Login Failed! Please try again");
   };
 
   const onSignoutSuccess = () => {
     alert("You have been logged out successfully");
-    console.clear();
+    localStorage.removeItem("wocLogin");
     setShowloginButton(true);
     setShowlogoutButton(false);
+    setUserLoggedIn(false);
   };
 
   return (

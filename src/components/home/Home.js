@@ -16,7 +16,6 @@ const Home = () => {
       <Sponsor />
       <Speaker />
       <DevTeam />
-      <Footer />
     </>
   );
 };

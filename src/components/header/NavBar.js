@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./NavBar.css";
 
-const NavBar = () => {
+const NavBar = ({ userLoggedIn }) => {
   const [isMobView, setIsMobView] = useState(false);
   const [isCrossBurger, setIsCrossBurger] = useState(false);
   const [isScrollDown, setIsScrollDown] = useState(false);
@@ -50,9 +50,18 @@ const NavBar = () => {
             <a href="#speakers">Speakers</a>
           </li>
 
-          <li className="navBar_link-item">
+          {/* <li className="navBar_link-item">
             <a href="#developer">Contributed by</a>
-          </li>
+          </li> */}
+          {userLoggedIn ? (
+            <li className="navBar_link-item">
+              <a href="/login">Logout</a>
+            </li>
+          ) : (
+            <li className="navBar_link-item">
+              <a href="/login">Login</a>
+            </li>
+          )}
         </ul>
         <div
           className={`navBar_hamburger ${
