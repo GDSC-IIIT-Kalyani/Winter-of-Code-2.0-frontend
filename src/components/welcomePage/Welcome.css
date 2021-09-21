@@ -1,0 +1,141 @@
+@media only screen and (max-width:768px) {
+    .Welcome{
+        display: flex;
+        flex-direction: column;
+        min-width: 97vw;
+        background-color:darkcyan;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 50px;
+    }
+    .icon1{
+        display: flex;
+        min-height: 20vh;
+        align-items: center;
+        margin:0px 0px 0px 3vh;
+    }
+    .ic1{
+        width:100px;
+        height:100px;
+        padding:10px;
+        border-radius: 100%;
+        background-color: white;
+    }
+    .icon2{
+        display: flex;
+        min-height: 20vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .ic2{
+        margin:0vh 1vw 0vh 0vw;
+        width:100px;
+        height:50px;
+    }
+
+    .text1{
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 25vh;
+        justify-content: center;
+    }
+    .stu_dev{
+        font-size: 160%;
+    }
+    .text2{
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 30vh;
+        justify-content: center;
+    }
+    .button{
+        margin: 0vh 5vw 15vh 5vw;
+        background-color:blue;
+        border: none;
+        color: white;
+        padding: 1vh 3vw;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width:672px) {
+    .Welcome{
+        font-size: 40px;
+    }
+    .ic1{
+        width:75px;
+        height:75px;
+    }
+    .ic2{
+        width:70px;
+        height:40px;
+    }
+}
+@media only screen and (max-width:535px) {
+    .Welcome{
+        font-size: 29px;
+    }
+    .text2{
+        margin: -3vh 0vw 0vh 0vw;
+    }
+    .ic1{
+        width:50px;
+        height: 50px;
+    }
+    .ic2{
+        width: 45px;
+        height: 30px;
+    }
+}
+@media only screen and (max-width:401px) {
+    .Welcome{
+        font-size: 26px;
+    }
+    .text2{
+        margin: -5vh 0vw 0vh 0vw;
+    }
+    .ic2{
+        width: 40px;
+        height: 25px;
+    }
+}
+ @media only screen and (max-width:360px) {
+    .Welcome{
+        font-size: 25px;
+    }
+    .text{
+        margin:0;
+    }
+    .ic1{
+        width:50px;
+        height:50px;
+    }
+    .ic2{
+        width:50px;
+        height:25px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .Welcome{
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width:280px) {
+    .Welcome{
+        font-size: 20px;
+    }
+    .icon1{
+        min-height: 15vh;
+    }
+    .ic1{
+        width:25px;
+        height:25px;
+    }
+    .ic2{
+        width:25px;
+        height:15px;
+    }
+}

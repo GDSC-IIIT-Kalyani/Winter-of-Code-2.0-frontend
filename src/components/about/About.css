@@ -20,17 +20,56 @@
   font-size: 25px;
 }
 
-/* @media (max-width: 768px) {
-  #About {
-    display: flex;
+@media only screen and (max-width:768px) {
+  .abt{
+    display: none;
   }
-  .writings {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  #About{
+      margin-top: 0px;
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh;
+      background-color:darkcyan;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-  .writings h1 {
-    display: inline-block;
-    transform: rotate(90deg);
+  .heading{
+      display: block;
+      writing-mode: vertical-rl;
+      align-self: self-start;
+      transform: rotate(180deg);
+      min-width: 20vw;
+      font-size: 14vw;
+      font-weight: bolder;
+      margin-top: 6vh;
+      color: skyblue;
   }
-} */
+  .subject{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      min-width: 67vw;
+      font-size: 225%;
+      padding:3vh 5vw 0vh 5vw;
+      color: white;
+  }
+}
+@media only screen and (max-width:540px) {
+  .subject{
+      font-size: 160%;
+  }
+}
+@media only screen and (max-width:411px) {
+  .subject{
+      font-size: 150%;
+  }
+}
+@media only screen and (max-width:360px) {
+  .subject{
+      font-size: 125%;
+  }
+}
+@media only screen and (max-width:280px) {
+  .subject{
+      font-size: 120%;
+  }
+}

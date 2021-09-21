@@ -6,10 +6,12 @@ import Speaker from "../speakers/Speaker";
 import Sponsor from "../sponsors/Sponsor";
 import TimeLine from "../timeline/TimeLine";
 import Footer from "../footer/Footer";
+import Welcome from "../welcomePage/Welcome";
 
 const Home = () => {
   return (
     <>
+      <Welcome />
       <About />
       <Project />
       <TimeLine />
