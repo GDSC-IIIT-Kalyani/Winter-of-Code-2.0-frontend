@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 1px;
 }
 .speakers_sec {
   display: flex;
@@ -17,13 +17,12 @@
 
 .speaker_heading {
   text-align: center;
-  font-size: 180%;
+  font-size: 100%;
   margin: 1.2rem 0rem;
 }
 
 .container {
   display: flex;
-  min-width: 100vw;
   padding: 20px;
   align-items: center;
 }
@@ -51,7 +50,7 @@
 .speakers_img a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-size: 150%;
+  font-size: 70%;
   transition-duration: 0.5s;
 }
 
@@ -95,30 +94,29 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 566px) {
+@media screen and (max-width: 850px) {
   * {
-    margin-left: -18px;
-    margin-right: 17px;
+    margin-left: -20px;
+    margin-right: 13px;
   }
   .speakers_sec {
     flex-direction: row;
   }
   .container {
     padding: 0;
+    margin-left: 4rem;
   }
   .speakers_img {
     margin: 1.5rem 0px 0px 0px;
-  }
-  .speakers_img img {
-    width: 100%;
-    height: auto;
   }
   button {
     display: none;
   }
   .speaker_heading {
-    margin-left: 1.1rem;
-    margin-top: 10rem;
+    margin-left: -4.9rem;
+    margin-right: -8.5rem;
+    margin-top: 7rem;
+    font-size: 90%;
     align-self: flex-start;
   }
   .heading_title {
@@ -127,8 +125,58 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 615px) {
+  .speaker_heading {
+    margin-left: -4rem;
+    margin-right: -18rem;
+    margin-top: 8rem;
+  }
+  .speakers {
+    margin-left: 8rem;
+  }
+  .container {
+    margin-left: 2rem;
+  }
+  .speakers_img img {
+    min-width: 270px;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .speaker_heading {
-    font-size: 140%;
+    font-size: 100%;
+  }
+  .speakers_img img {
+    min-width: 220px;
+    height: auto;
+  }
+  .speaker_heading {
+    margin-left: -6.5rem;
+  }
+  .container {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  * {
+    margin-left: -19px;
+    margin-right: 8px;
+  }
+  .speakers_img img {
+    min-width: 160px;
+    height: auto;
+  }
+  .speaker_heading {
+    margin-right: -15rem;
+  }
+  .speaker_heading h1 {
+    font-size: 260%;
+  }
+}
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 55px;
   }
 }
