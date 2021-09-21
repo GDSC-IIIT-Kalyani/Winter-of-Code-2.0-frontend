@@ -6,8 +6,12 @@ const clientId =
   "718358310359-d2qgjh0f7dc0pe4r1eifiqag3vdh5l9t.apps.googleusercontent.com";
 
 function Login({ setUserLoggedIn }) {
-  const [showloginButton, setShowloginButton] = useState(true);
-  const [showlogoutButton, setShowlogoutButton] = useState(false);
+  const [showloginButton, setShowloginButton] = useState(
+    localStorage.getItem("wocLogin") ? false : true
+  );
+  const [showlogoutButton, setShowlogoutButton] = useState(
+    localStorage.getItem("wocLogin") ? true : false
+  );
 
   const history = useHistory();
   const onLoginSuccess = (res) => {
