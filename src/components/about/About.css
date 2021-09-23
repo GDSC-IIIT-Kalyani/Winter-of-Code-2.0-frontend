@@ -1,36 +1,45 @@
 #About {
-  margin-top: -50px;
+  margin-top: -2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.writings {
-  margin-top: -700px;
-  margin-left: 1330px;
+.Fish video {
+  position: absolute;
+  z-index: -5;
+  margin-top: 0px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
 }
 
-.writings h1 {
-  font-size: 60px;
+.Papercut img {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.writings2 {
-  margin-top: 90px;
-  margin-left: 1000px;
-}
-
-.writings2 h1 {
-  font-size: 25px;
-}
-
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   #About {
-    display: flex;
+    display: none;
   }
-  .writings {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+}
+
+@media (max-height: 812px) {
+  #About {
+    margin-top: 0px;
   }
-  .writings h1 {
-    display: inline-block;
-    transform: rotate(90deg);
+}
+
+@media (max-width: 1870px) {
+  #About {
+    margin-top: 35px;
   }
-} */
+}
+
