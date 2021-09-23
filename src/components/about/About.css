@@ -1,35 +1,56 @@
 #About {
-  margin-top: -50px;
+  margin-top: -2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.writings {
-  margin-top: -700px;
-  margin-left: 1330px;
+.Fish video {
+  position: absolute;
+  z-index: -5;
+  margin-top: 0px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
 }
 
-.writings h1 {
-  font-size: 60px;
+.Papercut img {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.writings2 {
-  margin-top: 90px;
-  margin-left: 1000px;
-}
-
-.writings2 h1 {
-  font-size: 25px;
-}
-
-.heading,.subject{
-  display: none;
-}
-
-@media only screen and (max-width:768px) {
-  .abt{
+@media (max-width: 768px) {
+  #About {
     display: none;
   }
-  #About{
-      margin-top: 0px;
+}
+
+@media (max-height: 812px) {
+  #About {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 1870px) {
+  #About {
+    margin-top: 35px;
+  }
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+  /*HTML CODE FOR MOB VIEW SSCREEN*/
+  /*<div class="heading">WHAT IS WOC</div>
+    <p class="subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum officia eveniet impedit accusantium totam suscipit ut error maxime nesciunt. Obcaecati praesentium harum excepturi nihil repellat cupiditate fuga sequi a odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tenetur voluptas eligendi debitis architecto aperiam quos nemo, consectetur similique ea esse velit modi veritatis voluptatem nesciunt animi exercitationem ex nulla.</p>*/
+  body{
       display: flex;
       flex-direction: row;
       min-height: 100vh;

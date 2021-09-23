@@ -1,6 +1,6 @@
 #projects {
-  margin-top: 225px;
-  background: rgb(232, 241, 239);
+  margin-top: -8px;
+  background: #341B3D;
   padding-bottom: 3vh;
 }
 
@@ -36,7 +36,7 @@
   padding-top: 3vh;
   font-size: 2vw;
   font-weight: 600;
-  color: grey;
+  color: #0800FF;
   padding-right: 0.5vw;
   margin-left: 8.5vw;
 }
@@ -73,6 +73,8 @@
 
 .right button {
     border: 3px solid blue;
+    background: #ad9fff;
+    opacity: 0.8;
     border-radius: 30px;
     width: 13vw;
     height:3vw;
@@ -86,7 +88,7 @@
 
 .right button a{
     text-decoration: none;
-    color: black;
+    color: #2721a0;
 }
 .desc {
   display: none;
