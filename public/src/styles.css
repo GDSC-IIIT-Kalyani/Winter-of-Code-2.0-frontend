@@ -1,17 +1,16 @@
-body {
+.Parallax {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overflow-y: hidden;
   font-family: "Roboto";
-}
-.groovestreet-home {
-  height: 120vh;
+  height: 1080px;
   background: rgb(94, 182, 255);
 }
 
 #homePage_container {
-  width: 100vw;
-  height: 100vw;
+  width: 120vw;
+  height: 120vw;
 }
 
 .layer1 {

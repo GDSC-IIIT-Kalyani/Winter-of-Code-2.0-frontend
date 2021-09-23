@@ -11,6 +11,7 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="stylesheet" href="%PUBLIC_URL%/src/styles.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/src/Loader.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
@@ -19,9 +20,18 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Winter Of Code 2.0</title>
   </head>
+
+  
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <section id="Homepage" class="groovestreet-home">
+
+    <div class="Loader">
+      <video autoPlay muted>
+        <source src="./Assets/Freeze_Loader.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <section id="Scene" class="Parallax">
       <div id="homePage_container">
         
         <div data-depth="0.1" class="layer7">
@@ -54,11 +64,13 @@
     <!-- React code renders here -->
     <section id="root"></section>
     <!--  -->
+
+    <script src="%PUBLIC_URL%/src/Loader.js"></script>
     <script src="%PUBLIC_URL%/src/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    
     <script>
       var scene = document.getElementById("homePage_container");
-      var homePage = document.getElementById("Homepage");
       var parallaxInstance = new Parallax(scene, { scalarY: 0.0 });
       const path = window.location.pathname;
       if (path === "/projects" || path === "/login" || path === "/register") {
