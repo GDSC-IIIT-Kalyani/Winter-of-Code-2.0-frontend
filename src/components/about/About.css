@@ -1,5 +1,5 @@
 #About {
-  margin-top: -2px;
+  margin-top: -10px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -19,6 +19,7 @@
 }
 
 .Papercut img {
+  margin-top: -37px;
   top: 0;
   left: 0;
   height: 100%;
