@@ -1,10 +1,5 @@
 .sponsors {
-  background-image: linear-gradient(
-    to bottom left,
-    white,
-    white,
-    rgb(94 41 199)
-  );
+  background-color: skyblue;
   min-width: 100vw;
 }
 
