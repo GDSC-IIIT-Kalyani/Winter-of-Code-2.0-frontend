@@ -26,32 +26,27 @@
   width: 100%;
 }
 
-@media (max-width: 768px) {
-  #About {
-    display: none;
-  }
+.heading,.subject{
+  display: none;
 }
 
-@media (max-height: 812px) {
-  #About {
-    margin-top: 0px;
-  }
-}
-
-@media (max-width: 1870px) {
+@media only screen and (max-width: 1870px) {
   #About {
     margin-top: 35px;
   }
 }
-
-
-
-
+@media only screen and (max-height: 812px) {
+  #About {
+    margin-top: 0;
+  }
+}
 @media only screen and (max-width:768px) {
-  /*HTML CODE FOR MOB VIEW SSCREEN*/
-  /*<div class="heading">WHAT IS WOC</div>
-    <p class="subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum officia eveniet impedit accusantium totam suscipit ut error maxime nesciunt. Obcaecati praesentium harum excepturi nihil repellat cupiditate fuga sequi a odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tenetur voluptas eligendi debitis architecto aperiam quos nemo, consectetur similique ea esse velit modi veritatis voluptatem nesciunt animi exercitationem ex nulla.</p>*/
-  body{
+  .Fish,.Papercut,#About{
+    margin: 0;
+    display: none;
+    align-items: flex-start;
+  }
+  #About{
       display: flex;
       flex-direction: row;
       min-height: 100vh;
@@ -61,7 +56,7 @@
   .heading{
       display: block;
       writing-mode: vertical-rl;
-      align-self: self-start;
+      align-self: flex-start;
       transform: rotate(180deg);
       min-width: 20vw;
       font-size: 14vw;
@@ -75,7 +70,7 @@
       text-align: left;
       min-width: 67vw;
       font-size: 225%;
-      padding:3vh 5vw 0vh 5vw;
+      padding:6vh 5vw 0vh 5vw;
       color: white;
   }
 }
@@ -91,11 +86,11 @@
 }
 @media only screen and (max-width:360px) {
   .subject{
-      font-size: 125%;
+      font-size: 140%;
   }
 }
 @media only screen and (max-width:280px) {
   .subject{
-      font-size: 120%;
+      font-size: 130%;
   }
 }
