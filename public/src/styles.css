@@ -5,44 +5,62 @@ html {
 .Parallax {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  font-family: "Roboto";
+  overflow: hidden;
   height: 1080px;
-  background: rgb(94, 182, 255);
+  background: #add6e6;
 }
 
 #homePage_container {
-  width: 120vw;
-  height: 120vw;
+  width: 110vw;
+  height: 110vw;
 }
 
-.layer1 {
-  margin-left: -400px;
+.layer1 img {
+  margin-left: -500px;
 }
 
-.layer2 {
+.layer2 img {
+  margin-left: -500px;
+}
+
+.layer3 img {
+  margin-left: -500px;
+}
+
+.layer4 img {
+  margin-left: -500px;
+}
+
+.layer5 img {
+  margin-left: -500px;
+}
+
+.layer6 img {
+  margin-left: -500px;
+}
+
+.layer7 img {
+  margin-left: -500px;
+}
+
+.layer8 img {
+  margin-left: -500px;
+}
+
+.layer9 img {
+  margin-left: -500px;
+}
+
+.layer10 img {
+  margin-left: -500px;
+}
+
+.layer11 img {
+  margin-left: -430px;
+}
+
+.layer12 img {
   margin-left: -300px;
-}
-
-.layer3 {
-  margin-left: -500px;
-}
-
-.layer4 {
-  margin-left: -500px;
-}
-
-.layer5 {
-  margin-left: -500px;
-}
-
-.layer6 {
-  margin-left: -500px;
-}
-
-.layer7 {
-  margin-left: -500px;
 }
 
 @media (max-width: 768px) {

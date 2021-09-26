@@ -15,12 +15,14 @@ const useStyles = makeStyles((theme)=>{
             fontSize: "150px"
         },
         text: {
-            color: "#4e342e"
+            // color: "#4e342e"
+            color: "#ACA0F9"
         },
         btn: {
             fontSize: "30px",
             background: "transparent",
-            color: "black",
+            // color: "black",
+            color: "#ACA0F9",
             marginLeft: theme.spacing(12)
         }
       
@@ -30,10 +32,16 @@ const useStyles = makeStyles((theme)=>{
 const theme = createTheme({
   palette: {
       primary:{
-          main: "#616161",
-          light: "#616161",
-          dark: "#616161",
-          contrastText: "#ffff"
+        main: "#FFFFFF",
+        main: "#FFFFFF",
+        light: "#FFFFFF",
+        dark: "#FFFFFF",
+        contrastText: "#ffff"
+
+        //   main: "#616161",
+        //   light: "#616161",
+        //   dark: "#616161",
+        //   contrastText: "#ffff"
       }
   }
 });
