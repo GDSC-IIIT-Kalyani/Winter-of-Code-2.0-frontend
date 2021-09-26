@@ -1,0 +1,128 @@
+.projects {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: auto;
+  background-color: rgb(34, 31, 31);
+  scroll-behavior: smooth;
+  padding-bottom: 2vh;
+}
+.proj_head{
+    font-size:4em;
+    width:100%;
+    z-index: 1;
+    color: rgb(66, 65, 65);
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    text-align: center;
+    font-family: 'Scheherazade New', serif;
+}
+.proj_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, auto));
+  width: 80vw;
+  margin: 5vw auto;
+  grid-gap: 4vw;
+  text-align: center;
+  height: auto;
+}
+.proj_item {
+  display:flex;
+  background-color: rgb(34, 34, 36);
+  color:rgb(136, 135, 135);
+  border-radius: 5px;
+  border:2px solid black;
+  transition: all ease 1s;
+  box-shadow: 2px 2px rgb(22,22,22);
+}
+.proj_item:hover{
+    box-shadow: 20px 20px rgb(22,22,22);
+    height:110%;
+    transition: all ease-in 0.2s;
+  }
+  .proj_item:hover .proj_desc{
+    font-size:0.9em;
+    transition: all ease-in 0.2s;
+  }
+  .proj_item:hover .proj_title{
+    font-size:1.5em;
+    transition: all ease-in 0.2s;
+  }
+  .projects .proj_fil{
+  margin:0% !important;
+}
+.proj_item img{
+    width:40%;
+    object-fit: contain;
+    padding:2vw;
+}
+.proj_title {
+  /* margin: 2vh auto; */
+  padding-top:2vh;
+  padding-bottom: 2vh;
+  font-weight: 600;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+.proj_desc {
+  padding-bottom: 2vh;
+  font-size:0.8em;
+  text-align: center;
+}
+#proj_form
+{
+  margin:0% !important;
+  padding-left: 3vw;
+}
+.proj_slt{
+  width:200px;
+  color:aqua;
+  background-color: rgba(41, 39, 37, 0.822);
+}
+@keyframes fadin{
+  0%{
+    display: flex;
+    opacity: 1;
+  }
+  100%{
+    display: none;
+    opacity: 0;
+  }
+}
+
+.no_view{
+  display: none;
+ animation:fadin 2s;
+}
+@media (max-width:800px)
+{
+  #proj_form
+  {
+    margin:0% !important;
+    display: block;
+  padding-left: 3vw;
+  }
+}
+@media (max-width:400px)
+{
+  .proj_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, auto));
+    width: 80vw;
+    margin: 5vw auto;
+    grid-gap: 4vw;
+    text-align: center;
+    height: auto;
+  } 
+  .proj_slt{
+    width:50vw;
+  }
+  .proj_head{
+    font-size:14vw;
+  }
+}
+@media (max-width:920px)
+{
+  .proj_grid{
+  grid-template-columns: repeat(auto-fill, minmax(230px, auto));}
+}

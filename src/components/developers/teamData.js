@@ -13,25 +13,25 @@ const developers = [
     },
   },
   {
-    name: "John Doe",
+    name: "Abhishree",
     image: MadeByIMG,
     role: "Developer",
     socialMedia: {
       facebook: "###",
       twitter: "###",
-      linkedin: "###",
-      instagram: "###",
+      linkedin: "https://www.linkedin.com/in/abhi-shree-451394201/",
+      instagram: "https://www.instagram.com/abhishree_21/",
     },
   },
   {
-    name: "John Doe",
+    name: "Suryansh Omar",
     image: MadeByIMG,
     role: "Developer",
     socialMedia: {
       facebook: "###",
       twitter: "###",
-      linkedin: "###",
-      instagram: "###",
+      linkedin: "https://www.linkedin.com/in/suryansh-omar",
+      instagram: "https://www.instagram.com/_._suryansh__/",
     },
   },
   {
