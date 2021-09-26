@@ -15,14 +15,11 @@
         display: flex;
         min-height: 20vh;
         align-items: center;
-        margin:0px 0px 0px 3vh;
+        justify-content: center;
     }
     .ic1{
-        width:100px;
-        height:100px;
-        padding:10px;
-        border-radius: 100%;
-        background-color: white;
+        width:175px;
+        height:175px;
     }
     .icon2{
         display: flex;
@@ -35,7 +32,6 @@
         width:100px;
         height:50px;
     }
-
     .text1{
         display: flex;
         flex-wrap: wrap;
@@ -48,11 +44,11 @@
     .text2{
         display: flex;
         flex-wrap: wrap;
-        min-height: 30vh;
+        min-height: 35vh;
         justify-content: center;
     }
     .button{
-        margin: 0vh 5vw 15vh 5vw;
+        margin: 5vh 5vw 15vh 5vw;
         background-color:blue;
         border: none;
         color: white;
@@ -66,11 +62,11 @@
 }
 @media only screen and (max-width:672px) {
     .Welcome{
-        font-size: 40px;
+        font-size: 38px;
     }
     .ic1{
-        width:75px;
-        height:75px;
+        width:150px;
+        height:150px;
     }
     .ic2{
         width:70px;
@@ -79,18 +75,24 @@
 }
 @media only screen and (max-width:535px) {
     .Welcome{
-        font-size: 29px;
+        font-size: 27px;
     }
     .text2{
         margin: -3vh 0vw 0vh 0vw;
     }
     .ic1{
-        width:50px;
-        height: 50px;
+        width:125px;
+        height: 125px;
     }
     .ic2{
         width: 45px;
         height: 30px;
+    }
+    .text2{
+        min-height: 20vh;
+    }
+    .button{
+        margin: 3vh 5vw 10vh 5vw;
     }
 }
 @media only screen and (max-width:401px) {
@@ -109,16 +111,19 @@
     .Welcome{
         font-size: 25px;
     }
-    .text{
-        margin:0;
-    }
     .ic1{
-        width:50px;
-        height:50px;
+        width:100px;
+        height:100px;
+    }
+    .text2{
+        min-height: 20vh;
     }
     .ic2{
         width:50px;
         height:25px;
+    }
+    .button{
+        margin: 3vh 5vw 10vh 5vw;
     }
 }
 @media only screen and (max-width:320px) {
@@ -134,11 +139,17 @@
         min-height: 15vh;
     }
     .ic1{
-        width:25px;
-        height:25px;
+        width:75px;
+        height:75px;
     }
     .ic2{
         width:25px;
         height:15px;
+    }
+    .text2{
+        min-height: 23vh;
+    }
+    .button{
+        margin: 5vh 5vw 10vh 5vw;
     }
 }

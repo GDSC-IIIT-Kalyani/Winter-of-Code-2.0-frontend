@@ -36,7 +36,6 @@
 }
 
 .icon:hover {
-  height: 80px;
   transition-duration: 500ms;
   transform: rotate(360deg);
 }
