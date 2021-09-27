@@ -2,6 +2,7 @@ import React from "react";
 import "./Project.css";
 import Orgs from "./organizations";
 import leftLogo from "../../assets/projectAssests/winter_about.png";
+import "../header/NavBar.css";
 
 const Project = () => {
   return (
