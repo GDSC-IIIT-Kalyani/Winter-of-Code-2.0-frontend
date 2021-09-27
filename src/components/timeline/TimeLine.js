@@ -1,12 +1,14 @@
 import React from "react";
+import Horizontal from "./Horizontal";
 import "./TimeLine.css";
+import Veryical from "./Vertical";
 
 function TimeLine() {
   return (
     <section id="timeline">
-      {/* <div class="timeline_png">
-        <img src="./Assets/TImeline final.png" alt="" />
-      </div> */}
+      <h1>Timelines</h1>
+      {/* <Horizontal /> */}
+      <Veryical />
     </section>
   );
 }

@@ -190,7 +190,7 @@
 
 /* adding background color on scrolling */
 .navBar_scroll {
-  background-color: rgb(27, 109, 6);
+  background-color: rgba(86, 92, 86, 0.5);
   box-shadow: 0px 3px 10px black;
 }
 
@@ -198,10 +198,10 @@
   color: white;
 }
 .navBar_scroll .navBar_link-item::before {
-  background-color: rgb(81, 255, 0);
+  background-color: rgba(86, 92, 86, 0.5);
 }
 .navBar_scroll .navBar_link-item::after {
-  background-color: rgb(81, 255, 0);
+  background-color: rgba(86, 92, 86, 0.5);
 }
 .navBar_scroll .navBar {
   height: 3.5rem;

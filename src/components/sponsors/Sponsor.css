@@ -1,13 +1,99 @@
 .sponsors {
   background-color: skyblue;
   min-width: 100vw;
+  height: 90vh;
+}
+
+.ccc {
+  position: relative;
+  top: -60px;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 900px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate360 50s infinite forwards linear;
+}
+.carousel__face {
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgb(199, 195, 195, 0.5);
+  display: flex;
+}
+
+.carousel_span {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.carousel_span h2 {
+  display: flex;
+  align-items: center;
+}
+
+.carousel__face:nth-child(1) {
+  transform: rotateY(0deg) translateZ(430px);
+}
+.carousel__face:nth-child(2) {
+  transform: rotateY(40deg) translateZ(430px);
+}
+.carousel__face:nth-child(3) {
+  transform: rotateY(80deg) translateZ(430px);
+}
+.carousel__face:nth-child(4) {
+  transform: rotateY(120deg) translateZ(430px);
+}
+.carousel__face:nth-child(5) {
+  transform: rotateY(160deg) translateZ(430px);
+}
+.carousel__face:nth-child(6) {
+  transform: rotateY(200deg) translateZ(430px);
+}
+.carousel__face:nth-child(7) {
+  transform: rotateY(240deg) translateZ(430px);
+}
+.carousel__face:nth-child(8) {
+  transform: rotateY(280deg) translateZ(430px);
+}
+.carousel__face:nth-child(9) {
+  transform: rotateY(320deg) translateZ(430px);
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
 }
 
 .top {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 35vh;
+  padding: 30px;
+}
+
+/* 
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
 .bottom {
@@ -43,10 +129,10 @@
   transform: scale(1.1);
   cursor: pointer;
 }
-@media (max-width: 650px) 
-{
-  .bottom 
-  {
-    flex-direction: column;justify-content: center;align-items: center;
+@media (max-width: 650px) {
+  .bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-}
+} */

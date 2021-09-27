@@ -17,18 +17,14 @@ const NavBar = ({ userLoggedIn }) => {
     });
   };
   const handleScrollDown = () => {
-    if(window.scrollY >= 80)
-    {
-      setIsScrollDown(true)
-    }
-    else
-    {
-      setIsScrollDown(false)
+    if (window.scrollY >= 80) {
+      setIsScrollDown(true);
+    } else {
+      setIsScrollDown(false);
     }
   };
 
-  window.addEventListener('scroll', handleScrollDown);
-
+  window.addEventListener("scroll", handleScrollDown);
 
   return (
     <nav

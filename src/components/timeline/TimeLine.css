@@ -1,6 +1,13 @@
-#timeline {
-  background: #94eb8d;
+.text-center {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.text-center div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+  height: 300px;
+  background-color: antiquewhite;
 }

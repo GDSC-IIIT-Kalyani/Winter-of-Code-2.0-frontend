@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Card = ({ name, image, role, socialMedia }) => {
   return (
@@ -18,7 +18,7 @@ const Card = ({ name, image, role, socialMedia }) => {
           <ul className="sci">
             <li>
               <a href={socialMedia.facebook}>
-                <FaFacebook />
+                <FaGithub />
               </a>
             </li>
             <li>
