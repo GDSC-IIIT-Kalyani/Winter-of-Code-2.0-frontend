@@ -28,7 +28,7 @@ const StudentDetails = () => {
   return (
     <div>
       <header>
-        <h1>Registration Form</h1>
+        <h1 className='form_h1'>Registration Form</h1>
       </header>
       <div id="form">
         <div className="fish" id="fish"></div>
