@@ -83,17 +83,26 @@ git push -u origin <your_branch_name>
 
 9. Congratulations! 🎉 you've made your contribution to <a href="https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend" title="Winter-of-Code-2.0-frontend">Winter-of-Code-2.0-frontend</a>.
 
-<h2 id="contribute">Contributing</h2>
-<hr>
+<h1 id="contribute">Contributing</h1>
+
 <p>
    Thank you for your interest in contributing to our Repo! Pull requests are welcome. For fixing typos, please make a PR with your fixes. For other contributions, we suggest you to read our <a href="/CONTRIBUTING.md">contribution guidelines</a> to see how you can contribute to this project. We are happy for every contribution. 
-    
+   <hr> 
 </p>
 
-<h2 id="prs">Issues & Pull Requests</h2>
-<hr>
-Before making pull requests please look at our contributing guidelines. You can start working on the issue which are mentioned in issues section. Just drop a comment before working on the issue. Thank you!
+<h1 id="prs">Issues & Pull Requests</h1>
 
+Before making pull requests please look at our contributing guidelines (coming soon). You can start working on the issue which are mentioned in issues section. Just drop a comment before working on the issue. Thank you!
+<hr>
+
+
+# ✨ Contributors
+
+<a href="https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend" />
+</a>
+
+<hr>
 <div align="center">
  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="love" />
  <img src="https://forthebadge.com/images/badges/thats-how-they-get-you.svg" alt="how">
