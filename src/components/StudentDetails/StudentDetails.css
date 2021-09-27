@@ -8,7 +8,7 @@ html {
   font-family: "Sniglet", cursive;
   width: 100%;
 }
-h1 {
+.form_h1 {
   font-weight: normal;
   font-size: 4em;
   font-family: "Raleway", sans-serif;
@@ -87,7 +87,7 @@ header {
   overflow: hidden;
   position: relative;
 }
-form {
+form{
   margin: 0 auto;
   width: 500px;
   padding-top: 40px;
