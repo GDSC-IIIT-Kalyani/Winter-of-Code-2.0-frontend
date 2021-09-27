@@ -13,7 +13,7 @@
 </div>
 
 <div align="center">
-  <img src="./src\assets\images\GDSC_Logo.png" alt="WinterCode_logo">
+  <img height=240 src="./src\assets\images\GDSC_Logo.png" alt="WinterCode_logo">
 </div>
 
 <br>
