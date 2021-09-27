@@ -1,4 +1,3 @@
-
 <h1 align="center">Getting Started with Winter of Code 2.0 </h1> 
 <br>
 
@@ -34,7 +33,6 @@
   <b>Ofiicial website for Winter of Code 2.0 organised by IIIT Kalyani with collabaration of 10+ GDSC</b>
 </p>
 
-
 ## **Getting Started**
 
 For the quick start, you can follow the steps below:
@@ -44,7 +42,7 @@ For the quick start, you can follow the steps below:
 3. Clone the **forked** repository.
 
 ```yml
-git clone https://github.com/<your-github-username>/DSA-Java
+git clone https://github.com/<your-github-username>/Winter-of-Code-2.0-frontend
 ```
 
 3. Navigate to the project directory.
@@ -63,11 +61,11 @@ Run the following command to install the required dependencies.
 
 1. `npm install ` - install the required dependencies
 2. `npm start` - start the development server
-3. Open http://localhost:8000 in your browser
+3. Open http://localhost:3000 in your browser
 
-5. <a href="/CONTRIBUTING.md">Contribute</a>
+4. <a href="/CONTRIBUTING.md">Contribute</a>
 
-6. Stage your changes and commit
+5. Stage your changes and commit
 
 ```css
 git add -a
@@ -83,7 +81,7 @@ git push -u origin <your_branch_name>
 
 8. Create a <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request" title="Pull Request">Pull-Request</a> to `main`.
 
-9. Congratulations! 🎉 you've made your contribution to <a href="https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend" title="Winter-of-Code-2.0-frontend">Winter-of-Code-2.0-frontend</a>. 
+9. Congratulations! 🎉 you've made your contribution to <a href="https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend" title="Winter-of-Code-2.0-frontend">Winter-of-Code-2.0-frontend</a>.
 
 <h2 id="contribute">Contributing</h2>
 <hr>
@@ -95,8 +93,6 @@ git push -u origin <your_branch_name>
 <h2 id="prs">Issues & Pull Requests</h2>
 <hr>
 Before making pull requests please look at our contributing guidelines. You can start working on the issue which are mentioned in issues section. Just drop a comment before working on the issue. Thank you!
-
-
 
 <div align="center">
  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="love" />
