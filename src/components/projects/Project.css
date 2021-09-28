@@ -1,6 +1,6 @@
 #projects {
   margin-top: -8px;
-  background: #341B3D;
+  background: #341b3d;
   padding-bottom: 3vh;
 }
 
@@ -18,7 +18,7 @@
 
 .left img {
   clip-path: circle(49.5% at 44.5% 49%);
-  width:50vw;
+  width: 50vw;
   height: 47vw;
 }
 
@@ -36,7 +36,7 @@
   padding-top: 3vh;
   font-size: 2vw;
   font-weight: 600;
-  color: #0800FF;
+  color: #0800ff;
   padding-right: 0.5vw;
   margin-left: 8.5vw;
 }
@@ -49,18 +49,17 @@
   margin-top: 2.2vh;
 }
 
-.mid .project_sponsors{
+.mid .project_sponsors {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, auto));
   row-gap: 3vh;
-  width:100%;
+  width: 100%;
   list-style-type: none;
   align-items: center;
-
 }
-.mid .project_sponsors li{
+.mid .project_sponsors li {
   align-self: center;
-  width:25vw;
+  width: 25vw;
   padding: 0vh 3.5vw;
 }
 .mid img {
@@ -72,23 +71,23 @@
 }
 
 .right button {
-    border: 3px solid blue;
-    background: #ad9fff;
-    opacity: 0.8;
-    border-radius: 30px;
-    width: 13vw;
-    height:3vw;
-    margin-left: 20vw;
-    margin-right: auto;
-    margin-top: 12vh;
-    font-size: 1.2vw;
-    font-weight: 900;
-    font-family:'Times New Roman', Times, serif;
+  border: 3px solid blue;
+  background: #ad9fff;
+  opacity: 0.8;
+  border-radius: 30px;
+  width: 13vw;
+  height: 3vw;
+  margin-left: 20vw;
+  margin-right: auto;
+  margin-top: 12vh;
+  font-size: 1.2vw;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.right button a{
-    text-decoration: none;
-    color: #2721a0;
+.right button a {
+  text-decoration: none;
+  color: #2721a0;
 }
 .desc {
   display: none;
@@ -150,7 +149,7 @@
     writing-mode: vertical-rl;
     text-orientation: mixed;
     align-self: center;
-    font-family:;
+    font-family: ;
     font-size: 3.8em;
     width: 15vw;
     margin-right: 6vw;

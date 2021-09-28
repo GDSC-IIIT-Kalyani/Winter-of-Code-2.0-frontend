@@ -11,6 +11,8 @@ const StudentDetails = () => {
     portfolio: "",
     openSourceWork: "",
     role: "",
+    question1: "",
+    question2: "",
   });
 
   const handleInputChange = (event) => {
@@ -27,8 +29,8 @@ const StudentDetails = () => {
 
   return (
     <div>
-      <header>
-        <h1 className='form_h1'>Registration Form</h1>
+      <header className="form_header">
+        <h1 className="form_h1">Registration Form</h1>
       </header>
       <div id="form">
         <div className="fish" id="fish"></div>
@@ -139,6 +141,28 @@ const StudentDetails = () => {
               <option value="mentor">Mentor</option>
               <option value="student">Student</option>
             </select>
+          </div>
+          <div className="formgroup" id="question1-form">
+            <label for="question1">Question1 *</label>
+            <textarea
+              type="textarea"
+              id="question1"
+              name="question1"
+              placeholder="write your answer in not more than 200 words"
+              value={studentData.question1}
+              onChange={handleInputChange}
+            />
+          </div>
+          <div className="formgroup" id="question2-form">
+            <label for="question2">Question2 *</label>
+            <textarea
+              type="textarea"
+              id="question2"
+              name="question2"
+              placeholder="write your answer in not more than 200 words"
+              value={studentData.question2}
+              onChange={handleInputChange}
+            />
           </div>
           <input
             type="submit"
