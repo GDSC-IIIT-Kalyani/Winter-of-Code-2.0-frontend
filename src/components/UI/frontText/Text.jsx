@@ -65,7 +65,7 @@ function Text(props) {
         </Typography>
         <br />
         <Typography variant="h4" className={classes.text} align="center">
-          RESGISTER AND SUBMIT PROPOSAL
+          REGISTER AND SUBMIT PROPOSAL
         </Typography>
         <br />
         <Button
