@@ -17,6 +17,7 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <Home />
+          <Footer />
         </Route>
         <Route path="/projects" exact>
           <Projects />
@@ -33,7 +34,6 @@ function App() {
           <Redirect to={{ pathname: "/login" }} />
         )}
       </Switch>
-      <Footer />
     </BrowserRouter>
   );
 }

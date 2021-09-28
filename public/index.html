@@ -21,22 +21,17 @@
     <title>Winter Of Code 2.0</title>
   </head>
 
-  
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    
-
     <section id="Homepage" class="Parallax">
-      
       <div class="Loader">
-        <video autoPlay muted>
+        <video autoplay muted>
           <source src="./Assets/Freeze_Loader.mp4" type="video/mp4" />
         </video>
       </div>
 
       <div id="homePage_container">
-        
         <div data-depth="0.05" class="layer1">
           <img src="./Assets/Parallax_landscape/Layer_1.png" alt="" />
         </div>
@@ -76,14 +71,11 @@
         <div id="home-root"></div>
       </div>
     </section>
-    <!-- React code renders here -->
     <section id="root"></section>
-    <!--  -->
-
     <script src="%PUBLIC_URL%/src/Loader.js"></script>
     <script src="%PUBLIC_URL%/src/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    
+
     <script>
       var scene = document.getElementById("homePage_container");
       var parallaxInstance = new Parallax(scene, { scalarY: 0.0 });
