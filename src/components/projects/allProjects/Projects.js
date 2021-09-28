@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import "../../header/NavBar";
 import SlideData from "./SlideData";
-import { render } from "@testing-library/react";
+// import { render } from "@testing-library/react";
 // import { Link, animateScroll as scroll } from "react-scroll";
 // import Filter from './filter';
 class Projects extends React.Component{
