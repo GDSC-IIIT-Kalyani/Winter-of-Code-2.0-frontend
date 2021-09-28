@@ -33,6 +33,7 @@
 </p>
 
 ## **Getting Started**
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend?logo=github)](https://GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend/) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend?color=bluevoilet&logo=github)](https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend/commits/) [![GitHub repo size](https://img.shields.io/github/repo-size/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend?logo=github)](https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend)
 
 For the quick start, you can follow the steps below:
 
@@ -92,8 +93,10 @@ git push -u origin <your_branch_name>
 <h1 id="prs">Issues & Pull Requests</h1>
 
 Before making pull requests please look at our contributing guidelines (coming soon). You can start working on the issue which are mentioned in issues section. Just drop a comment before working on the issue. Thank you!
-<hr>
 
+#  License & Copyright
+
+The code is this repo is licensed under the [MIT License](License). Feel free to use and share it as per the license.
 
 # ✨ Contributors
 
@@ -101,8 +104,9 @@ Before making pull requests please look at our contributing guidelines (coming s
   <img src="https://contrib.rocks/image?repo=GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend" />
 </a>
 
-<hr>
+
 <div align="center">
  <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="love" />
  <img src="https://forthebadge.com/images/badges/thats-how-they-get-you.svg" alt="how">
 </div>
+
