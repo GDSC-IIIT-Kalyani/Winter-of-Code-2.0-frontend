@@ -1,14 +1,25 @@
 .v-timeline {
-  background-color: #341b3d;
+  background-color: #2f1638ef;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.v-timeline h1 {
+.v-timeline .v-head {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 3.3rem;
+  font-weight: bolder;
   padding: 10px;
+  color: white;
+}
+
+.v-time {
+  margin: 20px;
+  margin-bottom: 0;
+}
+
+.vertical-timeline-element-title {
+  margin-bottom: 20px !important;
 }

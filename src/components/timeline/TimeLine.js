@@ -5,8 +5,8 @@ import Vertical from "./Vertical";
 function TimeLine() {
   return (
     <section className="v-timeline" id="timeline">
-      <h1>Timelines</h1>
-      <div>
+      <div className="v-head">Timelines</div>
+      <div className="v-time">
         <Vertical />
       </div>
     </section>
