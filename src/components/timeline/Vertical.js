@@ -1,5 +1,6 @@
 import React from "react";
 import "./TimeLine.css";
+import timeLine from "./timeLineData";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -9,115 +10,33 @@ import "react-vertical-timeline-component/style.min.css";
 function Veryical() {
   return (
     <section id="timeline">
-      <VerticalTimeline
-      // layout="1-column-left"
-      >
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="30 Sep 2021"
-          dateClassName={{ fontsize: "100px" }}
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={"<WorkIcon />"}
-        >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={"<WorkIcon />"}
-        >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={"<WorkIcon />"}
-        >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={"<WorkIcon />"}
-        >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={"<WorkIcon />"}
-        >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={"<WorkIcon />"}
-        >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={"<WorkIcon />"}
-        >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
-          </p>
-        </VerticalTimelineElement>
+      <VerticalTimeline>
+        {timeLine.map((data, index) => (
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={data.active ? data.contentStyle : null}
+            contentArrowStyle={
+              data.active
+                ? { borderRight: "7px solid  rgb(33, 150, 243)" }
+                : null
+            }
+            date={data.date}
+            dateClassName={{ fontsize: "100px" }}
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={""}
+          >
+            <h3 className="vertical-timeline-element-title">
+              {data.topHeading}
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              {data.subHeading}
+            </h4>
+            {/* <p>
+              Creative Direction, User Experience, Visual Design, Project
+              Management, Team Leading
+            </p> */}
+          </VerticalTimelineElement>
+        ))}
       </VerticalTimeline>
     </section>
   );
