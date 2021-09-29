@@ -53,28 +53,6 @@ const theme = createTheme({
 function Text(props) {
   const classes = useStyles();
 
-<<<<<<< HEAD
-    const classes = useStyles();
-
-    return (
-    <ThemeProvider theme={theme}>  
-        <Paper elevation={0} className={classes.container}>
-            <Typography color="primary" variant="h1" className={classes.head} align="center">
-                WINTER OF CODE
-            </Typography>
-            <br/>
-            <Typography variant="h4" className={classes.text} align="center">
-                REGISTER AND SUBMIT PROPOSAL
-            </Typography>
-            <br/>
-            <Button className={classes.btn} variant="contained" size="large" color="primary" onClick={()=>console.log("clicked")}>Student</Button>
-            <Button className={classes.btn} variant="contained" size="large" color="primary">Mentor</Button>
-        </Paper>
-     </ThemeProvider>
-
-    );
-
-=======
   return (
     <ThemeProvider theme={theme}>
       <Paper elevation={0} className={classes.container}>
@@ -111,7 +89,6 @@ function Text(props) {
       </Paper>
     </ThemeProvider>
   );
->>>>>>> 001ae6e8b964cd181e9d566dc254a61cf8c59af5
 }
 
 export default Text;
