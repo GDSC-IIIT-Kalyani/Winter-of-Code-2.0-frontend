@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import Text from "./components/UI/frontText/Text";
+import Text from "./components/UI/frontText/Text.js";
 import "./index.css";
 
 ReactDOM.render(
