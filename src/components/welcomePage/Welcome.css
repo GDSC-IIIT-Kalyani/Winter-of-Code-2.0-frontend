@@ -157,3 +157,19 @@
     margin: 5vh 5vw 20vh 5vw;
   }
 }
+@media only screen and (max-width: 279px) {
+  .Welcome {
+    font-size: 20px;
+  }
+  .icon1 {
+    min-height: 15vh;
+  }
+  .ic1 {
+    width: 25px;
+    height: 25px;
+  }
+  .ic2 {
+    width: 25px;
+    height: 15px;
+  }
+}
