@@ -88,19 +88,29 @@
         width: 45px;
         height: 30px;
     }
+<<<<<<< HEAD
     .text2{
         min-height: 20vh;
     }
     .button{
         margin: 3vh 5vw 10vh 5vw;
+=======
+    .button{
+        margin: 5vh 5vw 20vh 5vw;
+>>>>>>> 001ae6e8b964cd181e9d566dc254a61cf8c59af5
     }
 }
-@media only screen and (max-width:401px) {
+@media only screen and (max-width:414px) {
+    .text2{
+        margin: -5vh 0vw -8vh 0vw;
+    }
+}
+@media only screen and (max-width:411px) {
     .Welcome{
         font-size: 26px;
     }
     .text2{
-        margin: -5vh 0vw 0vh 0vw;
+        margin: -5vh 0vw -10vh 0vw;
     }
     .ic2{
         width: 40px;
@@ -123,7 +133,11 @@
         height:25px;
     }
     .button{
+<<<<<<< HEAD
         margin: 3vh 5vw 10vh 5vw;
+=======
+        margin: 3vh 5vw 20vh 5vw;
+>>>>>>> 001ae6e8b964cd181e9d566dc254a61cf8c59af5
     }
 }
 @media only screen and (max-width:320px) {
@@ -150,6 +164,10 @@
         min-height: 23vh;
     }
     .button{
+<<<<<<< HEAD
         margin: 5vh 5vw 10vh 5vw;
+=======
+        margin: 5vh 5vw 20vh 5vw;
+>>>>>>> 001ae6e8b964cd181e9d566dc254a61cf8c59af5
     }
 }

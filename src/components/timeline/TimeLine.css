@@ -1,5 +1,5 @@
 .v-timeline {
-  background-color: #2f1638ef;
+  background-color: #281031e8;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -12,14 +12,26 @@
   font-size: 3.3rem;
   font-weight: bolder;
   padding: 10px;
+<<<<<<< HEAD
   color: white;
 }
 
 .v-time {
   margin: 20px;
+=======
+  color: wheat;
+}
+
+.v-time {
+  margin: 10px;
+>>>>>>> 001ae6e8b964cd181e9d566dc254a61cf8c59af5
   margin-bottom: 0;
 }
 
 .vertical-timeline-element-title {
+<<<<<<< HEAD
   margin-bottom: 20px !important;
+=======
+  margin-bottom: 15px !important;
+>>>>>>> 001ae6e8b964cd181e9d566dc254a61cf8c59af5
 }

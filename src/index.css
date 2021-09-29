@@ -11,8 +11,8 @@ body {
   min-height: 100vh;
 }
 
-@media screen and (max-width:768px) {
-  body{
-    min-width:97vw;
+@media screen and (max-width: 768px) {
+  body {
+    min-width: 97vw;
   }
 }

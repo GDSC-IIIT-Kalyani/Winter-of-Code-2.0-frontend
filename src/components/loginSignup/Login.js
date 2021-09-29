@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import "./Auth.css";
 import { GoogleLogin, GoogleLogout } from "react-google-login";
-import { Redirect, useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
+import Footer from "../footer/Footer";
 
 const clientId =
   "718358310359-d2qgjh0f7dc0pe4r1eifiqag3vdh5l9t.apps.googleusercontent.com";
@@ -13,7 +15,7 @@ function Login({ setUserLoggedIn }) {
     localStorage.getItem("wocLogin") ? true : false
   );
 
-  const history = useHistory();
+  // const history = useHistory();
   const onLoginSuccess = (res) => {
     const loginDetails = {
       id_token: res.tokenObj.id_token,
@@ -39,25 +41,30 @@ function Login({ setUserLoggedIn }) {
   };
 
   return (
-    <div>
-      {showloginButton ? (
-        <GoogleLogin
-          clientId={clientId}
-          buttonText="Click here to SignIn"
-          onSuccess={onLoginSuccess}
-          onFailure={onLoginFailure}
-          cookiePolicy={"single_host_origin"}
-          isSignedIn={true}
-        />
-      ) : null}
+    <div className="loginSignUp">
+      <div>
+        {showloginButton ? (
+          <GoogleLogin
+            clientId={clientId}
+            buttonText="Click here to SignIn"
+            onSuccess={onLoginSuccess}
+            onFailure={onLoginFailure}
+            cookiePolicy={"single_host_origin"}
+            isSignedIn={true}
+          />
+        ) : null}
 
-      {showlogoutButton ? (
-        <GoogleLogout
-          clientId={clientId}
-          buttonText="Click here to SignOut"
-          onLogoutSuccess={onSignoutSuccess}
-        ></GoogleLogout>
-      ) : null}
+        {showlogoutButton ? (
+          <GoogleLogout
+            clientId={clientId}
+            buttonText="Click here to SignOut"
+            onLogoutSuccess={onSignoutSuccess}
+          ></GoogleLogout>
+        ) : null}
+      </div>
+      <div className="login-footer">
+        <Footer />
+      </div>
     </div>
   );
 }

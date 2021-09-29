@@ -1,7 +1,13 @@
-.g-signin {
+.loginSignUp {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-footer {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
+  bottom: 0;
+  left: 0;
 }

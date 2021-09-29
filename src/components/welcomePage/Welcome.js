@@ -5,26 +5,26 @@ import GDSClogo from "../../assets/images/GDSC_Logo.png";
 
 const Welcome = () => {
   return (
-    <section class="Welcome">
-      <div class="icon1">
-        <img src={WOClogo} class="ic1" />
+    <section className="Welcome">
+      <div className="icon1">
+        <img src={WOClogo} className="ic1" alt="" />
       </div>
-      <div class="icon2">
-        <img src={GDSClogo} class="ic2"></img>
+      <div className="icon2">
+        <img src={GDSClogo} className="ic2" alt=""></img>
         <span>Developer Student Clubs</span>
       </div>
-      <div class="text1">
+      <div className="text1">
         <p>
           Welcome to <br />
-          <b class="stu_dev">Winter of Code</b>
+          <b className="stu_dev">Winter of Code</b>
         </p>
       </div>
-      <div class="text2">
+      <div className="text2">
         <p>Register and Submit Proposal</p>
-        <a href="/register" target="_blank" class="button">
+        <a href="###" className="button">
           Student
         </a>
-        <a href="https://www.google.co.in" target="_blank" class="button">
+        <a href="###" className="button">
           Mentor
         </a>
       </div>
