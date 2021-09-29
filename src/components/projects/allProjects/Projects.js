@@ -40,7 +40,7 @@ class Projects extends React.Component {
       >
         <div style={{backgroundColor:'#341b3d;',height:'55px'}}></div>
         <div className="project_cover">
-          <img src={projectCover} />
+          <img src={projectCover} alt="Project Cover"/>
           <h1 className="proj_head">PROJECTS</h1>
         </div>
         <div className="filter_option">
