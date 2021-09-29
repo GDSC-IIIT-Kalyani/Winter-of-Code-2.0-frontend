@@ -1,5 +1,6 @@
 import React from "react";
 import "./Text.css";
+
 import {
   makeStyles,
   createTheme,
@@ -8,28 +9,51 @@ import {
 } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
+import styled from 'styled-components'
+
+const ButtonContainer = styled.div`
+  margin-top: 1vw;
+  display: flex;
+  align-items: space-evenly;
+  justify-content: center;
+  width: 100%;
+`
+
+const Container = styled.div`
+  background-color: transparent;
+  width: 50vw;
+  @media screen and (max-width: 920px) {
+    margin: 0 auto 0 auto;
+    width: 100vw;
+  }
+`
 
 const useStyles = makeStyles((theme) => {
   return {
     container: {
       background: "transparent",
-      width: "60%",
+      margin: "0 auto 0 auto",
+      width: "100vw",
     },
     head: {
       marginTop: theme.spacing(30),
-      fontSize: "150px",
+      fontSize: "7vw",
+      fontFamily: "'Fjalla One', sans-serif",
     },
     text: {
       // color: "#4e342e"
-      color: "#ACA0F9",
+      color: "#FFF",
+      fontSize: "2.5vw"
     },
     btn: {
-      fontSize: "30px",
-      background: "transparent",
-      borderRadius: "25px",
+      fontFamily: "'Asap', sans-serif",
+      marginRight: "1em",
+      marginLeft: "1em",
+      fontSize: "1.8vw",
+      borderRadius: "15px",
+      background: "#ACA0F9",
       // color: "black",
-      color: "#ACA0F9",
-      marginLeft: theme.spacing(12),
+      color: "#FFFF",
     },
   };
 });
@@ -55,7 +79,7 @@ function Text(props) {
 
   return (
     <ThemeProvider theme={theme}>
-      <Paper elevation={0} className={classes.container}>
+      <Container>
         <Typography
           color="primary"
           variant="h1"
@@ -69,24 +93,26 @@ function Text(props) {
           REGISTER AND SUBMIT PROPOSAL
         </Typography>
         <br />
-        <Button
-          className={classes.btn}
-          variant="contained"
-          size="large"
-          color="primary"
-          onClick={() => console.log("clicked")}
-        >
-          Student
-        </Button>
-        <Button
-          className={classes.btn}
-          variant="contained"
-          size="large"
-          color="primary"
-        >
-          Mentor
-        </Button>
-      </Paper>
+        <ButtonContainer>
+            <Button
+              className={classes.btn}
+              variant="contained"
+              size="large"
+              color="primary"
+              onClick={() => console.log("clicked")}
+            >
+              Student
+            </Button>
+            <Button
+              className={classes.btn}
+              variant="contained"
+              size="large"
+              color="primary"
+            >
+              Mentor
+            </Button>
+        </ButtonContainer>
+      </Container>
     </ThemeProvider>
   );
 }
