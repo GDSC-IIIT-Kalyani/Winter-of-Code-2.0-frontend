@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import "../../header/NavBar";
 import SlideData from "./SlideData";
-import projectCover from "../../../assets/projectAssests/img.jpg"
+import proj_video from '../../../assets/projectAssests/proj_video.mp4';
 // import { render } from "@testing-library/react";
 // import { Link, animateScroll as scroll } from "react-scroll";
 // import Filter from './filter';
@@ -11,38 +11,20 @@ class Projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = { value: "all" };
-    // this.handleChange = this.handleChange.bind(this);
   }
   handleChange = (e) => {
     this.setState({ value: e.target.value });
   };
   render() {
     return (
-      <div
-        className="projects"
-        onLoad={() => {
-          // document.querySelector(".navBar ul li:nth-child(2)").style.display =
-          //   "none";
-          // document.querySelector(".navBar ul li:nth-child(3)").style.display =
-          //   "none";
-          // document.querySelector(".navBar ul li:nth-child(4)").style.display =
-          //   "none";
-          // document.querySelector(".navBar ul li:nth-child(5)").style.display =
-          //   "none";
-          // document.querySelector(".navBar ul li:nth-child(6)").style.display =
-          //   "none";
-          // document.querySelector(".navBar ul li:nth-child(7)").style.display =
-          //   "none";
-          // document.querySelector(".navBar ul li:nth-child(8)").style.display =
-          //   "none";
-          // document.querySelector("form").style.paddingTop ="0%";
-        }}
-      >
-        <div style={{backgroundColor:'#341b3d;',height:'55px'}}></div>
-        <div className="project_cover">
-          <img src={projectCover} alt="Project Cover"/>
-          <h1 className="proj_head">PROJECTS</h1>
-        </div>
+      <div className="projects" onLoad={()=>{
+        document.querySelector('.navBar_link-item').style.color='white !important';
+      }}>
+      <div className="proj_vid">
+       <video autoPlay loop muted>
+          <source src={proj_video} type="video/mp4" />
+        </video>
+      </div>
         <div className="filter_option">
           <h3>Filter out by Categories</h3>
         <form id="proj_form">
