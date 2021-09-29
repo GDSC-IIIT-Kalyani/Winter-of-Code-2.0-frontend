@@ -21,10 +21,10 @@ const Welcome = () => {
       </div>
       <div className="text2">
         <p>Register and Submit Proposal</p>
-        <a href="/register" className="button">
+        <a href="###" className="button">
           Student
         </a>
-        <a href="/register" className="button">
+        <a href="###" className="button">
           Mentor
         </a>
       </div>

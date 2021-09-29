@@ -1,15 +1,6 @@
-* {
-  margin: 0;
-  padding: 1px;
-}
 .speakers_sec {
   display: flex;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(94 41 199),
-    white,
-    white
-  );
+  background: #311141e7;
   flex-direction: column;
   justify-content: center;
   align-items: center;

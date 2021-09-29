@@ -52,10 +52,10 @@ const NavBar = ({ userLoggedIn }) => {
             <a href="#speakers">Speakers</a>
           </li>
 
-          <li className="navBar_link-item">
+          {/* <li className="navBar_link-item">
             <a href="/register"> Student</a>
-          </li>
-          {userLoggedIn ? (
+          </li> */}
+          {/* {userLoggedIn ? (
             <li className="navBar_link-item">
               <a href="/login">Logout</a>
             </li>
@@ -63,7 +63,7 @@ const NavBar = ({ userLoggedIn }) => {
             <li className="navBar_link-item">
               <a href="/login">Login</a>
             </li>
-          )}
+          )} */}
         </ul>
         <div className = "hamburger_container">
         <div
