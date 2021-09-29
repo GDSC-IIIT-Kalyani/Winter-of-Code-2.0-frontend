@@ -17,13 +17,15 @@ const Sponsor = () => {
                   <h2>{sponsor[0]}</h2>
                   <div className="sponsors_img">
                     {sponsor[1].map((image, ind) => (
-                      <img
-                        key={ind}
-                        height="50"
-                        width="50"
-                        src={image}
-                        alt=""
-                      />
+                      <a href="https://www.geeksforgeeks.org/node-js-fs-read-method/">
+                        <img
+                          key={ind}
+                          height="50"
+                          width="50"
+                          src={image}
+                          alt=""
+                        />
+                      </a>
                     ))}
                   </div>
                 </span>
