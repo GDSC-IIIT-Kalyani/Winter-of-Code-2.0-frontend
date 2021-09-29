@@ -22,7 +22,6 @@
 .navBar_link-item a {
   text-decoration: none;
   color: black;
-  /* color: white; */
 }
 
 /* navbar links */
@@ -40,7 +39,7 @@
 }
 
 .navBar_link-item:hover a {
-  color: rgb(134, 107, 255);
+  color: purple;
 }
 
 /* navbar link hover effect */
@@ -78,10 +77,18 @@
   padding: 8px;
 }
 
+.hamburger_container {
+  display: flex;
+  min-height: 19vh;
+  align-items: center;
+  position: absolute;
+  right: 3vh;
+}
+
 .navBar_hamburger div {
   background-color: rgb(95, 91, 91);
   border-radius: 20%;
-  width: 2rem;
+  width: 3rem;
   height: 4px;
   margin: 5px;
   transition: all 0.4s ease-in-out;
@@ -91,21 +98,25 @@
   background-color: rgb(0, 0, 0);
 }
 
-/* hamburger application at 920px width */
-@media screen and (max-width: 920px) {
+/* hamburger application at 850px width */
+@media screen and (max-width: 850px) {
   body {
     overflow-x: hidden;
   }
   .navBar {
     right: 0;
+    height: 0;
+  }
+  .navBar_container {
+    margin: 0px 3vh 0px 0px;
   }
   .navBar_links {
     width: 50vw;
     position: absolute;
     text-align: center;
-    height: 94vh;
+    height: 90vh;
     margin-top: 0;
-    padding-top: 6vh;
+    padding-top: 10vh;
     padding-right: 0;
     background-color: rgb(0, 0, 0);
     flex-direction: column;
@@ -137,25 +148,60 @@
   .navBar_hamburger {
     display: block;
     float: right;
-    margin: 1rem 1rem 0rem 1rem;
+    padding: 30px 20px;
     cursor: pointer;
   }
 }
 
-/* width of sliding window from hamburger increased */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 672px) {
   .navBar_links {
     width: 65vw;
   }
   .navBar_link-item:hover {
     transform: scale(1.14) !important;
   }
+  .navBar_hamburger {
+    padding: 20px 13px;
+  }
+  .navBar_hamburger div {
+    width: 2.5rem;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 535px) {
   .navBar_links {
     width: 100vw;
     font-size: 135%;
+  }
+  .navBar_hamburger {
+    padding: 9px 7px;
+  }
+  .hamburger_container {
+    min-height: 20vh;
+  }
+  .navBar_hamburger div {
+    width: 1.8rem;
+    padding: 2px 0px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .navBar_links {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 279px) {
+  .navBar_hamburger {
+    padding: 0px 0px;
+  }
+  .hamburger_container {
+    min-height: 14.7vh;
+  }
+  .navBar_hamburger div {
+    width: 1rem;
+    height: 1.5px;
+    padding: 2px 12px;
   }
 }
 
@@ -202,19 +248,16 @@
   color: white;
 }
 .navBar_scroll .navBar_link-item::before {
-
-  /* background-color: rgb(0, 255, 0) */
-  /*For Later */
-
-  background-color: rgba(86, 92, 86, 0.5);
+  background-color: white;
 }
 .navBar_scroll .navBar_link-item::after {
-  
-  /* background-color: rgb(0, 255, 0) */
-  /*For Later */
-  
-  background-color: rgba(86, 92, 86, 0.5);
+  background-color: white;
 }
 .navBar_scroll .navBar {
   height: 3.5rem;
+}
+
+.navBar_scroll .navBar_link-item:hover a {
+  color: yellow;
+  text-shadow: 2px 2px 3px black;
 }

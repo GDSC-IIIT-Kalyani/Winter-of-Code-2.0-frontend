@@ -2,6 +2,7 @@ import MadeByIMG from "../../assets/images/profile.png";
 import Abhishree from "../../assets/images/Developers/Abhishree.jpg";
 import Divya from "../../assets/images/Developers/Divya.jpg";
 import Suryansh from "../../assets/images/Developers/Suryansh.jpg";
+import Jatin from "../../assets/images/Developers/Jatin.jpg";
 
 const developers = [
   {
@@ -50,13 +51,13 @@ const developers = [
   },
   {
     name: "Jatin Verma",
-    image: MadeByIMG,
+    image: Jatin,
     role: "Frontend Developer",
     socialMedia: {
-      github: "###",
-      linkedin: "###",
-      twitter: "###",
-      instagram: "###",
+      github: "https://github.com/jatinverma14",
+      linkedin: "https://www.linkedin.com/in/jatin-verma-2792ba200",
+      twitter: "https://twitter.com/jatinve16352670",
+      instagram: "https://www.instagram.com/jatinverma1410/",
     },
   },
   {
