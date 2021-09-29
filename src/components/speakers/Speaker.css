@@ -94,7 +94,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 830px) {
   * {
     margin-left: -20px;
     margin-right: 13px;
@@ -113,15 +113,22 @@ button:hover {
     display: none;
   }
   .speaker_heading {
-    margin-left: -4.9rem;
-    margin-right: -8.5rem;
+    margin-left: -1.9rem;
+    margin-right: -6.5rem;
     margin-top: 7rem;
-    font-size: 90%;
+    font-size: 140%;
     align-self: flex-start;
   }
   .heading_title {
     letter-spacing: 5px;
     transform: rotate(-90deg);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .speaker_heading {
+    margin-left: -4.9rem;
+    margin-right: -8.5rem;
   }
 }
 
@@ -138,6 +145,7 @@ button:hover {
     margin-left: 2rem;
   }
   .speakers_img img {
+    /* min-width: 270px; */
     min-width: 270px;
     height: auto;
   }
