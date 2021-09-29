@@ -126,7 +126,7 @@
         font-size: 23px;
     }
 }
-@media only screen and (max-width:280px) {
+@media only screen and (max-width:279px) {
     .Welcome{
         font-size: 20px;
     }

@@ -17,7 +17,7 @@
 
 .speaker_heading {
   text-align: center;
-  font-size: 100%;
+  font-size: 180%;
   margin: 1.2rem 0rem;
 }
 
@@ -50,7 +50,7 @@
 .speakers_img a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-size: 70%;
+  font-size: 120%;
   transition-duration: 0.5s;
 }
 
