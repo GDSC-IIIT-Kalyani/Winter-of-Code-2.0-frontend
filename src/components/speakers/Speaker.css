@@ -1,15 +1,6 @@
-* {
-  margin: 0;
-  padding: 1px;
-}
 .speakers_sec {
   display: flex;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(94 41 199),
-    white,
-    white
-  );
+  background: #311141e7;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -71,13 +62,13 @@
   cursor: pointer;
 }
 
-button {
+#button {
   cursor: pointer;
   transition-duration: 0.5s;
   padding: 2.5px;
 }
 
-button:hover {
+#button:hover {
   transform: scale(1.14);
   background-color: black;
   color: white;
@@ -109,7 +100,7 @@ button:hover {
   .speakers_img {
     margin: 1.5rem 0px 0px 0px;
   }
-  button {
+  #button {
     display: none;
   }
   .speaker_heading {

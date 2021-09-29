@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => {
     btn: {
       fontSize: "30px",
       background: "transparent",
+      borderRadius: "25px",
       // color: "black",
       color: "#ACA0F9",
       marginLeft: theme.spacing(12),
@@ -65,7 +66,7 @@ function Text(props) {
         </Typography>
         <br />
         <Typography variant="h4" className={classes.text} align="center">
-          RESGISTER AND SUBMIT PROPOSAL
+          REGISTER AND SUBMIT PROPOSAL
         </Typography>
         <br />
         <Button

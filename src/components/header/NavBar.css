@@ -236,6 +236,10 @@
 
 /* adding background color on scrolling */
 .navBar_scroll {
+
+  /* background-color: rgba(19, 0, 44, 0.199) */   
+  /*For Later */
+
   background-color: rgba(86, 92, 86, 0.5);
   box-shadow: 0px 3px 10px black;
 }
