@@ -1,4 +1,3 @@
-import MadeByIMG from "../../assets/images/profile.png";
 import Akshit from "../../assets/images/Developers/Akshit.jpg";
 import Prayag from "../../assets/images/Developers/Prayag.jpg";
 import Yash from "../../assets/images/Developers/Yash.jpeg";
