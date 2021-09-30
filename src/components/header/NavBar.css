@@ -21,6 +21,14 @@
 
 .navBar_link-item a {
   text-decoration: none;
+  /* color: black; */
+}
+
+.navLinkColor-white {
+  color: white;
+}
+
+.navLinkColor-black {
   color: black;
 }
 
@@ -236,8 +244,7 @@
 
 /* adding background color on scrolling */
 .navBar_scroll {
-
-  /* background-color: rgba(19, 0, 44, 0.199) */   
+  /* background-color: rgba(19, 0, 44, 0.199) */
   /*For Later */
 
   background-color: rgba(86, 92, 86, 0.5);
@@ -245,7 +252,7 @@
 }
 
 .navBar_scroll .navBar_link-item a {
-  color: white;
+  color: white !important;
 }
 .navBar_scroll .navBar_link-item::before {
   background-color: white;
