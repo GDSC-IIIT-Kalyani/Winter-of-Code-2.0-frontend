@@ -151,7 +151,7 @@
   }
   .navBar_link-item::after,
   .navBar_link-item::before {
-    background-color: white;
+    background-color: green;
   }
   .navBar_hamburger {
     display: block;

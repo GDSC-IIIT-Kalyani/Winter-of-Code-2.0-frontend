@@ -47,6 +47,7 @@ class Projects extends React.Component {
           {SlideData.map((slides, idx) => {
             return (
               <div
+                key={idx}
                 className={
                   slides.tags.includes(this.state.value)
                     ? "proj_item"
