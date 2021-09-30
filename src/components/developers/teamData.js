@@ -7,6 +7,7 @@ import Divya from "../../assets/images/Developers/Divya.jpg";
 import Suryansh from "../../assets/images/Developers/Suryansh.jpg";
 import Jatin from "../../assets/images/Developers/Jatin.jpg";
 import Mohit from "../../assets/images/Developers/MohitImg.PNG";
+import Ishan from "../../assets/images/Developers/Ishan.jpg"
 
 const developers = [
   {
@@ -22,11 +23,11 @@ const developers = [
   },
   {
     name: "Ishan",
-    image: MadeByIMG,
+    image: Ishan,
     role: "",
     socialMedia: {
-      github: "###",
-      linkedin: "###",
+      github: "https://github.com/ishanExtreme",
+      linkedin: "https://www.linkedin.com/in/ishan-mishra-00788b192/",
       twitter: null,
       instagram: "###",
     },
