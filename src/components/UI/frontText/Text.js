@@ -63,7 +63,9 @@ const theme = createTheme({
     primary: {
       main: "#FFFFFF",
       light: "#FFFFFF",
-      dark: "#FFFFFF",
+      // ----> edit here to change button hover color <----
+      dark: "#616161",
+      // -----><-----
       contrastText: "#ffff",
 
       //   main: "#616161",

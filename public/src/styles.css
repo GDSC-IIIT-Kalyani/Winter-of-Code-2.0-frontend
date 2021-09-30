@@ -2,6 +2,13 @@ html {
   overflow-x: hidden;
 }
 
+.Text {
+  position: absolute;
+  top: 0;
+  right: 15;
+  z-index: 1000;
+}
+
 .Parallax {
   margin: 0;
   padding: 0;
@@ -61,6 +68,12 @@ html {
 
 .layer12 img {
   margin-left: -300px;
+}
+
+@media (max-width: 920px) {
+    .Text{
+      display: none;
+  }
 }
 
 @media (max-width: 768px) {
