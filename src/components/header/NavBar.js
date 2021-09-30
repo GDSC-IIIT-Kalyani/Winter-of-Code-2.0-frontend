@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./NavBar.css";
 
-const NavBar = ({ userLoggedIn }) => {
+const NavBar = ({ navLinkColor }) => {
   const [isMobView, setIsMobView] = useState(false);
   const [isCrossBurger, setIsCrossBurger] = useState(false);
   const [isScrollDown, setIsScrollDown] = useState(false);
@@ -34,22 +34,38 @@ const NavBar = ({ userLoggedIn }) => {
       <div className="navBar_container">
         <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
           <li className="navBar_link-item">
-            <a href="#Homepage">Home</a>
+            <a style={{ color: navLinkColor }} href="#Homepage">
+              Home
+            </a>
           </li>
           <li className="navBar_link-item">
-            <a href="#About">About</a>
+            <a style={{ color: navLinkColor }} href="#About">
+              About
+            </a>
           </li>
           <li className="navBar_link-item">
-            <a href="#projects">Projects</a>
+            <a style={{ color: navLinkColor }} href="#projects">
+              Projects
+            </a>
           </li>
           <li className="navBar_link-item">
-            <a href="#timeline">Timeline</a>
+            <a style={{ color: navLinkColor }} href="#timeline">
+              Timeline
+            </a>
           </li>
+          {/* <li className="navBar_link-item">
+            <a style={{ color: navLinkColor }} href="#sponsors">
+              Sponsors
+            </a>
+          </li> */}
           <li className="navBar_link-item">
-            <a href="#sponsors">Sponsors</a>
+            <a style={{ color: navLinkColor }} href="#speakers">
+              Speakers
+            </a>
           </li>
+
           <li className="navBar_link-item">
-            <a href="#speakers">Speakers</a>
+            <a href="#developer"> Our Team</a>
           </li>
 
           {/* <li className="navBar_link-item">
@@ -65,17 +81,17 @@ const NavBar = ({ userLoggedIn }) => {
             </li>
           )} */}
         </ul>
-        <div className = "hamburger_container">
-        <div
-          className={`navBar_hamburger ${
-            isCrossBurger ? "cross-burger" : null
-          }`}
-          onClick={handleHamburgerClick}
-        >
-          <div className="navBar_line1"></div>
-          <div className="navBar_line2"></div>
-          <div className="navBar_line3"></div>
-        </div>
+        <div className="hamburger_container">
+          <div
+            className={`navBar_hamburger ${
+              isCrossBurger ? "cross-burger" : null
+            }`}
+            onClick={handleHamburgerClick}
+          >
+            <div className="navBar_line1"></div>
+            <div className="navBar_line2"></div>
+            <div className="navBar_line3"></div>
+          </div>
         </div>
       </div>
     </nav>

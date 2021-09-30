@@ -3,6 +3,7 @@ import "./Projects.css";
 import "../../header/NavBar";
 import SlideData from "./SlideData";
 import proj_video from "../../../assets/projectAssests/proj_video.mp4";
+import NavBar from "../../header/NavBar";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class Projects extends React.Component {
             "white !important";
         }}
       >
+        <NavBar navLinkColor="white" />
         <div className="proj_vid">
           <video autoPlay loop muted>
             <source src={proj_video} type="video/mp4" />

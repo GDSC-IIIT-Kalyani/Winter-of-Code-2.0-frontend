@@ -13,9 +13,10 @@ function App() {
 
   return (
     <BrowserRouter>
-      <NavBar userLoggedIn={userLoggedIn} />
+      {/* <NavBar userLoggedIn={userLoggedIn} /> */}
       <Switch>
         <Route path="/" exact>
+          <NavBar navLinkColor="black" />
           <Home />
           <Footer />
         </Route>
