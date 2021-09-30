@@ -12,18 +12,18 @@ const developers = [
     socialMedia: {
       github: "https://github.com/mohit355/",
       linkedin: "https://www.linkedin.com/in/mohit355/",
-      twitter: "###",
+      twitter: null,
       instagram: "https://www.instagram.com/mohit_singh_271232/",
     },
   },
   {
-    name: "Ishan Kumar",
+    name: "Ishan",
     image: MadeByIMG,
     role: "",
     socialMedia: {
       github: "###",
       linkedin: "###",
-      twitter: "###",
+      twitter: null,
       instagram: "###",
     },
   },
@@ -34,7 +34,7 @@ const developers = [
     socialMedia: {
       github: "###",
       linkedin: "###",
-      twitter: "###",
+      twitter: null,
       instagram: "###",
     },
   },
@@ -45,7 +45,7 @@ const developers = [
     socialMedia: {
       github: "###",
       linkedin: "###",
-      twitter: "###",
+      twitter: null,
       instagram: "###",
     },
   },
@@ -67,7 +67,7 @@ const developers = [
     socialMedia: {
       github: "###",
       linkedin: "###",
-      twitter: "###",
+      twitter: null,
       instagram: "###",
     },
   },
@@ -78,7 +78,7 @@ const developers = [
     socialMedia: {
       github: "###",
       linkedin: "https://www.linkedin.com/in/abhi-shree-451394201/",
-      twitter: "###",
+      twitter: null,
       instagram: "https://www.instagram.com/abhishree_21/",
     },
   },
@@ -89,7 +89,7 @@ const developers = [
     socialMedia: {
       github: "###",
       linkedin: "https://www.linkedin.com/in/suryansh-omar",
-      twitter: "###",
+      twitter: null,
       instagram: "https://www.instagram.com/_._suryansh__/",
     },
   },
