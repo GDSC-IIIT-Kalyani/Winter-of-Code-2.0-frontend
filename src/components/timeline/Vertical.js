@@ -14,7 +14,7 @@ function Veryical() {
         {timeLine.map((data, index) => (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={data.active ? data.contentStyle : null}
+            contentStyle={data.active ? data.activeStyle : data.contentStyle}
             contentArrowStyle={
               data.active
                 ? { borderRight: "7px solid  rgb(33, 150, 243)" }
