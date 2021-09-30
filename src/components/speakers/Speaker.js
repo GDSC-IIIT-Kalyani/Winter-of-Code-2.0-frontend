@@ -7,6 +7,10 @@ import Button from "../UI/button/Button";
 const Speaker = () => {
   return (
     <div className="speakers_sec" id="speakers">
+        <div className="Melt-bottom">
+            <img src="./Assets/Timeline_end.png" alt="MELT"></img>
+        </div>
+    <div className="speakers_rest">
     <div className="speaker_heading">
         <h1 className="heading_title">Speakers</h1>
     </div>
@@ -45,6 +49,7 @@ const Speaker = () => {
         <div className="speaker-thinkFace">
             <img src={thinkFace} alt="think face" />
         </div>
+    </div>
     </div>
 </div>
   );

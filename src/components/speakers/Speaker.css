@@ -1,12 +1,12 @@
-.speakers_sec{
-
+.speakers_sec {
   background: #311141e7;
 }
-.speakers_rest {
+.speakers_rest{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 .Melt-bottom img{
   width:100vw;
@@ -90,6 +90,12 @@
   }
 }
 
+@media (max-width:480px) {
+  .Melt-bottom img{
+    display: none;
+  }
+  
+}
 @media screen and (max-width: 830px) {
   * {
     margin-left: -20px;
@@ -146,11 +152,7 @@
     height: auto;
   }
 }
-@media (max-width:480px)
-{
-  .Melt-bottom img{
-    display: none;
-  }}
+
 @media screen and (max-width: 430px) {
   .speaker_heading {
     font-size: 100%;
