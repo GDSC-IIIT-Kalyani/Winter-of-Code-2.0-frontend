@@ -92,6 +92,7 @@
   }
   .speakers_sec {
     flex-direction: row;
+    padding-bottom: 5vh;
   }
   .container {
     padding: 0;
