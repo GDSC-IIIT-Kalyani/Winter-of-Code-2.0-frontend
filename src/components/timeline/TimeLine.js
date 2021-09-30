@@ -5,7 +5,7 @@ import Vertical from "./Vertical";
 function TimeLine() {
   return (
     <section className="v-timeline" id="timeline">
-      <div class="Melt">
+      <div className="Melt">
         <img src="./Assets/Timeline.png" alt="MELT" />
       </div>
       <div className="v-head">Timeline</div>
