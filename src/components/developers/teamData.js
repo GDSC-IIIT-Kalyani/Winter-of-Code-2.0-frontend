@@ -1,52 +1,67 @@
-import MadeByIMG from "../../assets/images/profile.png";
+import Akshit from "../../assets/images/Developers/Akshit.jpg";
+import Prayag from "../../assets/images/Developers/Prayag.jpg";
+import Yash from "../../assets/images/Developers/Yash.jpeg";
 import Abhishree from "../../assets/images/Developers/Abhishree.jpg";
 import Divya from "../../assets/images/Developers/Divya.jpg";
 import Suryansh from "../../assets/images/Developers/Suryansh.jpg";
 import Jatin from "../../assets/images/Developers/Jatin.jpg";
+import Mohit from "../../assets/images/Developers/MohitImg.PNG";
+import Ishan from "../../assets/images/Developers/Ishan.jpg"
 
 const developers = [
   {
     name: "Mohit Raj",
-    image: MadeByIMG,
+    image: Mohit,
     role: "React.js Developer",
     socialMedia: {
       github: "https://github.com/mohit355/",
       linkedin: "https://www.linkedin.com/in/mohit355/",
-      twitter: "###",
+      twitter: null,
       instagram: "https://www.instagram.com/mohit_singh_271232/",
     },
   },
   {
-    name: "Ishan Kumar",
-    image: MadeByIMG,
+    name: "Ishan",
+    image: Ishan,
     role: "",
     socialMedia: {
-      github: "###",
-      linkedin: "###",
-      twitter: "###",
+      github: "https://github.com/ishanExtreme",
+      linkedin: "https://www.linkedin.com/in/ishan-mishra-00788b192/",
+      twitter: null,
       instagram: "###",
     },
   },
   {
-    name: "Akshit",
-    image: MadeByIMG,
+    name: "Akshit Choudhari",
+    image: Akshit,
     role: "Designer & Developer",
     socialMedia: {
-      github: "###",
-      linkedin: "###",
-      twitter: "###",
-      instagram: "###",
+      github: "https://github.com/Akshit17",
+      linkedin: "https://www.linkedin.com/in/akshit-choudhari-3132b6201/",
+      twitter: null,
+      instagram: "https://www.instagram.com/_akited_/",
     },
   },
   {
     name: "Prayag Biswas",
-    image: MadeByIMG,
+    image: Prayag,
     role: "Designer & Developer",
     socialMedia: {
-      github: "###",
-      linkedin: "###",
-      twitter: "###",
-      instagram: "###",
+      github: "https://github.com/Prayag-X",
+      linkedin: "https://www.linkedin.com/in/prayag-biswas-293644215/",
+      twitter: null,
+      instagram: "https://www.instagram.com/___dragon_x___/",
+    },
+  },
+  {
+    name: "Yash",
+    image: Yash,
+    role: "Designer & Developer",
+    socialMedia: {
+      github: "https://github.com/yashraj-02-techie",
+      linkedin: "https://www.linkedin.com/in/yashraj-singh-02/",
+      twitter: "https://twitter.com/yashraj_02",
+      instagram: "https://www.instagram.com/conficker_exe/",
     },
   },
   {
@@ -67,7 +82,7 @@ const developers = [
     socialMedia: {
       github: "###",
       linkedin: "###",
-      twitter: "###",
+      twitter: null,
       instagram: "###",
     },
   },
@@ -89,7 +104,7 @@ const developers = [
     socialMedia: {
       github: "###",
       linkedin: "https://www.linkedin.com/in/abhi-shree-451394201/",
-      twitter: "###",
+      twitter: null,
       instagram: "https://www.instagram.com/abhishree_21/",
     },
   },
@@ -100,7 +115,7 @@ const developers = [
     socialMedia: {
       github: "###",
       linkedin: "https://www.linkedin.com/in/suryansh-omar",
-      twitter: "###",
+      twitter: null,
       instagram: "https://www.instagram.com/_._suryansh__/",
     },
   },

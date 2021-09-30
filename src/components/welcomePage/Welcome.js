@@ -21,11 +21,13 @@ const Welcome = () => {
       </div>
       <div className="text2">
         <p>Register and Submit Proposal</p>
-        <a href="###" className="button">
-          Student
-        </a>
-        <a href="###" className="button">
-          Mentor
+        <a
+          href="https://forms.gle/qXnG31bqMyb3jcTe6"
+          target="_blank"
+          rel="noreferrer"
+          className="button"
+        >
+          Register Now
         </a>
       </div>
     </section>

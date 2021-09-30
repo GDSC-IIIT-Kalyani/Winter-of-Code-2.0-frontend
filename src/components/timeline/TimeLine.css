@@ -1,12 +1,17 @@
 .v-timeline {
-  background-color: #281031e8;
+  background-color: #37b0d4e8;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.Melt img {
+  margin-top: -5px;
+  float: right;
+}
 .v-timeline .v-head {
   display: flex;
+  margin-top: -700px;
   align-items: center;
   justify-content: center;
   font-size: 3.3rem;

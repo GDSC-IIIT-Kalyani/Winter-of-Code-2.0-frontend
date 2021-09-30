@@ -52,6 +52,7 @@
       min-height: 75vh;
       background-color:darkcyan;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding-bottom: 10vh;
   }
   .heading{
       display: block;
@@ -79,6 +80,9 @@
   .subject{
       font-size: 150%;
   }
+  #About{
+    min-height: 70vh;
+  }
 }
 @media only screen and (max-width:411px) {
   #About{
@@ -89,9 +93,9 @@
   }
 }
 @media only screen and (max-width:375px) {
-  #About{
+  /* #About{
     min-height: 90vh;
-  }
+  } */
   .subject{
       font-size: 140%;
   }
@@ -105,16 +109,16 @@
   }
 }
 @media only screen and (max-width:360px) {
-  #About{
+  /* #About{
     min-height: 90vh;
-  }
+  } */
   .subject{
       font-size: 135%;
   }
 }
 @media only screen and (max-width:320px) {
   #About{
-    min-height: 90vh;
+    min-height: 74vh;
   }
   .subject{
       font-size: 120%;

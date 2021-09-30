@@ -46,20 +46,32 @@ class Projects extends React.Component {
         <div className="proj_grid">
           {SlideData.map((slides, idx) => {
             return (
-              <div
-                className={
-                  slides.tags.includes(this.state.value)
-                    ? "proj_item"
-                    : "no_view"
-                }
-                id={"section" + idx.toString()}
-              >
-                <img src={slides.image} alt="Proj_Logo"></img>
-                <div>
-                  <h3 className="proj_title">{slides.title}</h3>
-                  <p className="proj_desc">{slides.Descrption}</p>
+              <a className="proj_link" key={idx} href="###" target="_blank">
+                <div
+                  className={
+                    slides.tags.includes(this.state.value)
+                      ? "proj_item"
+                      : "no_view"
+                  }
+                  id={"section" + idx.toString()}
+                >
+                  <img src={slides.image} alt="Proj_Logo"></img>
+                  <div>
+                    <h3 className="proj_title">{slides.title}</h3>
+                    <p className="proj_desc">{slides.Descrption}</p>
+                    <div>
+                      <a
+                        className="proj_link proj_link-github"
+                        href="### "
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Link
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </a>
             );
           })}
         </div>

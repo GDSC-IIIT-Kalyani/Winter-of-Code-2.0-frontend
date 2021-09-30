@@ -70,6 +70,14 @@
   margin-left: 3vw;
   margin-right: 3vw;
   z-index: 10;
+  padding: 10px;
+}
+
+.mid img:hover {
+  border: solid 3px black;
+  border-radius: inherit;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px 2px black;
 }
 
 .right button {
@@ -166,7 +174,7 @@
     height: 13vw;
     font-size: 5vw;
     font-weight: 900;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     margin-left: 29vw;
     margin-top: 10vh;
   }

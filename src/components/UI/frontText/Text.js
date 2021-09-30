@@ -52,6 +52,8 @@ const useStyles = makeStyles((theme) => {
       fontSize: "1.8vw",
       borderRadius: "15px",
       background: "#ACA0F9",
+      backgroundColor: "transparent",
+
       // color: "black",
       color: "#FFFF",
     },
@@ -63,7 +65,9 @@ const theme = createTheme({
     primary: {
       main: "#FFFFFF",
       light: "#FFFFFF",
-      dark: "#FFFFFF",
+      // ----> edit here to change button hover color <----
+      dark: "#025560",
+      // -----><-----
       contrastText: "#ffff",
 
       //   main: "#616161",
@@ -101,16 +105,23 @@ function Text(props) {
             color="primary"
             onClick={() => console.log("clicked")}
           >
-            Student
+            <a
+              href="https://forms.gle/qXnG31bqMyb3jcTe6"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              Register Now
+            </a>
           </Button>
-          <Button
+          {/* <Button
             className={classes.btn}
             variant="contained"
             size="large"
             color="primary"
           >
             Mentor
-          </Button>
+          </Button> */}
         </ButtonContainer>
       </Container>
     </ThemeProvider>

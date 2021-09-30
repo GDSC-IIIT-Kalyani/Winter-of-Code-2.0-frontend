@@ -14,15 +14,15 @@ function Veryical() {
         {timeLine.map((data, index) => (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={data.active ? data.contentStyle : null}
+            contentStyle={data.active ? data.activeStyle : data.contentStyle}
             contentArrowStyle={
               data.active
-                ? { borderRight: "7px solid  rgb(33, 150, 243)" }
+                ? { borderRight: "7px solid  rgb(150, 150, 243)" }
                 : null
             }
             date={data.date}
             dateClassName={{ fontsize: "100px" }}
-            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            iconStyle={data.active ? data.activeStyle : data.contentStyle}
             icon={""}
           >
             <h3 className="vertical-timeline-element-title">

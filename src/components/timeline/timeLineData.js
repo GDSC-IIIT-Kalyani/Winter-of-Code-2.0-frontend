@@ -4,7 +4,8 @@ const timeLine = [
     topHeading: "1ST OCT-23RD OCT",
     subHeading: "Student Applications Open",
     content: "",
-    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
+    contentStyle: { background: "rgb(150, 150, 243)", color: "white" },
+    activeStyle: { background: "rgb(150, 150, 243)", color: "white" },
     active: true,
   },
   {
@@ -12,6 +13,7 @@ const timeLine = [
     topHeading: "24TH OCT",
     subHeading: "Proposal Writing session + Inauguration Ceremony",
     content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
     active: false,
   },
   {
@@ -19,6 +21,7 @@ const timeLine = [
     topHeading: "25TH OCT-31ST OCT",
     subHeading: "Student Proposals submission",
     content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
     active: false,
   },
   {
@@ -26,6 +29,7 @@ const timeLine = [
     topHeading: "1ST NOV-10TH NOV",
     subHeading: "Organisations select proposals",
     content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
     active: false,
   },
   {
@@ -33,6 +37,7 @@ const timeLine = [
     topHeading: "10TH NOV - 15TH NOV",
     subHeading: "Community Bonding Phase",
     content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
     active: false,
   },
   {
@@ -40,6 +45,7 @@ const timeLine = [
     topHeading: "15TH NOV - 15TH JAN",
     subHeading: "Coding phase",
     content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
     active: false,
   },
   {
@@ -47,6 +53,7 @@ const timeLine = [
     topHeading: "15TH JAN - 31ST JAN",
     subHeading: "Mentor Feedback Review",
     content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
     active: false,
   },
 ];
