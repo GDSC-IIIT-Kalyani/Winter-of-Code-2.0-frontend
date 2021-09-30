@@ -103,16 +103,18 @@ function Text(props) {
             color="primary"
             onClick={() => console.log("clicked")}
           >
-            Student
+            <a href="###" style={{ textDecoration: "none", color: "white" }}>
+              Register Now
+            </a>
           </Button>
-          <Button
+          {/* <Button
             className={classes.btn}
             variant="contained"
             size="large"
             color="primary"
           >
             Mentor
-          </Button>
+          </Button> */}
         </ButtonContainer>
       </Container>
     </ThemeProvider>
