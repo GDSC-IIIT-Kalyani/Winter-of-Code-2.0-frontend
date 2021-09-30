@@ -1,20 +1,13 @@
-#developer {
-  background: blue;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+
+.next-arrow {
+    display: inline;
 }
 
-.developer-title {
-  display: flex;
-  font-weight: 800;
-  font-size: 3rem;
-}
-
-.developer-cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100vw;
+.previous-arrow {
+    display: inline;
 }

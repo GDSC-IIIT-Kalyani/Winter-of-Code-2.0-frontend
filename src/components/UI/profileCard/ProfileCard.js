@@ -2,9 +2,9 @@ import React from "react";
 import "./Card.css";
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
-const Card = ({ name, image, role, socialMedia }) => {
+const Card = ({ isHighlighted, name, image, role, socialMedia }) => {
   return (
-    <div className="card">
+    <div className={isHighlighted ? "active-card" : "card"}>
       <div className="imgBx">
         <img src={image} alt="profile pic of developer" />
       </div>

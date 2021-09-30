@@ -7,7 +7,7 @@ import {
   ThemeProvider,
   Typography,
 } from "@material-ui/core";
-import Paper from "@material-ui/core/Paper";
+// import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
 import styled from 'styled-components'
 
