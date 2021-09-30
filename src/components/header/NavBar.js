@@ -53,15 +53,19 @@ const NavBar = ({ navLinkColor }) => {
               Timeline
             </a>
           </li>
-          <li className="navBar_link-item">
+          {/* <li className="navBar_link-item">
             <a style={{ color: navLinkColor }} href="#sponsors">
               Sponsors
             </a>
-          </li>
+          </li> */}
           <li className="navBar_link-item">
             <a style={{ color: navLinkColor }} href="#speakers">
               Speakers
             </a>
+          </li>
+
+          <li className="navBar_link-item">
+            <a href="#developer"> Our Team</a>
           </li>
 
           {/* <li className="navBar_link-item">
