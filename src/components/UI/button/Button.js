@@ -4,7 +4,9 @@ import "./Button.css";
 const Button = ({ text }) => {
   return (
     <>
-      <button id="button">{text}</button>
+      <button id="button" className="button">
+        {text}
+      </button>
     </>
   );
 };

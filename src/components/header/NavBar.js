@@ -65,7 +65,10 @@ const NavBar = ({ navLinkColor }) => {
           </li>
 
           <li className="navBar_link-item">
-            <a href="#developer"> Our Team</a>
+            <a style={{ color: navLinkColor }} href="#developer">
+              {" "}
+              Our Team
+            </a>
           </li>
 
           {/* <li className="navBar_link-item">

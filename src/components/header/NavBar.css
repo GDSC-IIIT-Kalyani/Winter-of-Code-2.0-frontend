@@ -255,10 +255,10 @@
   color: white !important;
 }
 .navBar_scroll .navBar_link-item::before {
-  background-color: white;
+  background-color: green;
 }
 .navBar_scroll .navBar_link-item::after {
-  background-color: white;
+  background-color: green;
 }
 .navBar_scroll .navBar {
   height: 3.5rem;

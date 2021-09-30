@@ -17,22 +17,22 @@ const Card = ({ name, image, role, socialMedia }) => {
           </h2>
           <ul className="sci">
             <li>
-              <a href={socialMedia.facebook}>
+              <a href={socialMedia.github} target="_blank" rel="noreferrer">
                 <FaGithub />
               </a>
             </li>
             <li>
-              <a href={socialMedia.twitter}>
+              <a href={socialMedia.twitter} target="_blank" rel="noreferrer">
                 <FaTwitter />
               </a>
             </li>
             <li>
-              <a href={socialMedia.linkedin}>
+              <a href={socialMedia.linkedin} target="_blank" rel="noreferrer">
                 <FaLinkedin />
               </a>
             </li>
             <li>
-              <a href={socialMedia.instagram}>
+              <a href={socialMedia.instagram} target="_blank" rel="noreferrer">
                 <FaInstagram />
               </a>
             </li>
