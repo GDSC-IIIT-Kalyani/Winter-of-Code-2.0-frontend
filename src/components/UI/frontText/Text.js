@@ -52,6 +52,8 @@ const useStyles = makeStyles((theme) => {
       fontSize: "1.8vw",
       borderRadius: "15px",
       background: "#ACA0F9",
+      backgroundColor: 'transparent',
+      
       // color: "black",
       color: "#FFFF",
     },
@@ -64,7 +66,7 @@ const theme = createTheme({
       main: "#FFFFFF",
       light: "#FFFFFF",
       // ----> edit here to change button hover color <----
-      dark: "#616161",
+      dark: "#025560",
       // -----><-----
       contrastText: "#ffff",
 

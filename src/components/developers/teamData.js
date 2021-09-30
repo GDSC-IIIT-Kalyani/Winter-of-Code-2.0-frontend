@@ -1,4 +1,7 @@
 import MadeByIMG from "../../assets/images/profile.png";
+import Akshit from "../../assets/images/Developers/Akshit.jpg";
+import Prayag from "../../assets/images/Developers/Prayag.jpg";
+import Yash from "../../assets/images/Developers/Yash.jpeg";
 import Abhishree from "../../assets/images/Developers/Abhishree.jpg";
 import Divya from "../../assets/images/Developers/Divya.jpg";
 import Suryansh from "../../assets/images/Developers/Suryansh.jpg";
@@ -28,25 +31,36 @@ const developers = [
     },
   },
   {
-    name: "Akshit",
-    image: MadeByIMG,
+    name: "Akshit Choudhari",
+    image: Akshit,
     role: "Designer & Developer",
     socialMedia: {
-      github: "###",
-      linkedin: "###",
+      github: "https://github.com/Akshit17",
+      linkedin: "https://www.linkedin.com/in/akshit-choudhari-3132b6201/",
       twitter: null,
-      instagram: "###",
+      instagram: "https://www.instagram.com/_akited_/",
     },
   },
   {
     name: "Prayag Biswas",
-    image: MadeByIMG,
+    image: Prayag,
     role: "Designer & Developer",
     socialMedia: {
-      github: "###",
-      linkedin: "###",
+      github: "https://github.com/Prayag-X",
+      linkedin: "https://www.linkedin.com/in/prayag-biswas-293644215/",
       twitter: null,
-      instagram: "###",
+      instagram: "https://www.instagram.com/___dragon_x___/",
+    },
+  },
+  {
+    name: "Yash",
+    image: Yash,
+    role: "Designer & Developer",
+    socialMedia: {
+      github: "https://github.com/yashraj-02-techie",
+      linkedin: "https://www.linkedin.com/in/yashraj-singh-02/",
+      twitter: "https://twitter.com/yashraj_02",
+      instagram: "https://www.instagram.com/conficker_exe/",
     },
   },
   {
