@@ -3,7 +3,6 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import NavBar from "./components/header/NavBar";
 import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
-import Projects from "./components/projects/allProjects/Projects";
 function App() {
   // const [userLoggedIn, setUserLoggedIn] = useState(
   //   localStorage.getItem("wocLogin") ? true : false
@@ -14,13 +13,13 @@ function App() {
       {/* <NavBar userLoggedIn={userLoggedIn} /> */}
       <Switch>
         <Route path="/" exact>
-          <NavBar />
+          <NavBar navLinkColor="black" />
           <Home />
           <Footer />
         </Route>
-        <Route path="/projects" exact>
+        {/* <Route path="/projects" exact>
           <Projects />
-        </Route>
+        </Route> */}
         {/* <Route path="/login" exact>
           <Auth setUserLoggedIn={setUserLoggedIn} />
         </Route> */}

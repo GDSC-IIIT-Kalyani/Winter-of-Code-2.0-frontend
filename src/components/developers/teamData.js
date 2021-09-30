@@ -6,11 +6,12 @@ import Abhishree from "../../assets/images/Developers/Abhishree.jpg";
 import Divya from "../../assets/images/Developers/Divya.jpg";
 import Suryansh from "../../assets/images/Developers/Suryansh.jpg";
 import Jatin from "../../assets/images/Developers/Jatin.jpg";
+import Mohit from "../../assets/images/Developers/MohitImg.PNG";
 
 const developers = [
   {
     name: "Mohit Raj",
-    image: MadeByIMG,
+    image: Mohit,
     role: "React.js Developer",
     socialMedia: {
       github: "https://github.com/mohit355/",
