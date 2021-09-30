@@ -52,7 +52,7 @@
 }
 
 .speakers_img a:hover {
-  color: blue;
+  color: rgb(255, 255, 255);
   text-decoration: underline;
   transform: scale(1.1);
 }
@@ -92,6 +92,7 @@
   }
   .speakers_sec {
     flex-direction: row;
+    padding-bottom: 5vh;
   }
   .container {
     padding: 0;
@@ -136,7 +137,6 @@
     margin-left: 2rem;
   }
   .speakers_img img {
-    /* min-width: 270px; */
     min-width: 270px;
     height: auto;
   }
