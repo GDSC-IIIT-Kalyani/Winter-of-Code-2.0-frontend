@@ -31,7 +31,8 @@ const Project = () => {
           </ul>
           <Orgs />
           <button>
-            <a href="/projects">PROJECTS</a>
+            {/* <a href="/projects">PROJECTS</a> */}
+            <div>Coming Soon</div>
           </button>
         </div>
       </div>

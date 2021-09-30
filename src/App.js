@@ -1,15 +1,12 @@
-import React, { useState } from "react";
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import NavBar from "./components/header/NavBar";
-import Projects from "./components/projects/allProjects/Projects";
-import Auth from "./components/loginSignup/Auth";
-import StudentDetails from "./components/StudentDetails/StudentDetails";
 import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
 function App() {
-  const [userLoggedIn, setUserLoggedIn] = useState(
-    localStorage.getItem("wocLogin") ? true : false
-  );
+  // const [userLoggedIn, setUserLoggedIn] = useState(
+  //   localStorage.getItem("wocLogin") ? true : false
+  // );
 
   return (
     <BrowserRouter>
@@ -20,20 +17,20 @@ function App() {
           <Home />
           <Footer />
         </Route>
-        <Route path="/projects" exact>
+        {/* <Route path="/projects" exact>
           <Projects />
-        </Route>
-        <Route path="/login" exact>
+        </Route> */}
+        {/* <Route path="/login" exact>
           <Auth setUserLoggedIn={setUserLoggedIn} />
-        </Route>
+        </Route> */}
 
-        {userLoggedIn ? (
+        {/* {userLoggedIn ? (
           <Route path="/register" exact>
             <StudentDetails />
           </Route>
         ) : (
           <Redirect to={{ pathname: "/login" }} />
-        )}
+        )} */}
       </Switch>
     </BrowserRouter>
   );

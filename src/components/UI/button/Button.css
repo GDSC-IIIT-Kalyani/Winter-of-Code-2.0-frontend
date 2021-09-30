@@ -1,4 +1,4 @@
-.button {
+/* .Button {
   background-color: transparent;
   border-radius: 0.8em;
   cursor: pointer;
@@ -14,10 +14,17 @@
   transition: all 150ms ease-in-out;
 }
 
-.button:hover,
+.Button:hover,
 :focus {
   color: #fff;
   outline: 0;
   box-shadow: 0 0 10px 0 rgb(191, 191, 221) inset,
     0 0 10px 4px rgb(191, 191, 221);
+} */
+.Button {
+  color: white;
+}
+.Button:hover {
+  color: aqua;
+  cursor: pointer;
 }
