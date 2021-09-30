@@ -4,7 +4,8 @@ const timeLine = [
     topHeading: "1ST OCT-23RD OCT",
     subHeading: "Student Applications Open",
     content: "",
-    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
+    contentStyle: { background: "rgb(150, 150, 243)", color: "white" },
+    activeStyle: { background: "rgb(150, 150, 243)", color: "white" },
     active: true,
   },
   {
@@ -13,7 +14,7 @@ const timeLine = [
     subHeading: "Proposal Writing session + Inauguration Ceremony",
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
-    active: true,
+    active: false,
   },
   {
     date: "25th Oct - 31th Oct",
@@ -21,7 +22,7 @@ const timeLine = [
     subHeading: "Student Proposals submission",
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
-    active: true,
+    active: false,
   },
   {
     date: "1st Nov - 10th Nov",
@@ -29,7 +30,7 @@ const timeLine = [
     subHeading: "Organisations select proposals",
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
-    active: true,
+    active: false,
   },
   {
     date: "10th NOV - 15th Nov",
@@ -37,7 +38,7 @@ const timeLine = [
     subHeading: "Community Bonding Phase",
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
-    active: true,
+    active: false,
   },
   {
     date: "15th NOov - 15th Jan",
@@ -45,7 +46,7 @@ const timeLine = [
     subHeading: "Coding phase",
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
-    active: true,
+    active: false,
   },
   {
     date: "15th Jan - 31st Jan",
@@ -53,7 +54,7 @@ const timeLine = [
     subHeading: "Mentor Feedback Review",
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
-    active: true,
+    active: false,
   },
 ];
 
