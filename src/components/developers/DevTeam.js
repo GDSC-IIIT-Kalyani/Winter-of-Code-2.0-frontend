@@ -1,28 +1,48 @@
 import React, { useState } from "react"
 import Slider from 'react-slick'
 import styled from 'styled-components'
-import "./DevTeam.css";
+import "./DevTeam.css"
 import ProfileCard from "../UI/profileCard/ProfileCard";
 import developers from "./teamData";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-const Next = ({onClick}) => {
-  return (
-    <div className="next-arrow" onClick={onClick}>
-      <FaArrowRight/>
-    </div>
-  )
-}
+const PreviousArrow = styled.div`
+  padding-left: 1em;
+  padding-right: 1em;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+`
+
+const NextArrow = styled.div`
+  background: transparent;
+  padding-left: 1em;
+  padding-right: 2em;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+`
 
 const Previous = ({onClick}) => {
   return (
-    <div className="previous-arrow" onClick={onClick}>
+    <PreviousArrow>
       <FaArrowLeft/>
-    </div>
+    </PreviousArrow>
+  )
+}
+
+const Next = ({onClick}) => {
+  return (
+    <NextArrow>
+      <FaArrowRight/>
+    </NextArrow>
   )
 }
 
 const SliderContainer = styled.div`
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #3f1654e7;
   width: 100vw;
 `
 
@@ -30,24 +50,27 @@ function DevTeam() {
   const [imageIndex, setImageIndex] = useState(0)
 
   const settings = {
-    pauseOnHover: true,
+    className: 'slider',
+    // pauseOnHover: true,
     lazyLoad: true,
     infinite: true,
     speed: 900,
     swipeToSlide: true,
     centerMode: true,
-    centerPadding: 0,
-    slidesToShow: 3,
+    centerPadding: "20px",
+    slidesToShow: 4,
     focusOnSelect: true,
     slidestoScroll: 3,
     autoplay: true,
-    nextArrow: <Next onClick/>,
-    prevArrow: <Previous onClick/>,
+    dots: true,
+    // nextArrow: <Next onClick/>,
+    // prevArrow: <Previous onClick/>,
     beforeChange: (current, next) => setImageIndex(next),
   };
 
   return (
     <SliderContainer>
+      <h1 className="tittle">Our Developers</h1>
       <Slider {...settings}>
         {developers.map((developer, index) => (
           <ProfileCard
@@ -57,6 +80,7 @@ function DevTeam() {
             role={developer.role}
             socialMedia={developer.socialMedia}
           />
+
         ))}
       </Slider>
     </SliderContainer>

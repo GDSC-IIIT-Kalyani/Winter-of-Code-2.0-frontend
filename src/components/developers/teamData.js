@@ -72,6 +72,17 @@ const developers = [
     },
   },
   {
+    name: "Subhadeep Chowdhury",
+    image: MadeByIMG,
+    role: "React.js Developer",
+    socialMedia: {
+      github: "https://github.com/subhadeepchowdhury41/",
+      linkedin: "https://www.linkedin.com/in/subhadeep-chowdhury-4a54a0205/",
+      twitter: "###",
+      instagram: "https://www.instagram.com/subhadeep9809/",
+    },
+  },
+  {
     name: "Abhishree",
     image: Abhishree,
     role: "Frontend Developer",
