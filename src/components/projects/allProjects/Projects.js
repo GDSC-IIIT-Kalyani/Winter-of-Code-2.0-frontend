@@ -2,10 +2,7 @@ import React from "react";
 import "./Projects.css";
 import "../../header/NavBar";
 import SlideData from "./SlideData";
-import proj_video from '../../../assets/projectAssests/proj_video.mp4';
-// import { render } from "@testing-library/react";
-// import { Link, animateScroll as scroll } from "react-scroll";
-// import Filter from './filter';
+import proj_video from "../../../assets/projectAssests/proj_video.mp4";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -17,28 +14,32 @@ class Projects extends React.Component {
   };
   render() {
     return (
-      <div className="projects" onLoad={()=>{
-        document.querySelector('.navBar_link-item').style.color='white !important';
-      }}>
-      <div className="proj_vid">
-       <video autoPlay loop muted>
-          <source src={proj_video} type="video/mp4" />
-        </video>
-      </div>
+      <div
+        className="projects"
+        onLoad={() => {
+          document.querySelector(".navBar_link-item").style.color =
+            "white !important";
+        }}
+      >
+        <div className="proj_vid">
+          <video autoPlay loop muted>
+            <source src={proj_video} type="video/mp4" />
+          </video>
+        </div>
         <div className="filter_option">
           <h3>Filter out by Categories</h3>
-        <form id="proj_form">
-          <select
-            className="proj_slt"
-            value={this.state.value}
-            onChange={this.handleChange}
-          >
-            <option value="all">All Categories</option>
-            <option value="web">Web Development</option>
-            <option value="app">App Development</option>
-            <option value="ml">Machine Learning</option>
-          </select>
-        </form>
+          <form id="proj_form">
+            <select
+              className="proj_slt"
+              value={this.state.value}
+              onChange={this.handleChange}
+            >
+              <option value="all">All Categories</option>
+              <option value="web">Web Development</option>
+              <option value="app">App Development</option>
+              <option value="ml">Machine Learning</option>
+            </select>
+          </form>
         </div>
         <div className="proj_grid">
           {SlideData.map((slides, idx) => {
