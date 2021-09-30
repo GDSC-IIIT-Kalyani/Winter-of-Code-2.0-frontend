@@ -49,7 +49,7 @@
   #About{
       display: flex;
       flex-direction: row;
-      min-height: 100vh;
+      min-height: 75vh;
       background-color:darkcyan;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
@@ -58,8 +58,9 @@
       writing-mode: vertical-rl;
       align-self: flex-start;
       transform: rotate(180deg);
-      min-width: 20vw;
-      font-size: 14vw;
+      margin-left: 2vw;
+      min-width: 15vw;
+      font-size: 10vw;
       font-weight: bolder;
       margin-top: 6vh;
       color: skyblue;
@@ -76,21 +77,51 @@
 }
 @media only screen and (max-width:540px) {
   .subject{
-      font-size: 160%;
+      font-size: 150%;
   }
 }
 @media only screen and (max-width:411px) {
+  #About{
+    min-height: 83vh;
+  }
   .subject{
       font-size: 150%;
   }
 }
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:375px) {
+  #About{
+    min-height: 90vh;
+  }
   .subject{
       font-size: 140%;
   }
 }
+@media only screen and (max-width:375px) and (height:812px){
+  #About{
+    min-height: 75vh;
+  }
+  .subject{
+      font-size: 140%;
+  }
+}
+@media only screen and (max-width:360px) {
+  #About{
+    min-height: 90vh;
+  }
+  .subject{
+      font-size: 135%;
+  }
+}
+@media only screen and (max-width:320px) {
+  #About{
+    min-height: 90vh;
+  }
+  .subject{
+      font-size: 120%;
+  }
+}
 @media only screen and (max-width:280px) {
   .subject{
-      font-size: 130%;
+      font-size: 120%;
   }
 }

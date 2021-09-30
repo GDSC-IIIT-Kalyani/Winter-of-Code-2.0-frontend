@@ -9,7 +9,7 @@ import {
 } from "@material-ui/core";
 // import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const ButtonContainer = styled.div`
   margin-top: 1vw;
@@ -17,7 +17,7 @@ const ButtonContainer = styled.div`
   align-items: space-evenly;
   justify-content: center;
   width: 100%;
-`
+`;
 
 const Container = styled.div`
   background-color: transparent;
@@ -26,7 +26,7 @@ const Container = styled.div`
     margin: 0 auto 0 auto;
     width: 100vw;
   }
-`
+`;
 
 const useStyles = makeStyles((theme) => {
   return {
@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => {
     text: {
       // color: "#4e342e"
       color: "#FFF",
-      fontSize: "2.5vw"
+      fontSize: "2.5vw",
     },
     btn: {
       fontFamily: "'Asap', sans-serif",
@@ -94,23 +94,23 @@ function Text(props) {
         </Typography>
         <br />
         <ButtonContainer>
-            <Button
-              className={classes.btn}
-              variant="contained"
-              size="large"
-              color="primary"
-              onClick={() => console.log("clicked")}
-            >
-              Student
-            </Button>
-            <Button
-              className={classes.btn}
-              variant="contained"
-              size="large"
-              color="primary"
-            >
-              Mentor
-            </Button>
+          <Button
+            className={classes.btn}
+            variant="contained"
+            size="large"
+            color="primary"
+            onClick={() => console.log("clicked")}
+          >
+            Student
+          </Button>
+          <Button
+            className={classes.btn}
+            variant="contained"
+            size="large"
+            color="primary"
+          >
+            Mentor
+          </Button>
         </ButtonContainer>
       </Container>
     </ThemeProvider>

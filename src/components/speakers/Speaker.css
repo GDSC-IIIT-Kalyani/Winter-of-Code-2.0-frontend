@@ -8,7 +8,7 @@
 
 .speaker_heading {
   text-align: center;
-  font-size: 100%;
+  font-size: 180%;
   margin: 1.2rem 0rem;
 }
 
@@ -41,7 +41,7 @@
 .speakers_img a {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-size: 70%;
+  font-size: 120%;
   transition-duration: 0.5s;
 }
 
@@ -62,13 +62,13 @@
   cursor: pointer;
 }
 
-button {
+#button {
   cursor: pointer;
   transition-duration: 0.5s;
   padding: 2.5px;
 }
 
-button:hover {
+#button:hover {
   transform: scale(1.14);
   background-color: black;
   color: white;
@@ -85,7 +85,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 830px) {
   * {
     margin-left: -20px;
     margin-right: 13px;
@@ -100,19 +100,26 @@ button:hover {
   .speakers_img {
     margin: 1.5rem 0px 0px 0px;
   }
-  button {
+  #button {
     display: none;
   }
   .speaker_heading {
-    margin-left: -4.9rem;
-    margin-right: -8.5rem;
+    margin-left: -1.9rem;
+    margin-right: -6.5rem;
     margin-top: 7rem;
-    font-size: 90%;
+    font-size: 140%;
     align-self: flex-start;
   }
   .heading_title {
     letter-spacing: 5px;
     transform: rotate(-90deg);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .speaker_heading {
+    margin-left: -4.9rem;
+    margin-right: -8.5rem;
   }
 }
 
@@ -129,6 +136,7 @@ button:hover {
     margin-left: 2rem;
   }
   .speakers_img img {
+    /* min-width: 270px; */
     min-width: 270px;
     height: auto;
   }

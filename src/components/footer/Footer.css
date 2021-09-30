@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   min-width: 100vw;
-  background-color: rgb(152, 190, 240);
+  background-color: black;
   align-items: center;
   justify-content: center;
 }
@@ -26,6 +26,7 @@
   align-items: center;
   justify-content: center;
   color: white;
+  font-size:20px;
 }
 
 .icon {
@@ -36,7 +37,6 @@
 }
 
 .icon:hover {
-  height: 80px;
   transition-duration: 500ms;
   transform: rotate(360deg);
 }
@@ -53,6 +53,78 @@
   color: cyan;
 }
 
-.github:hover {
-  color: black;
+@media screen and (max-width:749px){
+  .icon{
+    width: 40px;
+    height: 40px;
+    margin: 15px 40px 0px 40px;
+  }
+}
+
+@media screen and (max-width:674px){
+  .icon{
+    width: 40px;
+    height: 40px;
+    margin: 15px 30px 0px 30px;
+  }
+}
+
+@media screen and (max-width:499px){
+  .icon{
+    width: 35px;
+    height: 35px;
+    margin: 15px 25px 0px 25px;
+  }
+}
+
+@media screen and (max-width:429px){
+  .icon{
+    width: 35px;
+    height: 35px;
+    margin: 15px 20px 0px 20px;
+  }
+  .copyright {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width:374px){
+  .icon{
+    width:30px;
+    height:30px;
+    margin:15px 20px 0px 20px;
+  }
+  .copyright {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:349px){
+  .icon{
+    width:30px;
+    height:30px;
+    margin:15px 15px 0px 15px;
+  }
+}
+
+@media screen and (max-width:329px){
+  .icon{
+    width:30px;
+    height:30px;
+    margin:15px 12px 0px 12px;
+  }
+  .copyright {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:280px){
+  .icon{
+    width:30px;
+    height:30px;
+    margin:15px 10px 0px 10px;
+  }
+  .copyright {
+    font-size: 12px;
+  }
 }

@@ -65,6 +65,7 @@ const NavBar = ({ userLoggedIn }) => {
             </li>
           )} */}
         </ul>
+        <div className = "hamburger_container">
         <div
           className={`navBar_hamburger ${
             isCrossBurger ? "cross-burger" : null
@@ -74,6 +75,7 @@ const NavBar = ({ userLoggedIn }) => {
           <div className="navBar_line1"></div>
           <div className="navBar_line2"></div>
           <div className="navBar_line3"></div>
+        </div>
         </div>
       </div>
     </nav>

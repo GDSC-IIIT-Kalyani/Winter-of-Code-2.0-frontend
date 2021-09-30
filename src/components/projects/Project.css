@@ -6,8 +6,9 @@
 
 #flex-container {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   min-height: 100vh;
+  align-items: center;
   padding-right: 1.8vw;
   padding-top: 2.2vh;
 }
@@ -20,6 +21,7 @@
   clip-path: circle(49.5% at 44.5% 49%);
   width: 50vw;
   height: 47vw;
+  margin-top: -6rem;
 }
 
 .right {
@@ -36,7 +38,7 @@
   padding-top: 3vh;
   font-size: 2vw;
   font-weight: 600;
-  color: #0800ff;
+  color: #c2a0c7;
   padding-right: 0.5vw;
   margin-left: 8.5vw;
 }
@@ -119,7 +121,7 @@
   .list {
     display: flex;
     justify-content: space-around;
-    color: black;
+    color: #c2a0c7;
     font-size: 1.7em;
   }
   .mid .project_sponsors {
@@ -149,14 +151,23 @@
     writing-mode: vertical-rl;
     text-orientation: mixed;
     align-self: center;
-    font-family: ;
     font-size: 3.8em;
     width: 15vw;
     margin-right: 6vw;
-    color: rgb(46, 46, 85);
+    color: rgb(129, 64, 138);
     font-weight: 700;
   }
-  button {
-    display: none;
+  .right button {
+    border: 3px solid blue;
+    background: #ad9fff;
+    opacity: 0.8;
+    border-radius: 30px;
+    width: 40vw;
+    height: 13vw;
+    font-size: 5vw;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 29vw;
+    margin-top: 10vh;
   }
 }
