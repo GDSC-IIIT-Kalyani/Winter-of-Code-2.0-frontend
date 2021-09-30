@@ -1,4 +1,3 @@
-import MadeByIMG from "../../assets/images/profile.png";
 import Akshit from "../../assets/images/Developers/Akshit.jpg";
 import Prayag from "../../assets/images/Developers/Prayag.jpg";
 import Yash from "../../assets/images/Developers/Yash.jpeg";
@@ -6,11 +5,13 @@ import Abhishree from "../../assets/images/Developers/Abhishree.jpg";
 import Divya from "../../assets/images/Developers/Divya.jpg";
 import Suryansh from "../../assets/images/Developers/Suryansh.jpg";
 import Jatin from "../../assets/images/Developers/Jatin.jpg";
+import Mohit from "../../assets/images/Developers/MohitImg.PNG";
+import Ishan from "../../assets/images/Developers/Ishan.jpg"
 
 const developers = [
   {
     name: "Mohit Raj",
-    image: MadeByIMG,
+    image: Mohit,
     role: "React.js Developer",
     socialMedia: {
       github: "https://github.com/mohit355/",
@@ -21,11 +22,11 @@ const developers = [
   },
   {
     name: "Ishan",
-    image: MadeByIMG,
+    image: Ishan,
     role: "",
     socialMedia: {
-      github: "###",
-      linkedin: "###",
+      github: "https://github.com/ishanExtreme",
+      linkedin: "https://www.linkedin.com/in/ishan-mishra-00788b192/",
       twitter: null,
       instagram: "###",
     },

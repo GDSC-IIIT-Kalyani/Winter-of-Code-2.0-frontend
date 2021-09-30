@@ -52,8 +52,8 @@ const useStyles = makeStyles((theme) => {
       fontSize: "1.8vw",
       borderRadius: "15px",
       background: "#ACA0F9",
-      backgroundColor: 'transparent',
-      
+      backgroundColor: "transparent",
+
       // color: "black",
       color: "#FFFF",
     },
@@ -105,7 +105,12 @@ function Text(props) {
             color="primary"
             onClick={() => console.log("clicked")}
           >
-            <a href="###" style={{ textDecoration: "none", color: "white" }}>
+            <a
+              href="https://forms.gle/qXnG31bqMyb3jcTe6"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: "none", color: "white" }}
+            >
               Register Now
             </a>
           </Button>
