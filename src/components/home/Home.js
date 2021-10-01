@@ -22,15 +22,13 @@ const Home = () => {
       <About />
       <Project />
       <TimeLine />
-<<<<<<< HEAD
       <Sponsor />
       {/* <Speaker /> */}
-      <DevTeam />
-=======
+      {/* <DevTeam /> */}
+
       {/* <Sponsor /> */}
       {/* <Speaker /> */}
       {devSection ? <DevTeam /> : <DevTeam1 />}
->>>>>>> subhadeepchowdhury41-master
     </>
   );
 };
