@@ -1,7 +1,7 @@
 .sponsors {
   background-color: #371844e7;
   min-width: 100vw;
-  height: 80vh;
+  height: 130vh;
 }
 .top {
   display: flex;
@@ -27,7 +27,7 @@
     perspective: 2000px;
   }
   .sponsors {
-    height: 65vh;
+    height: 130vh;
   }
 }
 
@@ -53,14 +53,13 @@
 .carousel_span {
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
   flex-direction: column;
 }
 
 .carousel_span h2 {
   display: flex;
   align-items: center;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .sponsors_img {

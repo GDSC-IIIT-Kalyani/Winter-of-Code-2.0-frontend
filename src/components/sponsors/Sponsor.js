@@ -6,8 +6,10 @@ import sponsorsData from "./sponsorsData";
 const Sponsor = () => {
   return (
     <div className="sponsors" id="sponsors">
+      <div className="Melt-bottom">
+        <img src="./Assets/Timeline_end.png" alt="MELT"></img>
+      </div>
       <div className="top">SPONSORS</div>
-
       <div className="bottom">
         <div class="ccc">
           <div class="carousel">
@@ -17,15 +19,19 @@ const Sponsor = () => {
                   <h2>{sponsor[0]}</h2>
                   <div className="sponsors_img">
                     {sponsor[1].map((image, ind) => (
-                      <a href="https://www.geeksforgeeks.org/node-js-fs-read-method/">
-                        <img
-                          key={ind}
-                          height="50"
-                          width="50"
-                          src={image}
-                          alt=""
-                        />
-                      </a>
+                      <div key={ind}>
+                        <div>
+                          <a href="###">
+                            <img
+                              height="60"
+                              width="100"
+                              src={image.image}
+                              alt=""
+                            />
+                          </a>
+                          <h3 style={{ textAlign: "center" }}>{image.title}</h3>
+                        </div>
+                      </div>
                     ))}
                   </div>
                 </span>
