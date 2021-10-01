@@ -57,7 +57,11 @@ const NavBar = ({ navLinkColor }) => {
             <a style={{ color: navLinkColor }} href="#sponsors">
               Sponsors
             </a>
+<<<<<<< HEAD
           </li>
+=======
+          </li> */}
+>>>>>>> subhadeepchowdhury41-master
           {/* <li className="navBar_link-item">
             <a style={{ color: navLinkColor }} href="#speakers">
               Speakers
