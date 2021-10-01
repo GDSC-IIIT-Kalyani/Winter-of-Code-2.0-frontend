@@ -1,4 +1,4 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import About from "../about/About";
 import DevTeam from "../developers/DevTeam";
 import DevTeam1 from "../developers/DevTeam1";
@@ -7,14 +7,14 @@ import Speaker from "../speakers/Speaker";
 // import Sponsor from "../sponsors/Sponsor";
 import TimeLine from "../timeline/TimeLine";
 import Welcome from "../welcomePage/Welcome";
-import "./Home.css"
+import "./Home.css";
 
 const Home = () => {
-  var x = window.matchMedia("(max-width: 920px)")
-  const [devSection, setDevSection] = useState(0)
-  x.addListener(UpdateState)
+  var x = window.matchMedia("(max-width: 920px)");
+  const [devSection, setDevSection] = useState(0);
+  x.addListener(UpdateState);
   function UpdateState() {
-    setDevSection(x.matches)
+    setDevSection(x.matches);
   }
   return (
     <>
@@ -23,8 +23,8 @@ const Home = () => {
       <Project />
       <TimeLine />
       {/* <Sponsor /> */}
-      <Speaker />
-      {devSection ? <DevTeam /> : <DevTeam1/>}
+      {/* <Speaker /> */}
+      {devSection ? <DevTeam /> : <DevTeam1 />}
     </>
   );
 };
