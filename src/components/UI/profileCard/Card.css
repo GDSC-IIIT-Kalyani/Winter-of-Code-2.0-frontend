@@ -60,21 +60,13 @@
   text-align: center;
 }
 .content .details h2 {
-<<<<<<< HEAD
-  color: rgb(255, 255, 255);
-=======
   color:   #191417;
->>>>>>> f7b9012e1b9027dbf5411bd2bc78853ba8080464
   font-size: 1.3em;
   font-weight: 500;
 }
 .content .details h2 span {
   font-size: 0.8em;
-<<<<<<< HEAD
-  color: #76a2b6;
-=======
   color: rgb(255, 255, 255);
->>>>>>> f7b9012e1b9027dbf5411bd2bc78853ba8080464
   font-weight: 400;
 }
 .sci {

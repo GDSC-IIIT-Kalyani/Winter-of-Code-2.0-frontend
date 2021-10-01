@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState} from "react";
 import About from "../about/About";
 import DevTeam from "../developers/DevTeam";
+import DevTeam1 from "../developers/DevTeam1";
 import Project from "../projects/Project";
 import Speaker from "../speakers/Speaker";
 // import Sponsor from "../sponsors/Sponsor";
@@ -9,6 +10,12 @@ import Welcome from "../welcomePage/Welcome";
 import "./Home.css"
 
 const Home = () => {
+  var x = window.matchMedia("(max-width: 920px)")
+  const [devSection, setDevSection] = useState(0)
+  x.addListener(UpdateState)
+  function UpdateState() {
+    setDevSection(x.matches)
+  }
   return (
     <>
       <Welcome />
@@ -17,7 +24,7 @@ const Home = () => {
       <TimeLine />
       {/* <Sponsor /> */}
       <Speaker />
-      <DevTeam />
+      {devSection ? <DevTeam /> : <DevTeam1/>}
     </>
   );
 };
