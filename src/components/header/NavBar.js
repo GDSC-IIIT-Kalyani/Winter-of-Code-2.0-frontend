@@ -24,7 +24,9 @@ const NavBar = ({ navLinkColor }) => {
     }
   };
 
-  const handleNavClick = (event) => {};
+  const handleNavClick = (event) => {
+    handleHamburgerClick(event);
+  };
 
   window.addEventListener("scroll", handleScrollDown);
 
