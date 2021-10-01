@@ -88,7 +88,7 @@ const developers = [
     },
   },
   {
-    name: "Subhadeep Chowdhury",
+    name: "Subhadeep",
     image: Subhadeep,
     role: "React.js Developer",
     socialMedia: {

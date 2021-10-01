@@ -11,7 +11,7 @@ import "./Home.css"
 
 const Home = () => {
   var x = window.matchMedia("(max-width: 920px)")
-  const [devSection, setDevSection] = useState(0)
+  const [devSection, setDevSection] = useState(x.matches)
   x.addListener(UpdateState)
   function UpdateState() {
     setDevSection(x.matches)

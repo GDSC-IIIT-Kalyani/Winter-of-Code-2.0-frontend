@@ -47,8 +47,8 @@ const SliderContainer = styled.div`
 `
 
 function DevTeam() {
-  var x = window.matchMedia("(max-width: 700px)")
-  var y = window.matchMedia("(max-width: 865px)")
+  var x = window.matchMedia("(max-width: 553px)")
+  var y = window.matchMedia("(max-width: 800px)")
   var z = window.matchMedia("(max-width: 920px)")
   function showSlides() {
     if (z.matches) {
