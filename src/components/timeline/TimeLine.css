@@ -9,22 +9,42 @@
   margin-top: -5px;
   float: right;
 }
-.v-timeline .v-head {
-  display: flex;
-  margin-top: -700px;
-  align-items: center;
-  justify-content: center;
-  font-size: 3.3rem;
-  font-weight: bolder;
-  padding: 10px;
-  color: wheat;
-}
-
-.v-time {
-  margin: 10px;
-  margin-bottom: 0;
-}
-
-.vertical-timeline-element-title {
-  margin-bottom: 15px !important;
+  .v-head
+  {
+    display: block;
+    width:100%;
+    margin-top: -650px;
+    text-transform: uppercase;
+    font-size: 3.3rem;
+    color: wheat;
+    text-align: center;
+    
+  }
+  
+  .v-time {
+    margin: 10px;
+    margin-bottom: 0;
+  }
+  
+  .vertical-timeline-element-title {
+    margin-bottom: 15px !important;
+  }
+@media only screen and (max-width: 1169px){
+  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    visibility: visible;
+    width: 50vw;
+  }} 
+  @media (max-width:900px){
+  .v-head{
+    margin-top: -600px;
+  }
+  @media (max-width:480px)
+  {
+    .Melt img{
+      display: none;
+    }
+    .v-head{
+      margin-top: 30px;
+    }
+  }
 }

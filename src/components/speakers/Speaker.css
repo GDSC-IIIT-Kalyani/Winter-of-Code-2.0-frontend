@@ -1,11 +1,16 @@
 .speakers_sec {
-  display: flex;
   background: #311141e7;
+}
+.speakers_rest{
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
-
+.Melt-bottom img{
+  width:100vw;
+}
 .speaker_heading {
   text-align: center;
   font-size: 180%;
@@ -85,12 +90,18 @@
   }
 }
 
+@media (max-width:480px) {
+  .Melt-bottom img{
+    display: none;
+  }
+  
+}
 @media screen and (max-width: 830px) {
   * {
     margin-left: -20px;
     margin-right: 13px;
   }
-  .speakers_sec {
+  .speakers_rest {
     flex-direction: row;
     padding-bottom: 5vh;
   }
