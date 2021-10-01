@@ -14,17 +14,17 @@ const Project = () => {
         <div className="right">
           <ul class="list">
             <li class="items">
-              <h2>10+</h2>
+              <h2>30+</h2>
               <br />
-              Projects <br />
+              GDSCs <br />Collab 
             </li>
             <li class="items">
-              <h2>150+</h2>
+              <h2>1500+</h2>
               <br />
               Hackers <br /> All Around
             </li>
             <li class="items">
-              <h2>30+</h2>
+              <h2>60+</h2>
               <br />
               Day Event <br />
             </li>
