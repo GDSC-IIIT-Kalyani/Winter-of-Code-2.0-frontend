@@ -25,6 +25,8 @@
   perspective: 900px;
 }
 
+/* media query */
+
 @media (max-width: 650px) {
   .ccc {
     width: 320px;
