@@ -13,6 +13,10 @@
   color: wheat;
 }
 
+.Melt-bottom img {
+  width: 100vw;
+}
+
 .ccc {
   position: relative;
   top: -60px;
@@ -27,7 +31,7 @@
     perspective: 2000px;
   }
   .sponsors {
-    height: 130vh;
+    height: 100vh;
   }
 }
 
