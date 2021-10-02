@@ -22,6 +22,7 @@
 .event-part-images img {
   max-height: 14rem;
   margin: 1.5rem;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {
