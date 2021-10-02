@@ -7,6 +7,7 @@ import Project from "../projects/Project";
 import Sponsor from "../sponsors/Sponsor";
 import TimeLine from "../timeline/TimeLine";
 import Welcome from "../welcomePage/Welcome";
+import EventPartner from "../EventPartner/eventPartner";
 import "./Home.css";
 
 const Home = () => {
@@ -23,9 +24,10 @@ const Home = () => {
       <Project />
       <TimeLine />
       <Sponsor />
+      {<EventPartner />}
       {/* <Speaker /> */}
       {/* <DevTeam /> */}
-
+      
       {/* <Sponsor /> */}
       {/* <Speaker /> */}
       {devSection ? <DevTeam /> : <DevTeam1 />}
