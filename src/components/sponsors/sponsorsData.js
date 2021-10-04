@@ -3,6 +3,7 @@ import codeForCause from "../../assets/sponsors/codeForCause.png";
 import jetBrains from "../../assets/sponsors/jetBrains.jpg";
 import newtonSchool from "../../assets/sponsors/newtonSchool.png";
 import prepbytes from "../../assets/sponsors/prepbytes.png";
+import jinaAi from "../../assets/sponsors/jinaAi.png"
 
 const sponsorsData = [
   ["Sponsors", [{ title: "Jet Brains", image: jetBrains }]],
@@ -10,7 +11,7 @@ const sponsorsData = [
   ["Sponsors", [{ title: "Newton School", image: newtonSchool }]],
   ["Sponsors", [{ title: "Code For Cause", image: codeForCause }]],
   ["Sponsors", [{ title: "1Stop.ai", image: oneStop }]],
-  ["Sponsors", [{ title: "Coming Soon" }]],
+  ["Sponsors", [{ title: "Jina AI", image: jinaAi }]],
   ["Sponsors", [{ title: "Coming Soon" }]],
   ["Sponsors", [{ title: "Coming Soon" }]],
   ["Sponsors", [{ title: "Coming Soon" }]],
