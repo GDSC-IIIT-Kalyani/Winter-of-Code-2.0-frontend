@@ -13,7 +13,7 @@ function App() {
       {/* <NavBar userLoggedIn={userLoggedIn} /> */}
       <Switch>
         <Route path="/" exact>
-          <NavBar navLinkColor="black" />
+          <NavBar />
           <Home />
           <Footer />
         </Route>

@@ -1,20 +1,19 @@
-#developer {
-  background: rgb(128, 125, 125);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.slider {
+    padding-left: 3em;
+    padding-bottom: 3em;
+    background-color:  3f1654e7;
+    align-items: center;
+    display: flex;
+    padding-top: 0em;
 }
 
-.developer-title {
-  display: flex;
-  font-weight: 800;
-  font-size: 3rem;
-}
-
-.developer-cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100vw;
+.tittle {
+    font-size: 2em;
+    margin-bottom: 1.4em;
+    text-align: center;
+    color: whitesmoke;
 }

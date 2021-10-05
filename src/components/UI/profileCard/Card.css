@@ -2,6 +2,19 @@
   position: relative;
   width: 200px;
   height: 275px;
+  /* background: #fff; */
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  margin: 2% 2% 2% 2%;
+}
+
+.active-card {
+  position: relative;
+  width: 300px;
+  height: 425px;
   background: #fff;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.1);
@@ -10,6 +23,7 @@
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
   margin: 2% 2% 2% 2%;
 }
+
 .imgBx {
   position: absolute;
   top: 0;

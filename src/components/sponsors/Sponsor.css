@@ -1,7 +1,7 @@
 .sponsors {
   background-color: #371844e7;
   min-width: 100vw;
-  height: 80vh;
+  height: 130vh;
 }
 .top {
   display: flex;
@@ -13,6 +13,10 @@
   color: wheat;
 }
 
+.Melt-bottom img {
+  width: 100vw;
+}
+
 .ccc {
   position: relative;
   top: -60px;
@@ -21,13 +25,15 @@
   perspective: 900px;
 }
 
+/* media query */
+
 @media (max-width: 650px) {
   .ccc {
     width: 320px;
     perspective: 2000px;
   }
   .sponsors {
-    height: 65vh;
+    height: 100vh;
   }
 }
 
@@ -53,14 +59,13 @@
 .carousel_span {
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
   flex-direction: column;
 }
 
 .carousel_span h2 {
   display: flex;
   align-items: center;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .sponsors_img {

@@ -1,15 +1,20 @@
-import SponsorImg from "../../assets/images/Sponsors.jpg";
+import oneStop from "../../assets/sponsors/1stop.png";
+import codeForCause from "../../assets/sponsors/codeForCause.png";
+import jetBrains from "../../assets/sponsors/jetBrains.jpg";
+import newtonSchool from "../../assets/sponsors/newtonSchool.png";
+import prepbytes from "../../assets/sponsors/prepbytes.png";
+import jinaAi from "../../assets/sponsors/jinaAi.png"
 
 const sponsorsData = [
-  ["Gold Sponsors", [SponsorImg, SponsorImg, SponsorImg]],
-  ["Gold Sponsors", [SponsorImg, SponsorImg, SponsorImg]],
-  ["Silver Sponsors", [SponsorImg, SponsorImg, SponsorImg]],
-  ["Silver Sponsors", [SponsorImg, SponsorImg, SponsorImg]],
-  ["Silver Sponsors", [SponsorImg, SponsorImg, SponsorImg]],
-  ["Silver Sponsors", [SponsorImg, SponsorImg, SponsorImg]],
-  ["<Name> Sponsors", [SponsorImg, SponsorImg, SponsorImg]],
-  ["<Name> Sponsors", [SponsorImg, SponsorImg, SponsorImg]],
-  ["<Name> Sponsors", [SponsorImg, SponsorImg, SponsorImg]],
+  ["Sponsors", [{ title: "Jet Brains", image: jetBrains }]],
+  ["Sponsors", [{ title: "PrepBytes", image: prepbytes }]],
+  ["Sponsors", [{ title: "Newton School", image: newtonSchool }]],
+  ["Sponsors", [{ title: "Code For Cause", image: codeForCause }]],
+  ["Sponsors", [{ title: "1Stop.ai", image: oneStop }]],
+  ["Sponsors", [{ title: "Jina AI", image: jinaAi }]],
+  ["Sponsors", [{ title: "Coming Soon" }]],
+  ["Sponsors", [{ title: "Coming Soon" }]],
+  ["Sponsors", [{ title: "Coming Soon" }]],
 ];
 
 export default sponsorsData;

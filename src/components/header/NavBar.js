@@ -24,6 +24,10 @@ const NavBar = ({ navLinkColor }) => {
     }
   };
 
+  const handleNavClick = (event) => {
+    handleHamburgerClick(event);
+  };
+
   window.addEventListener("scroll", handleScrollDown);
 
   return (
@@ -34,39 +38,58 @@ const NavBar = ({ navLinkColor }) => {
       <div className="navBar_container">
         <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
           <li className="navBar_link-item">
-            <a style={{ color: navLinkColor }} href="#Homepage">
+            <a
+              style={{ color: navLinkColor }}
+              href="#Homepage"
+              onClick={handleNavClick}
+            >
               Home
             </a>
           </li>
           <li className="navBar_link-item">
-            <a style={{ color: navLinkColor }} href="#About">
+            <a
+              style={{ color: navLinkColor }}
+              href="#About"
+              onClick={handleNavClick}
+            >
               About
             </a>
           </li>
           <li className="navBar_link-item">
-            <a style={{ color: navLinkColor }} href="#projects">
+            <a
+              style={{ color: navLinkColor }}
+              href="#projects"
+              onClick={handleNavClick}
+            >
               Projects
             </a>
           </li>
           <li className="navBar_link-item">
-            <a style={{ color: navLinkColor }} href="#timeline">
+            <a
+              style={{ color: navLinkColor }}
+              href="#timeline"
+              onClick={handleNavClick}
+            >
               Timeline
             </a>
           </li>
-          {/* <li className="navBar_link-item">
-            <a style={{ color: navLinkColor }} href="#sponsors">
+          <li className="navBar_link-item">
+            <a
+              style={{ color: navLinkColor }}
+              href="#sponsors"
+              onClick={handleNavClick}
+            >
               Sponsors
             </a>
-          </li> */}
-          <li className="navBar_link-item">
+          </li>
+          {/* <li className="navBar_link-item">
             <a style={{ color: navLinkColor }} href="#speakers">
               Speakers
             </a>
-          </li>
+          </li> */}
 
           <li className="navBar_link-item">
             <a style={{ color: navLinkColor }} href="#developer">
-              {" "}
               Our Team
             </a>
           </li>

@@ -7,6 +7,7 @@ import Suryansh from "../../assets/images/Developers/Suryansh.jpg";
 import Jatin from "../../assets/images/Developers/Jatin.jpg";
 import Mohit from "../../assets/images/Developers/MohitImg.PNG";
 import Ishan from "../../assets/images/Developers/Ishan.jpg"
+import Subhadeep from "../../assets/images/Developers/Subhadeep.jpg"
 
 const developers = [
   {
@@ -80,10 +81,21 @@ const developers = [
     image: Divya,
     role: "Frontend Developer",
     socialMedia: {
-      github: "###",
-      linkedin: "###",
-      twitter: null,
-      instagram: "###",
+      github: "https://github.com/dkk3675",
+      linkedin: "https://www.linkedin.com/in/divya-kumar-849943178/",
+      twitter:  "https://twitter.com/dkk84266466",
+      instagram: "https://www.instagram.com/helloffdheaven/",
+    },
+  },
+  {
+    name: "Subhadeep",
+    image: Subhadeep,
+    role: "React.js Developer",
+    socialMedia: {
+      github: "https://github.com/subhadeepchowdhury41/",
+      linkedin: "https://www.linkedin.com/in/subhadeep-chowdhury-4a54a0205/",
+      twitter: "###",
+      instagram: "https://www.instagram.com/subhadeep9809/",
     },
   },
   {
