@@ -1,7 +1,7 @@
 const timeLine = [
   {
     date: "1st Oct - 23rd Oct",
-    topHeading: "1ST OCT-23RD OCT",
+    topHeading: "1ST OCT - 23RD OCT",
     subHeading: "Student Applications Open",
     content: "",
     contentStyle: { background: "rgb(150, 150, 243)", color: "white" },
@@ -18,7 +18,7 @@ const timeLine = [
   },
   {
     date: "25th Oct - 31th Oct",
-    topHeading: "25TH OCT-31ST OCT",
+    topHeading: "25TH OCT - 31ST OCT",
     subHeading: "Student Proposals submission",
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
@@ -26,14 +26,14 @@ const timeLine = [
   },
   {
     date: "1st Nov - 10th Nov",
-    topHeading: "1ST NOV-10TH NOV",
+    topHeading: "1ST NOV - 10TH NOV",
     subHeading: "Organisations select proposals",
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
     active: false,
   },
   {
-    date: "10th NOV - 15th Nov",
+    date: "10th Nov - 15th Nov",
     topHeading: "10TH NOV - 15TH NOV",
     subHeading: "Community Bonding Phase",
     content: "",
@@ -41,7 +41,7 @@ const timeLine = [
     active: false,
   },
   {
-    date: "15th NOov - 15th Jan",
+    date: "15th Nov - 15th Jan",
     topHeading: "15TH NOV - 15TH JAN",
     subHeading: "Coding phase",
     content: "",
