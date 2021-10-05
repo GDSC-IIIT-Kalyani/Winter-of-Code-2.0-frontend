@@ -16,7 +16,6 @@
 }
 .left {
   width: 50vw;
-  /* padding: 11vh 6vw; */
 }
 
 .left img {
@@ -41,8 +40,8 @@
   font-size: 2vw;
   font-weight: 600;
   color: #c2a0c7;
-  padding-right: 0.5vw;
-  margin-left: 8.5vw;
+  padding-right: 0vw;
+  margin-left: 8.8vw;
 }
 .items {
   margin-right: 1.5vw;
@@ -68,7 +67,7 @@
 }
 .mid img {
   width: 10vw;
-  height: auto;
+  height: 10vw;
   margin-left: 3vw;
   margin-right: 3vw;
   z-index: 10;
@@ -76,10 +75,10 @@
 }
 
 .mid img:hover {
-  border: solid 3px black;
+  border: solid 3px rgba(0, 0, 0, 0.11);
   border-radius: inherit;
   cursor: pointer;
-  box-shadow: 1px 1px 2px 2px black;
+  box-shadow: 1px 1px 2px 2px rgba(71, 71, 71, 0.089);
 }
 
 .right button {

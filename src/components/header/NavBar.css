@@ -147,11 +147,11 @@
     font-size: 150%;
   }
   .navBar_link-item:hover a {
-    color: rgb(44, 218, 58);
+    color: rgb(104, 0, 104);
   }
   .navBar_link-item::after,
   .navBar_link-item::before {
-    background-color: green;
+    background-color: rgb(104, 0, 104);
   }
   .navBar_hamburger {
     display: block;
@@ -255,16 +255,16 @@
   color: white !important;
 }
 .navBar_scroll .navBar_link-item::before {
-  background-color: green;
+  background-color: rgb(104, 0, 104);
 }
 .navBar_scroll .navBar_link-item::after {
-  background-color: green;
+  background-color: rgb(104, 0, 104);
 }
 .navBar_scroll .navBar {
   height: 3.5rem;
 }
 
 .navBar_scroll .navBar_link-item:hover a {
-  color: yellow;
+  color: rgb(104, 0, 104);
   text-shadow: 2px 2px 3px black;
 }
