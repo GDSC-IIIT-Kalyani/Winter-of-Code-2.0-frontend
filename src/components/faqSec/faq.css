@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .faq-sec {
+    /* width: 100%; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(137, 137, 137);
+  }
+  
+  .faq-sec-container {
+    /* width: 100%; */
+    max-width: 70rem;
+    padding: 0 5rem;
+  }
+  
+  .faq-sec-heading {
+    font-size: 200%;
+    padding-bottom: 3vh;
+    color: white;
+    text-shadow: 3px 3px 12px rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  .faq-sec-ques {
+    font-size: 150%;
+    color: white;
+    display: flex;
+  }
+  
+  .ques {
+    padding: 4px 0px 4px 12px;
+    cursor: pointer;
+  }
+  
+  .answer {
+    font-size: 130%;
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(245, 245, 245, 0.884);
+    border-radius: 7px;
+    transition: max-height 0.8s ease-in-out;
+  }
+  
+  .arrow {
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  .answer p {
+    padding: 10px 0 10px 20px;
+  }
+  
+  .answer::before {
+    content: "";
+    width: 0.5rem;
+    background-color: rgba(138, 19, 3, 0.664);
+    height: 100%;
+    border-radius: 7px;
+    position: absolute;
+    left: 1.1px;
+    top: 0%;
+    transform: translateX(-1px);
+  }
+  
+  .faq-sec-item {
+    background-color: rgb(83, 83, 83);
+    border-radius: 7px;
+    padding: 0.5rem;
+    margin-bottom: 8px;
+    box-shadow: 0.5rem 5px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-active .answer {
+    max-height: 20rem;
+  }
+  
+  .faq-active .answer p {
+    animation: fade_text 1s ease-in-out;
+  }
+  
+  .faq-active .arrow {
+    transform: rotate(180deg);
+  }
+  
+  @keyframes fade_text {
+    0%{
+      opacity: 0;
+      transform: translateX(-15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    .faq-sec-heading {
+      font-size: 150%;
+    }
+    .faq-sec-ques {
+      font-size: 120%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .faq-sec-heading {
+      font-size: 120%;
+    }
+    .faq-sec-ques {
+      font-size: 100%;
+    }
+    .faq-sec-container{
+      padding: 0 2rem;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    .faq-sec-heading {
+      font-size: 120%;
+    }
+    .faq-sec-ques {
+      font-size: 90%;
+    }
+  }
+
+  @media screen and (max-width: 370px) {
+    .faq-sec-container{
+      padding: 0 1rem;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .faq-sec-heading {
+      font-size: 90%;
+    }
+    .faq-sec-ques {
+      font-size: 80%;
+    }
+  }
