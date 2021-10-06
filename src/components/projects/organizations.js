@@ -1,9 +1,9 @@
 import React from "react";
-import skit from "../../assets/organizations/skit2.png";
-import llvm from "../../assets/organizations/llvm.png";
+import skit from "../../assets/organizations/skit.png";
+import hoppscotch from "../../assets/organizations/Hoppscotch.png"
 import llvm2 from "../../assets/organizations/llvm_large.png";
 import aysncAPI from "../../assets/organizations/asyncAPI4.png";
-import edualgo2 from "../../assets/organizations/Edualgoalt.png";
+import gitaInitiative from "../../assets/organizations/gitaInit.png";
 import jinaAi from "../../assets/organizations/jinaAi.png"
 
 import "./Project.css";
@@ -13,22 +13,22 @@ function Orgs() {
     <div className="mid">
       <ul className="project_sponsors">
         <li>
-          <img src={skit} alt="sponsor_Logo" />
+          <img src={skit} alt="org_logo" />
         </li>
         <li>
-          <img src={aysncAPI} alt="sponsor_Logo" />
+          <img src={aysncAPI} alt="org_logo" />
         </li>
         <li>
-          <img src={jinaAi} alt="sponsor_Logo" />
+          <img src={jinaAi} alt="org_logo" />
         </li>
         <li>
-          <img src={llvm} alt="sponsor_Logo" />
+          <img src={llvm2} alt="org_logo" />
         </li>
         <li>
-          <img src={edualgo2} alt="sponsor_Logo" />
+          <img src={gitaInitiative} alt="org_logo" />
         </li>
         <li>
-          <img src={llvm2} alt="sponsor_Logo" />
+          <img src={hoppscotch} alt="org_logo" />
         </li>
       </ul>
       <div class="desc">ORGANISATIONS</div>

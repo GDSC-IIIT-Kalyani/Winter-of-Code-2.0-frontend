@@ -33,7 +33,7 @@ const timeLine = [
     active: false,
   },
   {
-    date: "10th NOV - 15th Nov",
+    date: "10th Nov - 15th Nov",
     topHeading: "10TH NOV - 15TH NOV",
     subHeading: "Community Bonding Phase",
     content: "",
@@ -41,7 +41,7 @@ const timeLine = [
     active: false,
   },
   {
-    date: "15th NOov - 15th Jan",
+    date: "15th Nov - 15th Jan",
     topHeading: "15TH NOV - 15TH JAN",
     subHeading: "Coding phase",
     content: "",
