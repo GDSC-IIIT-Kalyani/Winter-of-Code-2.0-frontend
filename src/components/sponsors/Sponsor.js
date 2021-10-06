@@ -24,7 +24,7 @@ const Sponsor = () => {
                           <a href="###">
                             <img
                               height="60"
-                              width="100"
+                              width="80"
                               src={image.image}
                               alt=""
                             />
