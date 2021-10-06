@@ -137,7 +137,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: auto;
+    height: 100%;
     width: 80vw;
     padding-left: 0%;
     padding-right: 0%;
@@ -148,11 +148,12 @@
   .mid {
     display: flex;
     margin: 0%;
-    height: 90vh;
+    height: 100%;
   }
   .mid img {
-    width: 15vh;
+    width: 25vh;
     object-fit: contain;
+    height: 25vh;
   }
 
   .desc {
