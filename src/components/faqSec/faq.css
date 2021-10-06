@@ -106,6 +106,9 @@
     .faq-sec-ques {
       font-size: 120%;
     }
+    .answer{
+      font-size: 110%;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -118,6 +121,9 @@
     .faq-sec-container{
       padding: 0 2rem;
     }
+    .answer{
+      font-size: 90%;
+    }
   }
 
   @media screen and (max-width: 470px) {
@@ -126,6 +132,9 @@
     }
     .faq-sec-ques {
       font-size: 90%;
+    }
+    .answer{
+      font-size: 85%;
     }
   }
 
