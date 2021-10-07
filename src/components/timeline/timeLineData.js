@@ -41,7 +41,11 @@ const timeLine = [
     active: false,
   },
   {
+
+    date: "15th NOV - 15th Jan",
+
     date: "15th Nov - 15th Jan",
+
     topHeading: "15TH NOV - 15TH JAN",
     subHeading: "Coding phase",
     content: "",
