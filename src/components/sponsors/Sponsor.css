@@ -54,6 +54,7 @@
   right: 10px;
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgb(199, 195, 195, 0.9);
+  font-size: 80%;
 }
 
 .carousel_span {
@@ -75,7 +76,7 @@
 }
 
 .sponsors_img img {
-  margin: 20px;
+  margin: 20px 7px;
 }
 
 .carousel__face:nth-child(1) {
