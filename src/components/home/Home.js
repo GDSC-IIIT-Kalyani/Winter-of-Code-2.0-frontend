@@ -8,6 +8,7 @@ import Sponsor from "../sponsors/Sponsor";
 import TimeLine from "../timeline/TimeLine";
 import Welcome from "../welcomePage/Welcome";
 import EventPartner from "../EventPartner/eventPartner";
+import Faq from "../faqSec/Faq";
 import "./Home.css";
 
 const Home = () => {
@@ -27,10 +28,11 @@ const Home = () => {
       {<EventPartner />}
       {/* <Speaker /> */}
       {/* <DevTeam /> */}
-      
+
       {/* <Sponsor /> */}
       {/* <Speaker /> */}
       {devSection ? <DevTeam /> : <DevTeam1 />}
+      <Faq />
     </>
   );
 };
