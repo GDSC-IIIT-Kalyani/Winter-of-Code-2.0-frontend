@@ -8,6 +8,7 @@ import Jatin from "../../assets/images/Developers/Jatin.jpg";
 import Mohit from "../../assets/images/Developers/MohitImg.PNG";
 import Ishan from "../../assets/images/Developers/Ishan.jpg"
 import Subhadeep from "../../assets/images/Developers/Subhadeep.jpg"
+import Ayushman from "../../assets/images/Developers/Ayushman.jpeg"
 
 const developers = [
   {
@@ -118,6 +119,17 @@ const developers = [
       linkedin: "https://www.linkedin.com/in/suryansh-omar",
       twitter: null,
       instagram: "https://www.instagram.com/_._suryansh__/",
+    },
+  },
+  {
+    name: "Ayushman Bhatt",
+    image: Ayushman,
+    role: "Backend Developer",
+    socialMedia: {
+      github: "https://github.com/Ayush0922",
+      linkedin: "https://www.linkedin.com/in/ayushman-bhatt-1b5b18218",
+      twitter: "###",
+      instagram: "https://www.instagram.com/_imperfct.guy_/?r=nametag",
     },
   },
 ];
