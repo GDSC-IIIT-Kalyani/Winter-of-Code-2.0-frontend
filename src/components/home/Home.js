@@ -7,7 +7,7 @@ import Project from "../projects/Project";
 import Sponsor from "../sponsors/Sponsor";
 import TimeLine from "../timeline/TimeLine";
 import Welcome from "../welcomePage/Welcome";
-import EventPartner from "../EventPartner/eventPartner";
+// import EventPartner from "../EventPartner/eventPartner";
 import Faq from "../faqSec/Faq";
 import "./Home.css";
 
@@ -25,7 +25,7 @@ const Home = () => {
       <Project />
       <TimeLine />
       <Sponsor />
-      {<EventPartner />}
+      {/* {<EventPartner />} */}
       {/* <Speaker /> */}
       {/* <DevTeam /> */}
 
