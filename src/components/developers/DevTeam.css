@@ -3,12 +3,12 @@
 @import "slick-carousel/slick/slick-theme.css";
 
 .slider {
-    padding-left: 3em;
+    padding-left: 17vw;
     padding-bottom: 3em;
-    background-color:  3f1654e7;
     align-items: center;
+    justify-content: center;
     display: flex;
-    padding-top: 0em;
+    flex-direction: row;
 }
 
 .tittle {
