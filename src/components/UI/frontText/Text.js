@@ -143,8 +143,8 @@ function Text(props) {
             55.41 0 0 1 50.58 55.34z"
                 ></path>
               </svg>
-              &ensp;Apply with Devfolio
             </a>
+            &ensp;Apply with Devfolio
           </Button>
           {/* <Button
             className={classes.btn}
