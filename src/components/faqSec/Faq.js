@@ -14,7 +14,7 @@ const Faq = () => {
   }, []);
 
   return (
-    <div className="faq-sec">
+    <div className="faq-sec" id="faq">
       <div className="faq-sec-container">
         <div className="faq-sec-heading">Frequently asked questions (FAQs)</div>
 
