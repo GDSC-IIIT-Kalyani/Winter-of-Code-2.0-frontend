@@ -11,7 +11,7 @@
     background-image: url('/src/assets/images/Landscape.png');
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
   }
   .icon1 {
     display: flex;
@@ -43,24 +43,32 @@
   .stu_dev {
     font-size: 160%;
   }
-  .text2 {
+  .text2{
     display: flex;
-    flex-wrap: wrap;
-    min-height: 35vh;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    padding-bottom: 4vh;
+    
   }
-  .button {
-    margin: 5vh 5vw 15vh 5vw;
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 1vh 3vw;
-    text-align: center;
+  .text2 a,.text2 p{
+    margin-top:10px;
     text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 10px;
   }
+  .text2 a{
+    font-family: 'Asap', sans-serif;
+      border-radius: 15px;
+      background: #3619f0;
+      padding: 1.5vw;
+      font-size: 30px;
+      color: #FFFF;
+      text-align: center;
+  }
+  .text2 a svg{
+    margin-top: 2px;
+    margin-right: 2px;
+  }
+
 }
 
 @media only screen and (max-width: 672px) {
@@ -80,9 +88,6 @@
   .Welcome {
     font-size: 27px;
   }
-  .text2 {
-    margin: -3vh 0vw 0vh 0vw;
-  }
   .ic1 {
     width: 125px;
     height: 125px;
@@ -91,21 +96,13 @@
     width: 45px;
     height: 30px;
   }
-  .button {
-    margin: 5vh 5vw 20vh 5vw;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .text2 {
-    margin: -5vh 0vw -8vh 0vw;
+  .text2 a{
+    font-size:6vw;
   }
 }
 @media only screen and (max-width: 411px) {
   .Welcome {
     font-size: 26px;
-  }
-  .text2 {
-    margin: -5vh 0vw -10vh 0vw;
   }
   .ic2 {
     width: 40px;
@@ -120,15 +117,17 @@
     width: 100px;
     height: 100px;
   }
-  .text2 {
-    min-height: 20vh;
-  }
   .ic2 {
     width: 50px;
     height: 25px;
   }
-  .button {
-    margin: 3vh 5vw 20vh 5vw;
+  .text2 a,.text2 p{
+    font-size: 6vw;
+  }
+  .text2 a svg
+  {
+    width: 6vw;
+    height: 6vw;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -150,12 +149,6 @@
   .ic2 {
     width: 25px;
     height: 15px;
-  }
-  .text2 {
-    min-height: 23vh;
-  }
-  .button {
-    margin: 5vh 5vw 20vh 5vw;
   }
 }
 @media only screen and (max-width: 279px) {
