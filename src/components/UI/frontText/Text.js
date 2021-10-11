@@ -116,13 +116,15 @@ function Text(props) {
             variant="contained"
             size="large"
             color="primary"
-            onClick={() => console.log("clicked")}
+            onClick={()=>window.open("https://gdsc-woc.devfolio.co/")}
+            target="_blank"
+            rel="noreferrer"
           >
             <a
               href="https://gdsc-woc.devfolio.co/"
+              className="dev_logo"
               target="_blank"
               rel="noreferrer"
-              className="dev_logo"
               style={{ textDecoration: "none", color: "white" }}
             >
               <svg
