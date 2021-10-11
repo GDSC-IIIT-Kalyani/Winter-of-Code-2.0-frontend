@@ -95,7 +95,7 @@ const NavBar = ({ navLinkColor }) => {
           </li>
 
           <li className="navBar_link-item">
-            <a style={{ color: navLinkColor }} href="#faq">
+            <a style={{ color: navLinkColor }} href="#faq" onClick={handleNavClick}>
               FAQs
             </a>
           </li>
