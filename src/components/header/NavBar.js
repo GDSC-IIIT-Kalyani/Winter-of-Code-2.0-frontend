@@ -37,10 +37,19 @@ const NavBar = ({ navLinkColor }) => {
     >
       <div className="navBar_container">
         <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
-          <li className="navBar_link-item">
+          <li className="navBar_link-item home_comp">
             <a
               style={{ color: navLinkColor }}
               href="#Homepage"
+              onClick={handleNavClick}
+            >
+              Home
+            </a>
+          </li>
+          <li className="navBar_link-item home_mob">
+            <a
+              style={{ color: navLinkColor }}
+              href="#Welcome"
               onClick={handleNavClick}
             >
               Home
@@ -89,7 +98,10 @@ const NavBar = ({ navLinkColor }) => {
           </li> */}
 
           <li className="navBar_link-item">
-            <a style={{ color: navLinkColor }} href="#developer">
+            <a style={{ color: navLinkColor }}
+            href="#developer"
+            onClick={handleNavClick}
+            >
               Our Team
             </a>
           </li>
