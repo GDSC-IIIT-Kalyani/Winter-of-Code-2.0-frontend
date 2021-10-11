@@ -69,7 +69,7 @@
 }
 .navBar_link-item::before {
   top: 0;
-  height: 2px;
+  height: 2.5px;
   transform-origin: left;
 }
 .navBar_link-item:hover::after,
@@ -122,7 +122,7 @@
     width: 50vw;
     position: absolute;
     text-align: center;
-    height: 90vh;
+    height: 100vh;
     margin-top: 0;
     padding-top: 1vh;
     padding-right: 0;
@@ -147,7 +147,7 @@
     font-size: 150%;
   }
   .navBar_link-item:hover a {
-    color: rgb(104, 0, 104);
+    color: white;
   }
   .navBar_link-item::after,
   .navBar_link-item::before {
