@@ -12,18 +12,18 @@ const Project = () => {
           <img src={leftLogo} alt="" />
         </div>
         <div className="right">
-          <ul class="list">
-            <li class="items">
+          <ul className="list">
+            <li className="items">
               <h2>30+</h2>
               <br />
               GDSCs <br />Collab 
             </li>
-            <li class="items">
+            <li className="items">
               <h2>1500+</h2>
               <br />
               Hackers <br /> All Around
             </li>
-            <li class="items">
+            <li className="items">
               <h2>60+</h2>
               <br />
               Day Event <br />
@@ -32,7 +32,7 @@ const Project = () => {
           <Orgs />
           <button>
             {/* <a href="/projects">PROJECTS</a> */}
-            <div>Coming Soon</div>
+            <div className="cmg_sn">Coming Soon</div>
           </button>
         </div>
       </div>
