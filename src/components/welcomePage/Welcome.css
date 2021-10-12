@@ -1,8 +1,8 @@
-.Welcome {
+#Welcome {
   display: none;
 }
 @media only screen and (max-width: 768px) {
-  .Welcome {
+  #Welcome {
     display: flex;
     flex-direction: column;
     min-width: 97vw;
@@ -46,6 +46,7 @@
   .text2{
     display: flex;
     flex-direction: column;
+    min-height:35vh;
     justify-content:flex-start;
     align-items: center;
     padding-bottom: 4vh;
@@ -72,7 +73,7 @@
 }
 
 @media only screen and (max-width: 672px) {
-  .Welcome {
+  #Welcome {
     font-size: 38px;
   }
   .ic1 {
@@ -85,7 +86,7 @@
   }
 }
 @media only screen and (max-width: 535px) {
-  .Welcome {
+  #Welcome {
     font-size: 27px;
   }
   .ic1 {
@@ -101,7 +102,7 @@
   }
 }
 @media only screen and (max-width: 411px) {
-  .Welcome {
+  #Welcome {
     font-size: 26px;
   }
   .ic2 {
@@ -110,7 +111,7 @@
   }
 }
 @media only screen and (max-width: 360px) {
-  .Welcome {
+  #Welcome {
     font-size: 25px;
   }
   .ic1 {
@@ -131,12 +132,12 @@
   }
 }
 @media only screen and (max-width: 320px) {
-  .Welcome {
+  #Welcome {
     font-size: 23px;
   }
 }
 @media only screen and (max-width: 280px) {
-  .Welcome {
+  #Welcome {
     font-size: 20px;
   }
   .icon1 {
@@ -152,7 +153,7 @@
   }
 }
 @media only screen and (max-width: 279px) {
-  .Welcome {
+  #Welcome {
     font-size: 20px;
   }
   .icon1 {

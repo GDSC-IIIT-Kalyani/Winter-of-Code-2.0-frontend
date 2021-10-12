@@ -12,6 +12,10 @@
   transition: background-color 0.5s ease;
 }
 
+.home_mob{
+  display: none;
+}
+
 /* navbar links container */
 .navBar_links {
   display: flex;
@@ -158,6 +162,15 @@
     float: right;
     padding: 30px 20px;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home_comp{
+    display: none;
+  }
+  .home_mob{
+    display: unset;
   }
 }
 

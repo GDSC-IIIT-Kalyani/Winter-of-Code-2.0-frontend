@@ -5,7 +5,7 @@ import GDSClogo from "../../assets/images/GDSC_Logo.png";
 
 const Welcome = () => {
   return (
-    <section className="Welcome">
+    <section id="Welcome">
       <div className="icon1">
         <img src={WOClogo} className="ic1" alt="" />
       </div>
