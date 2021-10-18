@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import InputComponent from "../UI/input/InputComponent";
 import "./StudentDetails.css";
 const StudentDetails = () => {
   const [studentData, setStudentData] = useState({
@@ -38,94 +39,86 @@ const StudentDetails = () => {
         <div className="fish" id="fish3"></div>
         <form id="waterform">
           <div class="formgroup" id="name-form">
-            <label for="name">Your name*</label>
-            <input
+            <InputComponent
               type="text"
               id="name"
               name="name"
               placeholder="Your name"
-              required
               value={studentData.name}
-              onChange={handleInputChange}
+              setValue={handleInputChange}
+              requiredStatus={true}
             />
           </div>
           <div className="formgroup" id="email-form">
-            <label for="email">Your e-mail*</label>
-            <input
+            <InputComponent
               type="email"
               id="email"
               name="email"
               placeholder="Your e-mail"
-              required
               value={studentData.email}
-              onChange={handleInputChange}
+              setValue={handleInputChange}
+              requiredStatus={true}
             />
           </div>
           <div className="formgroup" id="phone-form">
-            <label for="phone">Your phone number*</label>
-            <input
+            <InputComponent
               type="tel"
               id="phone"
               name="phone"
               placeholder="Your phone number"
-              required
               value={studentData.phone}
-              onChange={handleInputChange}
+              setValue={handleInputChange}
+              requiredStatus={true}
             />
           </div>
           <div className="formgroup" id="github-form">
-            <label for="github">Your github profile link*</label>
-            <input
+            <InputComponent
               type="text"
               id="github"
               name="github"
               placeholder="Your github profile link"
               value={studentData.github}
-              onChange={handleInputChange}
+              setValue={handleInputChange}
             />
           </div>
           <div className="formgroup" id="linkedin-form">
-            <label for="linkedin">Your LinkedIn profile link</label>
-            <input
+            <InputComponent
               type="text"
               id="linkedin"
               name="linkedIn"
               placeholder="Your LinkedIn profile link"
               value={studentData.linkedIn}
-              onChange={handleInputChange}
+              setValue={handleInputChange}
             />
           </div>
           <div className="formgroup" id="twitter-form">
-            <label for="twitter">Your twitter profile link</label>
-            <input
+            <InputComponent
               type="text"
               id="twitter"
               name="twitter"
               placeholder="Yout twitter profile link"
               value={studentData.twitter}
-              onChange={handleInputChange}
+              setValue={handleInputChange}
             />
           </div>
           <div className="formgroup" id="portfolio-form">
-            <label for="portfolio">Your portfolio profile link</label>
-            <input
+            <InputComponent
               type="text"
               id="portfolio"
               name="portfolio"
               placeholder="Your portfolio profile link"
               value={studentData.portfolio}
-              onChange={handleInputChange}
+              setValue={handleInputChange}
             />
           </div>
           <div className="formgroup" id="others-form">
-            <label for="others">Prev open source contribution link</label>
-            <input
+            <InputComponent
               type="text"
               id="others"
               name="openSourceWork"
               placeholder="Open source contributions link"
               value={studentData.openSourceWork}
-              onChange={handleInputChange}
+              setValue={handleInputChange}
             />
           </div>
           <div className="formgroup" id="join-form">
