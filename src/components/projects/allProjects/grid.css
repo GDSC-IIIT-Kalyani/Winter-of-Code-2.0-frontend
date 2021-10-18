@@ -1,0 +1,98 @@
+.project_grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 80vw;
+  margin: 8vh auto;
+  box-sizing: border-box;
+}
+
+.main_item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  min-height: 40vh;
+}
+
+/* .project_grid ul {
+    list-style: none;
+} */
+
+.project_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 35%;
+  background-color: rgba(170, 170, 170, 0.1);
+  text-align: right;
+  padding: 13px;
+  padding-right: 20px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.project_left a {
+  color: white;
+}
+.project_right {
+  width: 65%;
+  background-color: rgba(235, 232, 232, 0.1);
+  padding: 13px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.ideas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80%;
+  padding-left: 15px;
+}
+
+.size-1 {
+  font-size: 3em;
+}
+
+.size-2 {
+  font-size: 2em;
+}
+
+.size-3 {
+  font-size: 1.4em;
+}
+
+.mentor .size-2 {
+  margin-bottom: 4px;
+}
+
+.project_right .size-2 {
+  height: 10%;
+}
+
+.size-4 {
+  padding: 5px;
+}
+
+.gh_logo {
+  font-size: 2em;
+}
+
+@media (max-width: 860px) {
+  .main_item {
+    flex-direction: column;
+  }
+  .project_left {
+    width: 100%;
+    border-radius: 0px;
+    text-align: left;
+    min-height: 40vh;
+}
+.project_right {
+    width: 100%;
+    border-radius: 0px;
+  }
+}
