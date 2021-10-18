@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import NavBar from "./components/header/NavBar";
 import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
-import Projects from "./components/projects/allProjects/Projects";
+// import Projects from "./components/projects/allProjects/Projects";
 function App() {
   // const [userLoggedIn, setUserLoggedIn] = useState(
   //   localStorage.getItem("wocLogin") ? true : false
