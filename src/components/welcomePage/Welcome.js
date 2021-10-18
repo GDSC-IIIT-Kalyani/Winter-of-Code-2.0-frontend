@@ -11,7 +11,7 @@ const Welcome = () => {
       </div>
       <div className="icon2">
         <img src={GDSClogo} className="ic2" alt=""></img>
-        <span>Developer Student Clubs</span>
+        <span>Google Developer Student Clubs</span>
       </div>
       <div className="text1">
         <p>
