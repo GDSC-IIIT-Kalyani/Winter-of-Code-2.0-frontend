@@ -33,6 +33,13 @@ const faqData = [
     question: "Is it for beginners?",
     answer:
       "It is for EVERYBODY!",
+  },
+  {
+    question: "Winter of Code 2.0 | 2021 - 2022 | Infotainment Session.",
+    // answer:
+    //   "https://www.youtube.com/watch?v=_LZ2K-NgPOg",
+    answer: 
+      <a href = 'https://www.youtube.com/watch?v=_LZ2K-NgPOg' target = '_blank' >Click here for the video</a>,
   }
 ];
 
