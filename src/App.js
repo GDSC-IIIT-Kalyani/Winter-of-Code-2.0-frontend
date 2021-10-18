@@ -18,9 +18,9 @@ function App() {
           <Home />
           <Footer />
         </Route>
-        <Route path="/projects" exact>
+        {/* <Route path="/projects" exact>
           <Projects />
-        </Route>
+        </Route> */}
         {/* <Route path="/login" exact>
           <Auth setUserLoggedIn={setUserLoggedIn} />
         </Route> */}
