@@ -1,15 +1,17 @@
+import imgs from '../../../assets/organizations/asyncAPI4.png'
 const SliderData = [
   {
     org_name: 'Hoppscoth',
     title: 'Self Driving Car',
     Ideas: [
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dicta magni dolorum ipsam itaque in, voluptatum voluptas ipsa similique at ex quae tempore modi architecto esse cumque vero, soluta ea voluptatem velit illum sapiente sint pariatur. Consectetur nemo possimus sint mollitia libero, adipisci nam in modi eligendi veniam magnam iste aut? Ex cum, in provident commodi, molestias iure quo explicabo nihil animi dolor natus itaque totam illo eaque omnis. Ad vitae hic ea rem fugit vero dignissimos tempore beatae fuga quaerat, laborum ab sequi accusantium suscipit sint quam provident dolorem asperiores commodi at pariatur soluta modi! Quaerat modi laudantium commodi.',
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dicta magni dolorum ipsam itaque in, voluptatum voluptas ipsa similique at ex quae tempore modi architecto esse cumque vero, soluta ea voluptatem velit illum sapiente sint pariatur. Consectetur nemo possimus sint mollitia libero, adipisci nam in modi eligendi veniam magnam iste aut? Ex cum, in provident commodi, molestias iure quo explicabo nihil animi dolor natus itaque totam illo eaque omnis. Ad vitae hic ea rem fugit vero dignissimos tempore beatae fuga quaerat, laborum ab sequi accusantium suscipit sint quam provident dolorem asperiores commodi at pariatur soluta modi! Quaerat modi laudantium commodi.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dicta magni dolorum ipsam itaque in, voluptatum voluptas ipsa similique at ex  ea rem fugit vero asperiores commodi at pariatur soluta modi! Quaerat modi laudantium commodi.',
+      'Lorem ipsum dolor sit amet,m commodi.',
       '2',
       '3',
     ],
     mentors: ['laxman', 'jhonny'],
     repo_link: 'afjkdfkla',
+    org_img:imgs,
     tags: 'all web',
   },
   {
@@ -18,6 +20,7 @@ const SliderData = [
     Ideas: ['1', '2', '3'],
     mentors: ['laxman', 'jhonny'],
     repo_link: 'afjkdfkla',
+    org_img:imgs,
     tags: 'all web',
   },
   {
@@ -26,6 +29,7 @@ const SliderData = [
     Ideas: ['1', '2', '3'],
     mentors: ['laxman', 'jhonny'],
     repo_link: 'afjkdfkla',
+    org_img:imgs,
     tags: 'all app',
   },
   {
@@ -34,6 +38,7 @@ const SliderData = [
     Ideas: ['1', '2', '3'],
     mentors: ['laxman', 'jhonny'],
     repo_link: 'afjkdfkla',
+    org_img:imgs,
     tags: 'all app',
   },
   {
@@ -42,6 +47,7 @@ const SliderData = [
     Ideas: ['1', '2', '3'],
     mentors: ['laxman', 'jhonny'],
     repo_link: 'afjkdfkla',
+    org_img:imgs,
     tags: 'all ml',
   },
   {
@@ -50,6 +56,7 @@ const SliderData = [
     Ideas: ['1', '2', '3'],
     mentors: ['laxman', 'jhonny'],
     repo_link: 'afjkdfkla',
+    org_img:imgs,
     tags: 'all ml',
   },
   {
@@ -58,6 +65,7 @@ const SliderData = [
     Ideas: ['1', '2', '3'],
     mentors: ['laxman', 'jhonny'],
     repo_link: 'afjkdfkla',
+    org_img:imgs,
     tags: 'all web',
   },
 ];
