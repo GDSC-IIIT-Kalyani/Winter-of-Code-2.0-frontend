@@ -1,53 +1,72 @@
-import imgs from "../../../assets/images/projects/img1.png";
+import imgs from '../../../assets/organizations/asyncAPI4.png'
 const SliderData = [
   {
-    image: imgs,
-    title: "Project-1",
-    Descrption:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sequi? Laudantium doloribus sint asperiores. Neque, distinctio molestiae ad beatae aliquid voluptate soluta veritatis, impedit pariatur minus, dolores quaerat eos exercitationem.",
-    tags: "all web",
+    org_name: 'Hoppscoth',
+    title: 'Self Driving Car',
+    Ideas: [
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dicta magni dolorum ipsam itaque in, voluptatum voluptas ipsa similique at ex  ea rem fugit vero asperiores commodi at pariatur soluta modi! Quaerat modi laudantium commodi.',
+      'Lorem ipsum dolor sit amet,m commodi.',
+      '2',
+      '3',
+    ],
+    mentors: ['laxman', 'jhonny'],
+    repo_link: 'afjkdfkla',
+    org_img:imgs,
+    tags: 'all web',
   },
   {
-    image: imgs,
-    title: "Project-2",
-    Descrption:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sequi? Laudantium doloribus sint asperiores. Neque, distinctio molestiae ad beatae aliquid voluptate soluta veritatis, impedit pariatur minus, dolores quaerat eos exercitationem.",
-    tags: "all web",
+    org_name: 'ABC',
+    title: 'Project-2',
+    Ideas: ['1', '2', '3'],
+    mentors: ['laxman', 'jhonny'],
+    repo_link: 'afjkdfkla',
+    org_img:imgs,
+    tags: 'all web',
   },
   {
-    image: imgs,
-    title: "Project-3",
-    Descrption:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sequi? Laudantium doloribus sint asperiores. Neque, distinctio molestiae ad beatae aliquid voluptate soluta veritatis, impedit pariatur minus, dolores quaerat eos exercitationem.",
-    tags: "all app",
+    org_name: 'ABC',
+    title: 'Project-3',
+    Ideas: ['1', '2', '3'],
+    mentors: ['laxman', 'jhonny'],
+    repo_link: 'afjkdfkla',
+    org_img:imgs,
+    tags: 'all app',
   },
   {
-    image: imgs,
-    title: "Project-4",
-    Descrption:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sequi? Laudantium doloribus sint asperiores. Neque, distinctio molestiae ad beatae aliquid voluptate soluta veritatis, impedit pariatur minus, dolores quaerat eos exercitationem.",
-    tags: "all app",
+    org_name: 'ABC',
+    title: 'Project-4',
+    Ideas: ['1', '2', '3'],
+    mentors: ['laxman', 'jhonny'],
+    repo_link: 'afjkdfkla',
+    org_img:imgs,
+    tags: 'all app',
   },
   {
-    image: imgs,
-    title: "Project-5",
-    Descrption:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sequi? Laudantium doloribus sint asperiores. Neque, distinctio molestiae ad beatae aliquid voluptate soluta veritatis, impedit pariatur minus, dolores quaerat eos exercitationem.",
-    tags: "all ml",
+    org_name: 'ABC',
+    title: 'Project-5',
+    Ideas: ['1', '2', '3'],
+    mentors: ['laxman', 'jhonny'],
+    repo_link: 'afjkdfkla',
+    org_img:imgs,
+    tags: 'all ml',
   },
   {
-    image: imgs,
-    title: "Project-6",
-    Descrption:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sequi? Laudantium doloribus sint asperiores. Neque, distinctio molestiae ad beatae aliquid voluptate soluta veritatis, impedit pariatur minus, dolores quaerat eos exercitationem.",
-    tags: "all ml",
+    org_name: 'ABC',
+    title: 'Project-6',
+    Ideas: ['1', '2', '3'],
+    mentors: ['laxman', 'jhonny'],
+    repo_link: 'afjkdfkla',
+    org_img:imgs,
+    tags: 'all ml',
   },
   {
-    image: imgs,
-    title: "Project-7",
-    Descrption:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sequi? Laudantium doloribus sint asperiores. Neque, distinctio molestiae ad beatae aliquid voluptate soluta veritatis, impedit pariatur minus, dolores quaerat eos exercitationem.",
-    tags: "all web",
+    org_name: 'ABC',
+    title: 'Project-7',
+    Ideas: ['1', '2', '3'],
+    mentors: ['laxman', 'jhonny'],
+    repo_link: 'afjkdfkla',
+    org_img:imgs,
+    tags: 'all web',
   },
 ];
 export default SliderData;
