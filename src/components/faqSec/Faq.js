@@ -21,7 +21,7 @@ const Faq = () => {
         {faqData.map((faq, index) => (
           <div key={index} value={false} className={`faq-sec-item`}>
             <div className="faq-sec-ques">
-              <div className="arrow">&#129121;</div>
+              <div className="arrow">🡡</div>
               <div className="ques">{faq.question}</div>
             </div>
             <div className="answer">
