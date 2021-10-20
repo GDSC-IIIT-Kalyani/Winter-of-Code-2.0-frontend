@@ -58,9 +58,9 @@
   }
   .text2 a{
     font-family: 'Asap', sans-serif;
-      border-radius: 15px;
+      border-radius: 13px;
       background: #3619f0;
-      padding: 1.5vw;
+      padding: 1.5vw 3vw;
       font-size: 30px;
       color: #FFFF;
       text-align: center;

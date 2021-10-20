@@ -146,7 +146,7 @@ function Text(props) {
                 ></path>
               </svg>
             </a>
-            &ensp;Apply with Devfolio
+            &ensp;Submit Proposal
           </Button>
           {/* <Button
             className={classes.btn}
