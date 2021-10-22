@@ -1,7 +1,7 @@
 const timeLine = [
   {
-    date: "1st Oct - 23rd Oct",
-    topHeading: "1ST OCT - 23RD OCT",
+    date: "1st Oct - 7th Nov",
+    topHeading: "1ST OCT - 7TH NOV",
     subHeading: "Student Applications Open",
     content: "",
     contentStyle: { background: "rgb(150, 150, 243)", color: "white" },
