@@ -40,7 +40,7 @@ const NavBar = ({ navLinkColor }) => {
           <li className="navBar_link-item home_comp">
             <a
               style={{ color: navLinkColor }}
-              href="#Homepage"
+              href="/"
               onClick={handleNavClick}
             >
               Home
@@ -49,7 +49,7 @@ const NavBar = ({ navLinkColor }) => {
           <li className="navBar_link-item home_mob">
             <a
               style={{ color: navLinkColor }}
-              href="#Welcome"
+              href="/"
               onClick={handleNavClick}
             >
               Home
@@ -58,7 +58,7 @@ const NavBar = ({ navLinkColor }) => {
           <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
-              href="#About"
+              href="/#About"
               onClick={handleNavClick}
             >
               About
@@ -67,7 +67,7 @@ const NavBar = ({ navLinkColor }) => {
           <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
-              href="#projects"
+              href="/#projects"
               onClick={handleNavClick}
             >
               Projects
@@ -76,7 +76,7 @@ const NavBar = ({ navLinkColor }) => {
           <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
-              href="#timeline"
+              href="/#timeline"
               onClick={handleNavClick}
             >
               Timeline
@@ -85,7 +85,7 @@ const NavBar = ({ navLinkColor }) => {
           <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
-              href="#sponsors"
+              href="/#sponsors"
               onClick={handleNavClick}
             >
               Sponsors
@@ -99,7 +99,7 @@ const NavBar = ({ navLinkColor }) => {
 
           <li className="navBar_link-item">
             <a style={{ color: navLinkColor }}
-            href="#developer"
+            href="/#developer"
             onClick={handleNavClick}
             >
               Our Team
@@ -107,7 +107,7 @@ const NavBar = ({ navLinkColor }) => {
           </li>
 
           <li className="navBar_link-item">
-            <a style={{ color: navLinkColor }} href="#faq" onClick={handleNavClick}>
+            <a style={{ color: navLinkColor }} href="/#faq" onClick={handleNavClick}>
               FAQs
             </a>
           </li>
