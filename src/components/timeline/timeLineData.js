@@ -49,8 +49,8 @@ const timeLine = [
     active: false,
   },
   {
-    date: "30th Jan - 15th Jan",
-    topHeading: "30TH JAN - 15TH JAN",
+    date: "30th Jan - 15th Feb",
+    topHeading: "30TH JAN - 15TH FEB",
     subHeading: "Mentor Feedback Review",
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
