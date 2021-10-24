@@ -8,45 +8,49 @@
   margin: 8vh auto;
   box-sizing: border-box;
 }
-
+.ideas a{
+  color:white;
+  font-size:0.6em;
+}
 .main_item {
   display: flex;
   justify-content: center;
   width: 100%;
   padding: 10px;
   min-height: 50vh;
-  /* max-height: 60vh; */
 }
 .project_left {
   display: flex;
   flex-direction: column;
   background-size: 15vw;
-  background-position: bottom left;
+  background-position: left center;
   background-repeat: no-repeat;
   justify-content: space-around;
-  width: 40vw;
+  width: 50vw;
   background-color: rgba(170, 170, 170, 0.1);
   text-align: right;
   padding: 20px;
   transition: all 1s;
 }
-.downarr{
+.back-img {
+  background-size: 10vw;
+  background-position: bottom left;
+}
+.downarr {
   display: none;
 }
-.proj-active-left
-{
-  width:35%;
+.proj-active-left {
+  width: 35%;
   transition: all 1s;
 }
-.proj_dess
-{
+.proj_dess {
   padding: 5px;
   font-size: 7px;
 }
 .project_left a {
   color: white;
 }
-.repo .size-2{
+.repo .size-2 {
   padding-bottom: 5px;
 }
 .project_right {
@@ -56,20 +60,26 @@
   background-color: rgba(235, 232, 232, 0.1);
   transition: all 1s;
 }
-.proj-active{
+.proj-active {
   /* display: block; */
-  width:65%;
-  transition:all 1s;
+  width: 65%;
+  transition: all 1s;
   padding: 20px;
 }
-.arrow{
+.arrow {
   cursor: pointer;
 }
-.ideas {
+.idea-hide
+{
+  display: block;
+}
+.ideas{
   display: none;
 }
-.ideas-active
-{
+.project-right ul{
+  display: none;
+}
+.ideas-active {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -77,13 +87,13 @@
   padding-left: 15px;
 }
 .size-1 {
-  font-size: 1.5em;
-  text-transform:uppercase;
+  font-size: 1.3em;
+  text-transform: uppercase;
 }
 
 .size-2 {
   font-size: 0.8em;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 .size-3 {
@@ -105,12 +115,28 @@
 .gh_logo {
   font-size: 2em;
 }
-
+.rightarr {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.arrow {
+  font-size: 20px;
+}
+.idea-hide {
+  display: none;
+}
+.idea-list
+{
+  display: block !important;
+}
+.project_name .size-1{
+  font-size:1em;
+}
 @media (max-width: 860px) {
-  .rightarr{
+  .rightarr {
     display: none;
   }
-  .downarr{
+  .downarr {
     display: block;
   }
   .main_item {
@@ -123,63 +149,77 @@
     min-height: 40vh;
     background-image: none !important;
     max-height: auto;
-}
-.project_right {
-    
+  }
+  .project_right {
     border-radius: 0px;
     height: 0%;
     overflow: hidden;
     transition: all 1s;
   }
-  .proj-active{
-    height:auto;
-    width:100%;
-    transition:all 1s;
+  .proj-active {
+    height: auto;
+    width: 100%;
+    transition: all 1s;
     padding: 20px;
   }
-  .org_name,.project_name{
-    display:flex;
-    justify-content:flex-start !important;
+  .org_name,
+  .project_name {
+    display: flex;
+    justify-content: flex-start !important;
     text-align: left;
-    padding-top:10px;
+
+    padding-top: 10px;
   }
-  .mentor
-  {
+  .mentor {
     padding-top: 15px;
     padding-bottom: 10px;
   }
-  .mentor .size-1{
-    font-size:1em;
+  .mentor .size-2 {
+    font-size: 0.9em !important;
     padding-bottom: 10px;
   }
-  .ideas .size-4
-  {
-    font-size: 0.7em;
+  .size-4 {
+    font-size: 0.5em;
   }
-  .size-4{
-    font-size:0.5em;
+  .size-5 {
+    font-size: 1.2em;
   }
   .size-1 {
-    font-size: 1.2em;
-    text-transform:uppercase;
+    font-size: 1em;
+    text-transform: uppercase;
   }
-  
+
   .size-2 {
     font-size: 0.8em;
-    text-transform:uppercase;
+    text-transform: uppercase;
   }
-  .proj_dess
-  {
-  font-size: 4px;
+  .ideas li{
+    font-size:0.8em;
+  }
+  .proj_dess {
+    font-size: 6px;
+  }
 }
-}
-.mentor{
+.mentor {
   text-transform: uppercase;
-  font-size:20px;
+  font-size: 20px;
   font-weight: 200;
 }
-.org_name,.project_name{
-  display:flex;
+.mentor .size-2 {
+  font-size: 1.4em;
+}
+.org_name,
+.project_name {
+  display: flex;
   align-items: flex-end;
-  justify-content:flex-end;
+  justify-content: flex-end;
+  font-size: 1.5em;
+}
+.mentor a {
+  text-decoration: none;
+}
+.mail-con {
+  padding-top: 4px;
+  /* font-size:120%; */
+  font-weight: 600;
 }
