@@ -70,7 +70,7 @@ html {
   margin-left: -300px;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 770px) {
     .Text{
       display: none;
   }
