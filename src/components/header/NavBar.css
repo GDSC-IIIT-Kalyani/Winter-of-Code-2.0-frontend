@@ -111,7 +111,7 @@
 }
 
 /* hamburger application at 850px width */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 770px) {
   body {
     overflow-x: hidden;
   }
