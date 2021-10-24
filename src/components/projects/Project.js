@@ -16,7 +16,8 @@ const Project = () => {
             <li className="items">
               <h2>30+</h2>
               <br />
-              GDSCs <br />Collab 
+              GDSCs <br />
+              Collab
             </li>
             <li className="items">
               <h2>1500+</h2>
@@ -31,8 +32,8 @@ const Project = () => {
           </ul>
           <Orgs />
           <button>
-            <a href="/projects">PROJECTS</a>
-            {/* <div className="cmg_sn">Coming Soon</div> */}
+            {/* <a href="/projects">PROJECTS</a> */}
+            <div className="cmg_sn">Coming Soon</div>
           </button>
         </div>
       </div>
