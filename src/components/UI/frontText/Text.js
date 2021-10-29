@@ -49,11 +49,12 @@ const useStyles = makeStyles((theme) => {
       fontFamily: "'Asap', sans-serif",
       marginRight: "1em",
       marginLeft: "1em",
-      fontSize: "1.6vw",
-      borderRadius: "15px",
+      fontSize: "1.25vw",
+      borderRadius: "5px",
       background: "#ACA0F9",
-      backgroundColor: "transparent",
-      color: "#FFFF",
+      backgroundColor: "white",
+      color: "black",
+      padding: "0px 20px",
     },
   };
 });
@@ -64,9 +65,9 @@ const theme = createTheme({
       main: "#FFFFFF",
       light: "#FFFFFF",
       // ----> edit here to change button hover color <----
-      dark: "#025560",
+      // dark: "#025560",
       // -----><-----
-      contrastText: "#ffff",
+      // contrastText: "#ffff",
 
       //   main: "#616161",
       //   light: "#616161",
@@ -77,6 +78,16 @@ const theme = createTheme({
 });
 
 function Text(props) {
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
   const classes = useStyles();
   return (
     <ThemeProvider theme={theme}>
@@ -106,12 +117,13 @@ function Text(props) {
               href="https://forms.gle/qXnG31bqMyb3jcTe6"
               target="_blank"
               rel="noreferrer"
-              style={{ textDecoration: "none", color: "white" }}
+              style={{ textDecoration: "none", color: "black" }}
             >
               Register Now
             </a>
           </Button>
-          <Button
+
+          {/* <Button
             className={classes.btn}
             variant="contained"
             size="large"
@@ -147,7 +159,8 @@ function Text(props) {
               </svg>
             </a>
             &ensp;Submit Proposal
-          </Button>
+          </Button> */}
+
           {/* <Button
             className={classes.btn}
             variant="contained"
@@ -156,6 +169,13 @@ function Text(props) {
           >
             Mentor
           </Button> */}
+<div 
+	class="apply-button" 
+	data-hackathon-slug="gdsc-woc" 
+	data-button-theme="dark-inverted"
+	// style="height: 44px; width: 312px"
+></div>
+
         </ButtonContainer>
       </Container>
     </ThemeProvider>

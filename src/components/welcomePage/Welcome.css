@@ -58,12 +58,13 @@
   }
   .text2 a{
     font-family: 'Asap', sans-serif;
-      border-radius: 13px;
-      background: #3619f0;
-      padding: 1.5vw 3vw;
-      font-size: 30px;
+      border-radius: 5px;
+      background: #2874fcfa;
+      padding: 1vw 4vw;
+      font-size: 25px;
       color: #FFFF;
       text-align: center;
+      margin-bottom: 8px;
   }
   .text2 a svg{
     margin-top: 2px;
@@ -98,7 +99,7 @@
     height: 30px;
   }
   .text2 a{
-    font-size:6vw;
+    font-size:1.5rem;
   }
 }
 @media only screen and (max-width: 411px) {
@@ -122,9 +123,9 @@
     width: 50px;
     height: 25px;
   }
-  .text2 a,.text2 p{
+  /* .text2 a,.text2 p{
     font-size: 6vw;
-  }
+  } */
   .text2 a svg
   {
     width: 6vw;
@@ -167,4 +168,9 @@
     width: 25px;
     height: 15px;
   }
+}
+
+.apply-button{
+  height: 44px;
+  width: 312px;
 }
