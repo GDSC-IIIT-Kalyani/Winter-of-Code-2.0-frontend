@@ -142,7 +142,7 @@ const SliderData = [
     org_name: "Auto DL",
     title: "Auto-DL",
     Ideas: [
-      "Please look at the issues sections"
+      "Please look at the issues in the repository and resolve them"
     ],
     mentors: [
       { name: "Aditya Srivastava", email: "adi@auto-dl.tech" }],
@@ -154,7 +154,7 @@ const SliderData = [
     org_name: "Auto DL",
     title: "AutoDL Website",
     Ideas: [
-      "Please look at the issues sections"
+      "Please look at the issues in the repository and resolve them"
     ],
     mentors: [
       { name: "Aditya Srivastava", email: "adi@auto-dl.tech" }],
@@ -166,7 +166,7 @@ const SliderData = [
     org_name: "Auto DL",
     title: "Recommendation System ",
     Ideas: [
-      "Please look at the issues sections"
+      "Please look at the issues in the repository and resolve them"
     ],
     mentors: [
       { name: "Aditya Srivastava", email: "adi@auto-dl.tech" }],
@@ -178,7 +178,7 @@ const SliderData = [
     org_name: "Auto DL",
     title: "Deployment-Flask",
     Ideas: [
-      "Please look at the issues sections"
+      "Please look at the issues in the repository and resolve them"
     ],
     mentors: [
       { name: "Aditya Srivastava", email: "adi@auto-dl.tech" }],
@@ -190,7 +190,7 @@ const SliderData = [
     org_name: "Auto DL",
     title: "k8s-deployment",
     Ideas: [
-      "Please look at the issues sections"
+      "Please look at the issues in the repository and resolve them"
     ],
     mentors: [
       { name: "Aditya Srivastava", email: "adi@auto-dl.tech" }],
@@ -239,8 +239,7 @@ const SliderData = [
       '<a href="https://github.com/jina-ai/jina/issues/3642">Write a blog on - "What is neural search and how does Jina use neural search?"',
     ],
     mentors: [
-      { name: "Liyas Thomas", email: "liyascthomas@gmail.com" },
-    {name : "Andrew Bastin" , email : "andrewbastin.k@gmail.com"}],
+      { name: "--", email: null}],
     repo_link: "https://github.com/jina-ai/jina/issues/3643",
     org_img: jina,
     tags: "all doc",
