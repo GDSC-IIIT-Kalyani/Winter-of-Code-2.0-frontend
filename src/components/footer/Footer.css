@@ -53,6 +53,10 @@
   color: cyan;
 }
 
+.email:hover{
+  color: #f03120;
+}
+
 @media screen and (max-width:749px){
   .icon{
     width: 40px;
