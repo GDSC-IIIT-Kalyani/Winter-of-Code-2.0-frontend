@@ -48,3 +48,18 @@
     }
   }
 }
+@media screen and (max-width: 850px) {
+  .v-head{
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 610px) {
+  .v-head{
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 410px) {
+  .v-head{
+    font-size: 2rem;
+  }
+}
