@@ -99,7 +99,7 @@
 
 .navBar_hamburger div {
   background-color: rgb(95, 91, 91);
-  border-radius: 20%;
+  border-radius: 35px;
   width: 3rem;
   height: 4px;
   margin: 5px;
@@ -187,6 +187,12 @@
   .navBar_hamburger div {
     width: 2.5rem;
   }
+  .cross-burger .navBar_line1 {
+    transform: rotate(-405deg) translate(-6px, 6px);
+  }
+  .cross-burger .navBar_line3 {
+    transform: rotate(405deg) translate(-7px, -8px);
+  }
 }
 
 @media screen and (max-width: 535px) {
@@ -203,6 +209,9 @@
   .navBar_hamburger div {
     width: 1.8rem;
     padding: 2px 0px;
+  }
+  .cross-burger .navBar_line3 {
+    transform: rotate(405deg) translate(-6px, -7px);
   }
 }
 
@@ -223,6 +232,12 @@
     width: 1rem;
     height: 1.5px;
     padding: 2px 12px;
+  }
+  .cross-burger .navBar_line1 {
+    transform: rotate(-405deg) translate(-7px, 6px);
+  }
+  .cross-burger .navBar_line3 {
+    transform: rotate(405deg) translate(-6px, -6px);
   }
 }
 
@@ -245,14 +260,14 @@
 
 /* animation for hamburger */
 .cross-burger .navBar_line1 {
-  transform: rotate(-405deg) translate(-5px, 8px);
+  transform: rotate(-405deg) translate(-7px, 6px);
 }
 .cross-burger .navBar_line2 {
   opacity: 0;
   transform: translateX(-2rem);
 }
 .cross-burger .navBar_line3 {
-  transform: rotate(405deg) translate(-5px, -8px);
+  transform: rotate(405deg) translate(-6px, -7px);
 }
 
 /* adding background color on scrolling */
