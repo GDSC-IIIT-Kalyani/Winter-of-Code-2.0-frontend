@@ -77,8 +77,8 @@
 
 .right button {
   border: 3px solid blue;
-  background: #ad9fff;
-  opacity: 0.8;
+  /* background: #ad9fff; */
+  /* opacity: 0.8; */
   border-radius: 30px;
   width: 15vw;
   align-self: center;
@@ -178,8 +178,8 @@
   }
   .right button {
     border: 3px solid blue;
-    background: #ad9fff;
-    opacity: 0.8;
+    /* background: #ad9fff; */
+    /* opacity: 0.8; */
     width: 40vw;
     font-size: 5vw;
     margin: 10vh auto 5vh auto;
@@ -214,4 +214,35 @@
     margin-left:auto;
     margin-right:auto;
   }
+}
+
+.proj-button{
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  padding: 5px 0px;
+}
+
+.proj-button::after{
+  content: "";
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  background-image: linear-gradient(-425deg, #26d86c 0%, #26caf8 50%, #c625d0 100%);
+  z-index: -1000;
+  transition: transfrom 0.3s ease;
+}
+
+.proj-button:hover{
+  transform: translate(0, -3px);
+  box-shadow: 10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
+}
+
+.proj-button:hover a{
+  color: white;
+}
+
+.proj-button:hover::after{
+  transform: rotate(150deg);
 }
