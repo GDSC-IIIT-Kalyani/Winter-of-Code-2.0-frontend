@@ -140,6 +140,7 @@
 @media only screen and (max-width: 280px) {
   #Welcome {
     font-size: 20px;
+    color: black;
   }
   .icon1 {
     min-height: 15vh;
