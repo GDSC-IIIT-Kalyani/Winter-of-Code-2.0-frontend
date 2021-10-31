@@ -108,22 +108,6 @@ const SliderData = [
   },
   {
     org_name: "Gita Initiative",
-    title: "Gita Flutter App",
-    Ideas: [
-      "Add desired changes once to the MVP along with our Flutter Engineer",
-      "Add Components and Develop Design from Figma File",
-      "Refinement of PreExisting UI",
-    ],
-    mentors: [
-      { name: "Anubhav Gupta", email: "anubhavgupta2260@gmail.com" },
-      { name: "Palak Thapar", email: "P.thapar99@gmail.com" },
-    ],
-    repo_link: "https://github.com/gita/bg-frontend",
-    org_img: geeta,
-    tags: "all app",
-  },
-  {
-    org_name: "Gita Initiative",
     title: "Gita Frontend",
     Ideas: [
       "Build UI Components from Figma Design",
