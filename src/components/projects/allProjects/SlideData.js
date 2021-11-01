@@ -4,7 +4,7 @@ import geeta from '../../../assets/organizations/gitaInit.png';
 import hoppscotch from '../../../assets/organizations/Hoppscotch.png';
 import autoDL from '../../../assets/organizations/auto-dl.png';
 import jina from '../../../assets/organizations/jinaAi.png';
-import edualgo from '../../../assets/organizations/EduAlgoalt.png';
+import edualgo from '../../../assets/organizations/edualgoalt.png';
 
 const SliderData = [
   {
