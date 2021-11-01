@@ -7,7 +7,7 @@ import gitaInitiative from "../../assets/organizations/gitaInit.png";
 import jinaAi from "../../assets/organizations/jinaAi.png";
 import autodl from "../../assets/organizations/auto-dl.png";
 import mojo from "../../assets/organizations/moja-global.png";
-import edualgo from '../../assets/organizations/edualgoalt.png';
+import edualgo from '../../assets/organizations/abc.jpg';
 
 import "./Project.css";
 
