@@ -14,7 +14,7 @@ const Sponsor = () => {
           Our love for Open Souce drived us to make an impact to the community
           through Winter of Code 2.0. We would love more collaborators and
           sponsors for our initiative.{' '}
-          <a href='mailto:dsc.iiitkalyani@gmail.com'>Sponsor Us</a>
+          <a href='https://drive.google.com/file/d/125o6hZFI0Mq_pSoIEqLFwGivFgDY-H3F/view?usp=sharing' target='_blank' rel='noreferrer'>Sponsor Us</a>
         </p>
         <div className='sponsor_grid'>
           <div className='spons_container color-d'>
@@ -53,13 +53,12 @@ const Sponsor = () => {
               })}
             </div>
           </div>
-          <div className='sec_spons'>
             <div className='spons_container color-s'>
               <h1>SILVER SPONSORS</h1>
               <div className='sponsor_logo'>
                 {sponsorsData.Silver.map((slv, k) => {
                   return (
-                    <div className='spons' style={{width:'70%', height:'100%'}} key={k}>
+                    <div className='spons' style={{width:'40%', height:'100%'}} key={k}>
                       <img src={slv.image} alt={slv.title} />
                     </div>
                   );
@@ -68,10 +67,10 @@ const Sponsor = () => {
             </div>
             <div className='spons_container color-i'>
               <h1>IVORY SPONSORS</h1>
-              <div className='sponsor_logo'>
+              <div className='sponsor_logo spons_zz'>
                 {sponsorsData.Ivory.map((ivy, k) => {
                   return (
-                    <div className='spons' style={{width:'40%'}} key={k}>
+                    <div className='spons' style={{width:'30%'}} key={k}>
                       <img src={ivy.image} className={(k===2) ? "nootan" : "nn"} alt={ivy.title} />
                     </div>
                   );
@@ -92,7 +91,6 @@ const Sponsor = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };
