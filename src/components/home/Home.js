@@ -3,8 +3,8 @@ import About from "../about/About";
 import DevTeam from "../developers/DevTeam";
 import DevTeam1 from "../developers/DevTeam1";
 import Project from "../projects/Project";
-import Speaker from "../speakers/Speaker";
-// import Sponsor from "../sponsors/Sponsor";
+// import Speaker from "../speakers/Speaker";
+import Sponsor from "../sponsors/Sponsor";
 import TimeLine from "../timeline/TimeLine";
 import Welcome from "../welcomePage/Welcome";
 import "./Home.css"
@@ -23,8 +23,9 @@ const Home = () => {
       <Project />
       <TimeLine />
       {/* <Sponsor /> */}
-      <Speaker />
+      {/* <Speaker /> */}
       {devSection ? <DevTeam /> : <DevTeam1/>}
+      {/* <Speaker /> */}
     </>
   );
 };

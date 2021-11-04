@@ -1,8 +1,11 @@
 import React from "react";
-import skit from "../../assets/projectAssests/skit_vernucular_ai_png.png";
-import githubLogo from "../../assets/projectAssests/github_logo.png";
-import fossasia from "../../assets/projectAssests/fossasia_copy.png";
-import sawo from "../../assets/projectAssests/saw_;labs_png.png";
+import skit from "../../assets/organizations/skit2.png";
+import llvm from "../../assets/organizations/llvm.png";
+import llvm2 from "../../assets/organizations/llvm_large.png";
+import aysncAPI from "../../assets/organizations/asyncAPI4.png";
+import edualgo2 from "../../assets/organizations/Edualgoalt.png";
+import jinaAi from "../../assets/organizations/jinaAi.png"
+
 import "./Project.css";
 
 function Orgs() {
@@ -13,19 +16,19 @@ function Orgs() {
           <img src={skit} alt="sponsor_Logo" />
         </li>
         <li>
-          <img src={fossasia} alt="sponsor_Logo" />
+          <img src={aysncAPI} alt="sponsor_Logo" />
         </li>
         <li>
-          <img src={githubLogo} alt="sponsor_Logo" />
+          <img src={jinaAi} alt="sponsor_Logo" />
         </li>
         <li>
-          <img src={sawo} alt="sponsor_Logo" />
+          <img src={llvm} alt="sponsor_Logo" />
         </li>
         <li>
-          <img src={githubLogo} alt="sponsor_Logo" />
+          <img src={edualgo2} alt="sponsor_Logo" />
         </li>
         <li>
-          <img src={githubLogo} alt="sponsor_Logo" />
+          <img src={llvm2} alt="sponsor_Logo" />
         </li>
       </ul>
       <div class="desc">ORGANISATIONS</div>
