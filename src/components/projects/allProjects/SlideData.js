@@ -118,7 +118,7 @@ const SliderData = [
       { name: 'Anubhav Gupta', email: 'anubhavgupta2260@gmail.com' },
       { name: 'Palak Thapar', email: 'P.thapar99@gmail.com' },
     ],
-    repo_link: 'https://github.com/gita/Bhagavad-Gita-App',
+    repo_link: 'https://github.com/gita/bg-frontend',
     org_img: geeta,
     tags: 'all web',
   },
