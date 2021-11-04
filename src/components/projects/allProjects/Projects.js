@@ -81,7 +81,7 @@ const Projects = () => {
                   {slide.mentors.map((mentor, index) => {
                     return (
                       <div key={index} className="size-4">
-                        <a href= {"mailto: " + mentor.email}>{mentor.name}   <FiMail className="mail-con"/></a>
+                        <a href= {"mailto:" + mentor.email}>{mentor.name}   <FiMail className="mail-con"/></a>
                       </div>
                     );
                   })}
