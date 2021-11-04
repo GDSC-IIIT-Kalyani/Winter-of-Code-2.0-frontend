@@ -103,6 +103,7 @@ function DevTeam() {
     })
   }
   return (
+    <section id="developer">
     <SliderContainer>
       <h1 className="tittle">Our Developers</h1>
       <Slider {...settings}>
@@ -117,7 +118,7 @@ function DevTeam() {
         ))}
       </Slider>
     </SliderContainer>
-    
+    </section>
   );
 }
 

@@ -3,7 +3,7 @@ import "./DevTeam1.css";
 import ProfileCard from "../UI/profileCard/ProfileCard";
 import developers from "./teamData";
 
-function DevTeam() {
+function DevTeam1() {
   return (
     <section id="developer">
       <div className="developer-title">Our Developers</div>
@@ -21,4 +21,4 @@ function DevTeam() {
   );
 }
 
-export default DevTeam;
+export default DevTeam1;

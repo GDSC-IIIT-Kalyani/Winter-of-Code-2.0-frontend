@@ -12,6 +12,10 @@
   transition: background-color 0.5s ease;
 }
 
+.home_mob{
+  display: none;
+}
+
 /* navbar links container */
 .navBar_links {
   display: flex;
@@ -69,7 +73,7 @@
 }
 .navBar_link-item::before {
   top: 0;
-  height: 2px;
+  height: 2.5px;
   transform-origin: left;
 }
 .navBar_link-item:hover::after,
@@ -95,7 +99,7 @@
 
 .navBar_hamburger div {
   background-color: rgb(95, 91, 91);
-  border-radius: 20%;
+  border-radius: 35px;
   width: 3rem;
   height: 4px;
   margin: 5px;
@@ -107,7 +111,7 @@
 }
 
 /* hamburger application at 850px width */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 770px) {
   body {
     overflow-x: hidden;
   }
@@ -122,7 +126,7 @@
     width: 50vw;
     position: absolute;
     text-align: center;
-    height: 90vh;
+    height: 100vh;
     margin-top: 0;
     padding-top: 1vh;
     padding-right: 0;
@@ -147,17 +151,26 @@
     font-size: 150%;
   }
   .navBar_link-item:hover a {
-    color: rgb(44, 218, 58);
+    color: white;
   }
   .navBar_link-item::after,
   .navBar_link-item::before {
-    background-color: green;
+    background-color: rgb(104, 0, 104);
   }
   .navBar_hamburger {
     display: block;
     float: right;
     padding: 30px 20px;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home_comp{
+    display: none;
+  }
+  .home_mob{
+    display: unset;
   }
 }
 
@@ -173,6 +186,12 @@
   }
   .navBar_hamburger div {
     width: 2.5rem;
+  }
+  .cross-burger .navBar_line1 {
+    transform: rotate(-405deg) translate(-6px, 6px);
+  }
+  .cross-burger .navBar_line3 {
+    transform: rotate(405deg) translate(-7px, -8px);
   }
 }
 
@@ -190,6 +209,9 @@
   .navBar_hamburger div {
     width: 1.8rem;
     padding: 2px 0px;
+  }
+  .cross-burger .navBar_line3 {
+    transform: rotate(405deg) translate(-6px, -7px);
   }
 }
 
@@ -210,6 +232,12 @@
     width: 1rem;
     height: 1.5px;
     padding: 2px 12px;
+  }
+  .cross-burger .navBar_line1 {
+    transform: rotate(-405deg) translate(-7px, 6px);
+  }
+  .cross-burger .navBar_line3 {
+    transform: rotate(405deg) translate(-6px, -6px);
   }
 }
 
@@ -232,14 +260,14 @@
 
 /* animation for hamburger */
 .cross-burger .navBar_line1 {
-  transform: rotate(-405deg) translate(-5px, 8px);
+  transform: rotate(-405deg) translate(-7px, 6px);
 }
 .cross-burger .navBar_line2 {
   opacity: 0;
   transform: translateX(-2rem);
 }
 .cross-burger .navBar_line3 {
-  transform: rotate(405deg) translate(-5px, -8px);
+  transform: rotate(405deg) translate(-6px, -7px);
 }
 
 /* adding background color on scrolling */
@@ -255,16 +283,16 @@
   color: white !important;
 }
 .navBar_scroll .navBar_link-item::before {
-  background-color: green;
+  background-color: rgb(104, 0, 104);
 }
 .navBar_scroll .navBar_link-item::after {
-  background-color: green;
+  background-color: rgb(104, 0, 104);
 }
 .navBar_scroll .navBar {
   height: 3.5rem;
 }
 
 .navBar_scroll .navBar_link-item:hover a {
-  color: yellow;
+  color: rgb(104, 0, 104);
   text-shadow: 2px 2px 3px black;
 }

@@ -1,0 +1,225 @@
+.project_grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 80vw;
+  margin: 8vh auto;
+  box-sizing: border-box;
+}
+.ideas a{
+  color:white;
+  font-size:1em;
+}
+.main_item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  min-height: 50vh;
+}
+.project_left {
+  display: flex;
+  flex-direction: column;
+  background-size: 15vw;
+  background-position: left center;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+  width: 50vw;
+  background-color: rgba(170, 170, 170, 0.1);
+  text-align: right;
+  padding: 20px;
+  transition: all 1s;
+}
+.back-img {
+  background-size: 10vw;
+  background-position: bottom left;
+}
+.downarr {
+  display: none;
+}
+.proj-active-left {
+  width: 35%;
+  transition: all 1s;
+}
+.proj_dess {
+  padding: 5px;
+  font-size: 7px;
+}
+.project_left a {
+  color: white;
+}
+.repo .size-2 {
+  padding-bottom: 5px;
+}
+.project_right {
+  width: 0%;
+  /* display: none; */
+  overflow: hidden;
+  background-color: rgba(235, 232, 232, 0.1);
+  transition: all 1s;
+}
+.proj-active {
+  /* display: block; */
+  width: 65%;
+  transition: all 1s;
+  padding: 20px;
+}
+.arrow {
+  cursor: pointer;
+}
+.idea-hide
+{
+  display: block;
+}
+.ideas{
+  display: none;
+}
+.project-right ul{
+  display: none;
+}
+.ideas-active {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80%;
+  padding-left: 15px;
+}
+.size-1 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.size-2 {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.size-3 {
+  font-size: 1.4em;
+}
+
+.mentor .size-2 {
+  margin-bottom: 4px;
+}
+
+.project_right .size-2 {
+  height: 10%;
+}
+
+.size-4 {
+  padding: 5px;
+}
+
+.gh_logo {
+  font-size: 2em;
+}
+.rightarr {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.arrow {
+  font-size: 20px;
+}
+.idea-hide {
+  display: none;
+}
+.idea-list
+{
+  display: block !important;
+}
+.project_name .size-1{
+  font-size:1em;
+}
+@media (max-width: 860px) {
+  .rightarr {
+    display: none;
+  }
+  .downarr {
+    display: block;
+  }
+  .main_item {
+    flex-direction: column;
+  }
+  .project_left {
+    width: 100%;
+    border-radius: 0px;
+    text-align: left;
+    min-height: 40vh;
+    background-image: none !important;
+    max-height: auto;
+  }
+  .project_right {
+    border-radius: 0px;
+    height: 0%;
+    overflow: hidden;
+    transition: all 1s;
+  }
+  .proj-active {
+    height: auto;
+    width: 100%;
+    transition: all 1s;
+    padding: 20px;
+  }
+  .org_name,
+  .project_name {
+    display: flex;
+    justify-content: flex-start !important;
+    text-align: left;
+
+    padding-top: 10px;
+  }
+  .mentor {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .mentor .size-2 {
+    font-size: 0.9em !important;
+    padding-bottom: 10px;
+  }
+  .size-4 {
+    font-size: 0.5em;
+  }
+  .size-5 {
+    font-size: 1.2em;
+  }
+  .size-1 {
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+
+  .size-2 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+  .ideas li{
+    font-size:0.8em;
+  }
+  .proj_dess {
+    font-size: 6px;
+  }
+}
+.mentor {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 200;
+}
+.mentor .size-2 {
+  font-size: 1.4em;
+}
+.org_name,
+.project_name {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 1.5em;
+}
+.mentor a {
+  text-decoration: none;
+}
+.mail-con {
+  padding-top: 4px;
+  /* font-size:120%; */
+  font-weight: 600;
+}

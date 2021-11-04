@@ -8,6 +8,8 @@ import Jatin from "../../assets/images/Developers/Jatin.jpg";
 import Mohit from "../../assets/images/Developers/MohitImg.PNG";
 import Ishan from "../../assets/images/Developers/Ishan.jpg"
 import Subhadeep from "../../assets/images/Developers/Subhadeep.jpg"
+import Ayushman from "../../assets/images/Developers/Ayushman.jpeg"
+import Vineel from "../../assets/images/Developers/Vineel.jpeg";
 
 const developers = [
   {
@@ -22,9 +24,9 @@ const developers = [
     },
   },
   {
-    name: "Ishan",
+    name: "Ishan Mishra",
     image: Ishan,
-    role: "",
+    role: "WebDev Lead",
     socialMedia: {
       github: "https://github.com/ishanExtreme",
       linkedin: "https://www.linkedin.com/in/ishan-mishra-00788b192/",
@@ -118,6 +120,28 @@ const developers = [
       linkedin: "https://www.linkedin.com/in/suryansh-omar",
       twitter: null,
       instagram: "https://www.instagram.com/_._suryansh__/",
+    },
+  },
+  {
+    name: "Ayushman Bhatt",
+    image: Ayushman,
+    role: "Backend Developer",
+    socialMedia: {
+      github: "https://github.com/Ayush0922",
+      linkedin: "https://www.linkedin.com/in/ayushman-bhatt-1b5b18218",
+      twitter: "###",
+      instagram: "https://www.instagram.com/_imperfct.guy_/?r=nametag",
+    },
+  },
+  {
+    name: "Vineel Sai",
+    image: Vineel,
+    role: "Backend Developer",
+    socialMedia: {
+      github: "###",
+      linkedin: "https://www.linkedin.com/in/vineelsai26",
+      twitter: "https://twitter.com/vineelsai26",
+      instagram: "###",
     },
   },
 ];
