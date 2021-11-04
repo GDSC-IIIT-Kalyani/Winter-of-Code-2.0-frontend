@@ -5,6 +5,7 @@ import hoppscotch from '../../../assets/organizations/Hoppscotch.png';
 import autoDL from '../../../assets/organizations/auto-dl.png';
 import jina from '../../../assets/organizations/jinaAi.png';
 import edualgo from '../../../assets/organizations/abc.jpg';
+import skit from '../../../assets/organizations/skit.png';
 
 const SliderData = [
   {
@@ -237,6 +238,114 @@ const SliderData = [
     repo_link: 'https://github.com/edualgo/Tango',
     org_img: edualgo,
     tags: 'all web',
+  },
+  {
+    org_name: 'Skit AI',
+    title: 'kaldis serve',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
+      { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
+      { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
+    ],
+    repo_link: 'https://github.com/skit-ai/kaldi-serve',
+    org_img: skit,
+    tags: 'all ml',
+  },
+  {
+    org_name: 'Skit AI',
+    title: 'Dialogy',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
+      { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
+      { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
+    ],
+    repo_link: 'https://github.com/skit-ai/dialogy',
+    org_img: skit,
+    tags: 'all ml',
+  },
+  {
+    org_name: 'Skit AI',
+    title: 'sentinel',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
+      { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
+      { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
+    ],
+    repo_link: 'https://github.com/skit-ai/sentinel',
+    org_img: skit,
+    tags: 'all ml',
+  },
+  {
+    org_name: 'Skit AI',
+    title: 'EEVEE',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
+      { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
+      { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
+    ],
+    repo_link: 'https://github.com/skit-ai/eevee',
+    org_img: skit,
+    tags: 'all ml',
+  },
+  {
+    org_name: 'Skit AI',
+    title: 'St Record',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
+      { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
+      { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
+    ],
+    repo_link: 'https://github.com/skit-ai/st-record',
+    org_img: skit,
+    tags: 'all ml',
+  },
+  {
+    org_name: 'Skit AI',
+    title: 'TTS Middleware',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
+      { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
+      { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
+    ],
+    repo_link: 'https://github.com/skit-ai/tts-middleware',
+    org_img: skit,
+    tags: 'all ml',
   },
 ];
 export default SliderData;
