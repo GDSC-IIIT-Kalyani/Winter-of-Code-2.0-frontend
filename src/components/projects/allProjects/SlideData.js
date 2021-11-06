@@ -347,5 +347,207 @@ const SliderData = [
     org_img: skit,
     tags: 'all ml',
   },
+    
+  //
+  //UNFINISHED
+  //
+  //
+
+  {
+    org_name: 'GDSC BIT Mesra off Campus Deoghar',
+    title: 'WOC21',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Akash Dip', email: 'akash.bitd@gmail.com' },
+    ],
+    repo_link: 'https://github.com/Developer-Student-Club-BIT-Deoghar/WOC21',
+    //org_img: edualgo,
+    tags: 'all web',
+  },
+  {
+    org_name: 'GDSC LNCT',
+    title: 'GDSC LNCT App',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Adarsh Soni', email: 'adarshsoni6729@gmail.com' },
+    ],
+    repo_link: 'https://github.com/dsclnct/DSC-App',
+    //org_img: edualgo,
+    tags: 'all app',
+  },
+  {
+    org_name: 'GDSC IIEST',
+    title: 'Todo CLI',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Abhiroop Mukherjee', email: 'abhiroop.m25902@gmail.com' },
+    ],
+    repo_link: 'https://github.com/dsc-iiest/todo-cli',
+    //org_img: edualgo,
+    tags: 'all app',
+  },
+  {
+    org_name: 'GDSC LBCE',
+    title: 'Main Website',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Ashish Pradhan', email: 'ashishad14@gmail.com' },
+    ],
+    repo_link: 'https://github.com/Gdsc-Lbce/GDSC_LBCE_Website',
+    //org_img: edualgo,
+    tags: 'all web',
+  },
+  {
+    org_name: 'GSDC I2IT',
+    title: 'Clippin_n_grafting-Web',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' },
+    ],
+    repo_link: 'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Web',
+    //org_img: edualgo,
+    tags: 'all web',
+  },
+  {
+    org_name: 'GSDC I2IT',
+    title: 'Clippin_n_grafting-App',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' },
+    ],
+    repo_link: 'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-App',
+    //org_img: edualgo,
+    tags: 'all app',
+  },
+  {
+    org_name: 'GSDC I2IT',
+    title: 'Clippin_n_grafting-Backend',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' },
+    ],
+    repo_link: 'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Backend',
+    //org_img: edualgo,
+    tags: 'all web',
+  },
+  {
+    org_name: 'AsyncAPI',
+    title: 'AsyncAPI',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Khadija Sidhpuri', email: 'ksidhpuri@gmail.com' },
+    ],
+    repo_link: 'https://github.com/asyncapi',
+    //org_img: edualgo,
+    tags: 'all app',
+  },
+  {
+    org_name: 'GDSC USICT',
+    title: 'Laayak App',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Himesh Nayak', email: 'himeshnayak015@gmail.com' },
+    ],
+    repo_link: 'https://github.com/LaayaK/LaayakApp',
+    //org_img: edualgo,
+    tags: 'all app',
+  },
+  {
+    org_name: 'GDSC USICT',
+    title: 'Laayak Web',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Parv Sharma', email: 'pscoder10462@gmail.com' },
+      { name: 'Kashish Jain', email: 'jainabhishek7204@gmail.com' },
+    ],
+    repo_link: 'https://github.com/LaayaK/LaayakWeb',
+    //org_img: edualgo,
+    tags: 'all web',
+  },
+  {
+    org_name: 'GDSC AUM',
+    title: 'Human Activity',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Smitkumar Bhatesara', email: 'smitgpatel8585@gmail.com' },
+    ],
+    repo_link: 'https://github.com/smit8585/WOC-2.0-GDSC-AUM-',
+    //org_img: edualgo,
+    tags: 'all web',
+  },
+  {
+    org_name: 'Rajasthan Technical University',
+    title: 'Resume Builder',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Shubham Gautam', email: 'ishubham2101@gmail.com' },
+    ],
+    repo_link: 'https://github.com/GDSC-RTU/resume-builder',
+    //org_img: edualgo,
+    tags: 'all web',
+  },
+  {
+    org_name: 'GDSC SNU',
+    title: 'gcptrack',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Osama Bin Junaid', email: 'osamabinjunaid36@gmail.com' },
+    ],
+    repo_link: 'https://github.com/gdsc-snu/gcptrack',
+    //org_img: edualgo,
+    tags: 'all web',
+  },
+  {
+    org_name: 'GDSC SNU',
+    title: 'A10Dance',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Hritik Kumar Singh', email: 'singhhritik978@gmail.com' },
+    ],
+    repo_link: 'https://github.com/gdsc-snu/A10Dance',
+    //org_img: edualgo,
+    tags: 'all web',
+  },
+  {
+    org_name: 'GDSC SNU',
+    title: 'CoalaDraw',
+    Ideas: [
+      'COMMING SOON',
+    ],
+    mentors: [
+      { name: 'Soumyadip Mondal', email: 'mandal.soumyadip9714@gmail.com' },
+    ],
+    repo_link: 'https://github.com/gdsc-snu/CoalaDraw',
+    //org_img: edualgo,
+    tags: 'all web',
+  },
 ];
 export default SliderData;
