@@ -44,6 +44,7 @@ const Projects = () => {
             <option value="cloud">Cloud</option>
             <option value="doc">Documentation</option>
             <option value="compiler">Compiler</option>
+            <option value="py">Python</option>
           </select>
         </form>
       </div>
