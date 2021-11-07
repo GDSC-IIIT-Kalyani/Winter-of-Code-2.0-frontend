@@ -6,6 +6,7 @@ import autoDL from '../../../assets/organizations/auto-dl.png';
 import jina from '../../../assets/organizations/jinaAi.png';
 import edualgo from '../../../assets/organizations/abc.jpg';
 import skit from '../../../assets/organizations/skit.png';
+import asyn from '../../../assets/organizations/asyncAPI4.png';
 
 const SliderData = [
   {
@@ -185,14 +186,14 @@ const SliderData = [
     org_name: 'Jina AI',
     title: 'Build with Jina',
     Ideas: [
-      "<a href = 'https://github.com/jina-ai/jina/issues/3650'>Build using Jina : Shazam using Jina - enter an audio and search which song is it </a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3649'>Build using Jina : Pet image classification - upload image of your pet, find which breed it is/ info about it</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3648'>Build using Jina : Movie recommender search engine!</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3647'>Build using Jina : Build a search for weird data (not audio/text/image/video) but any other data!</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3646'>Build using Jina : Match the manga - capture the expression and see which manga character fits you</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3645'>Build using Jina : Find your celebrity twin image search!</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3651'>Feature improvement : Meme search - support multilingual search for memes</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3652'>Build using Jina : Product look-alike - enter a product, search for similar products</a>",
+      "<a target ='_blank' href = 'https://github.com/jina-ai/jina/issues/3650'>Build using Jina : Shazam using Jina - enter an audio and search which song is it </a>",
+      "<a target ='_blank' href = 'https://github.com/jina-ai/jina/issues/3649'>Build using Jina : Pet image classification - upload image of your pet, find which breed it is/ info about it</a>",
+      "<a target ='_blank' href = 'https://github.com/jina-ai/jina/issues/3648'>Build using Jina : Movie recommender search engine!</a>",
+      "<a target ='_blank' href = 'https://github.com/jina-ai/jina/issues/3647'>Build using Jina : Build a search for weird data (not audio/text/image/video) but any other data!</a>",
+      "<a target ='_blank' href = 'https://github.com/jina-ai/jina/issues/3646'>Build using Jina : Match the manga - capture the expression and see which manga character fits you</a>",
+      "<a target ='_blank' href = 'https://github.com/jina-ai/jina/issues/3645'>Build using Jina : Find your celebrity twin image search!</a>",
+      "<a target ='_blank' href = 'https://github.com/jina-ai/jina/issues/3651'>Feature improvement : Meme search - support multilingual search for memes</a>",
+      "<a target ='_blank' href = 'https://github.com/jina-ai/jina/issues/3652'>Build using Jina : Product look-alike - enter a product, search for similar products</a>",
     ],
     mentors: [{ name: '--', email: null }],
     repo_link: 'https://github.com/jina-ai/jina/issues/3650',
@@ -203,8 +204,8 @@ const SliderData = [
     org_name: 'Jina AI',
     title: 'Write a Blog',
     Ideas: [
-      '<a href="https://github.com/jina-ai/jina/issues/3643">Write a blog on - "Jina and open source - what actually Jina is"',
-      '<a href="https://github.com/jina-ai/jina/issues/3642">Write a blog on - "What is neural search and how does Jina use neural search?"',
+      '<a target ="_blank" href="https://github.com/jina-ai/jina/issues/3643">Write a blog on - "Jina and open source - what actually Jina is"',
+      '<a target ="_blank" href="https://github.com/jina-ai/jina/issues/3642">Write a blog on - "What is neural search and how does Jina use neural search?"',
     ],
     mentors: [{ name: '--', email: null }],
     repo_link: 'https://github.com/jina-ai/jina/issues/3643',
@@ -406,7 +407,7 @@ const SliderData = [
     tags: 'all web',
   },
   {
-    org_name: 'GSDC I2IT',
+    org_name: 'GDSC I2IT',
     title: 'Clippin_n_grafting-Web',
     Ideas: [
       'COMMING SOON',
@@ -419,42 +420,21 @@ const SliderData = [
     tags: 'all web',
   },
   {
-    org_name: 'GSDC I2IT',
-    title: 'Clippin_n_grafting-App',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' },
-    ],
-    repo_link: 'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-App',
-    //org_img: edualgo,
-    tags: 'all app',
-  },
-  {
-    org_name: 'GSDC I2IT',
-    title: 'Clippin_n_grafting-Backend',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' },
-    ],
-    repo_link: 'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Backend',
-    //org_img: edualgo,
-    tags: 'all web',
-  },
-  {
     org_name: 'AsyncAPI',
     title: 'AsyncAPI',
     Ideas: [
-      'COMMING SOON',
+      "<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/157'>ISSUE 1</a>",
+      "<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/252'>ISSUE 2</a>",
+      "<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/99'>ISSUE 3</a>",
+      "<a target ='_blank' href = 'https://github.com/asyncapi/generator/issues/369'>ISSUE 4</a>",
+      "<a target ='_blank' href = 'https://github.com/asyncapi/website/issues/204'>ISSUE 5</a>",
+      "<a target ='_blank' href = 'https://github.com/asyncapi/website/issues/267'>ISSUE 6</a>",
     ],
     mentors: [
       { name: 'Khadija Sidhpuri', email: 'ksidhpuri@gmail.com' },
     ],
     repo_link: 'https://github.com/asyncapi',
-    //org_img: edualgo,
+    org_img: asyn,
     tags: 'all app',
   },
   {
