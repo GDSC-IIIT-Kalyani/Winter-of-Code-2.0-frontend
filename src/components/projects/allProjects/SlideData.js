@@ -7,6 +7,7 @@ import jina from '../../../assets/organizations/jinaAi.png';
 import edualgo from '../../../assets/organizations/abc.jpg';
 import skit from '../../../assets/organizations/skit.png';
 import asyn from '../../../assets/organizations/asyncAPI4.png';
+import gdsc from '../../../assets/organizations/gdsc.png';
 
 const SliderData = [
   {
@@ -339,60 +340,6 @@ const SliderData = [
     org_img: skit,
     tags: 'all ml',
   },
-
-  //
-  //UNFINISHED
-  //
-  //
-
-  {
-    org_name: 'GDSC BIT Mesra off Campus Deoghar',
-    title: 'WOC21',
-    Ideas: ['COMMING SOON'],
-    mentors: [{ name: 'Akash Dip', email: 'akash.bitd@gmail.com' }],
-    repo_link: 'https://github.com/Developer-Student-Club-BIT-Deoghar/WOC21',
-    //org_img: edualgo,
-    tags: 'all web',
-  },
-  {
-    org_name: 'GDSC LNCT',
-    title: 'GDSC LNCT App',
-    Ideas: ['COMMING SOON'],
-    mentors: [{ name: 'Adarsh Soni', email: 'adarshsoni6729@gmail.com' }],
-    repo_link: 'https://github.com/dsclnct/DSC-App',
-    //org_img: edualgo,
-    tags: 'all app',
-  },
-  {
-    org_name: 'GDSC IIEST',
-    title: 'Todo CLI',
-    Ideas: ['COMMING SOON'],
-    mentors: [
-      { name: 'Abhiroop Mukherjee', email: 'abhiroop.m25902@gmail.com' },
-    ],
-    repo_link: 'https://github.com/dsc-iiest/todo-cli',
-    //org_img: edualgo,
-    tags: 'all app',
-  },
-  {
-    org_name: 'GDSC LBCE',
-    title: 'Main Website',
-    Ideas: ['COMMING SOON'],
-    mentors: [{ name: 'Ashish Pradhan', email: 'ashishad14@gmail.com' }],
-    repo_link: 'https://github.com/Gdsc-Lbce/GDSC_LBCE_Website',
-    //org_img: edualgo,
-    tags: 'all web',
-  },
-  {
-    org_name: 'GSDC I2IT',
-    title: 'Clippin n grafting-Backend',
-    Ideas: ['COMMING SOON'],
-    mentors: [{ name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' }],
-    repo_link:
-      'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Backend',
-    //org_img: edualgo,
-    tags: 'all web',
-  },
   {
     org_name: 'AsyncAPI',
     title: 'AsyncAPI',
@@ -409,13 +356,119 @@ const SliderData = [
     org_img: asyn,
     tags: 'all app',
   },
+  //
+  //UNFINISHED
+  //
+  //
+
+  //
+  // PROJECTS OF GDSC IIIT KALYANI
+  //
+  {
+    org_name: 'GDSC IIIT KALYANI',
+    title: 'Cogniwapp',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'GDSC IIIT KALYANI', email: 'dsc.iiitkalyani@gmail.com' }],
+    repo_link: 'https://github.com/GDSC-IIIT-Kalyani/CogniWapp',
+    org_img: gdsc,
+    tags: 'all app',
+  },
+  {
+    org_name: 'GDSC IIIT KALYANI',
+    title: 'RAKSHA',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'GDSC IIIT KALYANI', email: 'dsc.iiitkalyani@gmail.com' }],
+    repo_link: 'https://github.com/GDSC-IIIT-Kalyani/RAKSHA',
+    org_img: gdsc,
+    tags: 'all ml web py',
+  },
+  {
+    org_name: 'GDSC IIIT KALYANI',
+    title: 'WOC 2.0 WEBSITE',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'GDSC IIIT KALYANI', email: 'dsc.iiitkalyani@gmail.com' }],
+    repo_link: 'https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend',
+    org_img: gdsc,
+    tags: 'all web',
+  },
+  {
+    org_name: 'GDSC IIIT KALYANI',
+    title: 'MediCare',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'GDSC IIIT KALYANI', email: 'dsc.iiitkalyani@gmail.com' }],
+    repo_link: 'https://github.com/GDSC-IIIT-Kalyani/MediCare-Prime',
+    org_img: gdsc,
+    tags: 'all ml web py',
+  },
+  {
+    org_name: 'GDSC IIIT KALYANI',
+    title: 'Certificate generator',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'GDSC IIIT KALYANI', email: 'dsc.iiitkalyani@gmail.com' }],
+    repo_link: 'https://github.com/GDSC-IIIT-Kalyani/WOC-certificate-generator-Hactoberfest2021',
+    org_img: gdsc,
+    tags: 'all py',
+  },
+
+//
+// OTHER GDSC PROJECTS
+//
+  {
+    org_name: 'GDSC BIT Mesra off Campus Deoghar',
+    title: 'WOC21',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Akash Dip', email: 'akash.bitd@gmail.com' }],
+    repo_link: 'https://github.com/Developer-Student-Club-BIT-Deoghar/WOC21',
+    org_img: gdsc,
+    tags: 'all web',
+  },
+
+  {
+    org_name: 'GDSC LNCT',
+    title: 'GDSC LNCT App',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Adarsh Soni', email: 'adarshsoni6729@gmail.com' }],
+    repo_link: 'https://github.com/dsclnct/DSC-App',
+    org_img: gdsc,
+    tags: 'all app',
+  },
+  {
+    org_name: 'GDSC IIEST',
+    title: 'Todo CLI',
+    Ideas: ['COMMING SOON'],
+    mentors: [
+      { name: 'Abhiroop Mukherjee', email: 'abhiroop.m25902@gmail.com' },
+    ],
+    repo_link: 'https://github.com/dsc-iiest/todo-cli',
+    org_img: gdsc,
+    tags: 'all app',
+  },
+  {
+    org_name: 'GDSC LBCE',
+    title: 'Main Website',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Ashish Pradhan', email: 'ashishad14@gmail.com' }],
+    repo_link: 'https://github.com/Gdsc-Lbce/GDSC_LBCE_Website',
+    org_img: gdsc,
+    tags: 'all web',
+  },
+  {
+    org_name: 'GSDC I2IT',
+    title: 'Clippin n grafting-Backend',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' }],
+    repo_link:
+      'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Backend',
+    org_img: gdsc,
+    tags: 'all web',
+  },
   {
     org_name: 'GDSC USICT',
     title: 'Laayak App',
     Ideas: ['COMMING SOON'],
     mentors: [{ name: 'Himesh Nayak', email: 'himeshnayak015@gmail.com' }],
     repo_link: 'https://github.com/LaayaK/LaayakApp',
-    //org_img: edualgo,
+    org_img: gdsc,
     tags: 'all app',
   },
   {
@@ -427,7 +480,7 @@ const SliderData = [
       { name: 'Kashish Jain', email: 'jainabhishek7204@gmail.com' },
     ],
     repo_link: 'https://github.com/LaayaK/LaayakWeb',
-    //org_img: edualgo,
+    org_img: gdsc,
     tags: 'all web',
   },
   {
@@ -438,7 +491,7 @@ const SliderData = [
       { name: 'Smitkumar Bhatesara', email: 'smitgpatel8585@gmail.com' },
     ],
     repo_link: 'https://github.com/smit8585/WOC-2.0-GDSC-AUM-',
-    //org_img: edualgo,
+    org_img: gdsc,
     tags: 'all web',
   },
   {
@@ -447,7 +500,7 @@ const SliderData = [
     Ideas: ['COMMING SOON'],
     mentors: [{ name: 'Shubham Gautam', email: 'ishubham2101@gmail.com' }],
     repo_link: 'https://github.com/GDSC-RTU/resume-builder',
-    //org_img: edualgo,
+    org_img: gdsc,
     tags: 'all web',
   },
   {
@@ -458,7 +511,7 @@ const SliderData = [
       { name: 'Osama Bin Junaid', email: 'osamabinjunaid36@gmail.com' },
     ],
     repo_link: 'https://github.com/gdsc-snu/gcptrack',
-    //org_img: edualgo,
+    org_img: gdsc,
     tags: 'all web',
   },
   {
@@ -469,7 +522,7 @@ const SliderData = [
       { name: 'Hritik Kumar Singh', email: 'singhhritik978@gmail.com' },
     ],
     repo_link: 'https://github.com/gdsc-snu/A10Dance',
-    //org_img: edualgo,
+    org_img: gdsc,
     tags: 'all web',
   },
   {
@@ -480,7 +533,7 @@ const SliderData = [
       { name: 'Soumyadip Mondal', email: 'mandal.soumyadip9714@gmail.com' },
     ],
     repo_link: 'https://github.com/gdsc-snu/CoalaDraw',
-    //org_img: edualgo,
+    org_img: gdsc,
     tags: 'all web',
   },
 ];
