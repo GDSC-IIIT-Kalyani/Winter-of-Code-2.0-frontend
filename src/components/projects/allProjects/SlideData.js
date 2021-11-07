@@ -6,6 +6,7 @@ import autoDL from '../../../assets/organizations/auto-dl.png';
 import jina from '../../../assets/organizations/jinaAi.png';
 import edualgo from '../../../assets/organizations/abc.jpg';
 import skit from '../../../assets/organizations/skit.png';
+import asyn from '../../../assets/organizations/asyncAPI4.png';
 
 const SliderData = [
   {
@@ -384,27 +385,7 @@ const SliderData = [
   },
   {
     org_name: 'GSDC I2IT',
-    title: 'Clippin_n_grafting-Web',
-    Ideas: ['COMMING SOON'],
-    mentors: [{ name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' }],
-    repo_link:
-      'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Web',
-    //org_img: edualgo,
-    tags: 'all web',
-  },
-  {
-    org_name: 'GSDC I2IT',
-    title: 'Clippin_n_grafting-App',
-    Ideas: ['COMMING SOON'],
-    mentors: [{ name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' }],
-    repo_link:
-      'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-App',
-    //org_img: edualgo,
-    tags: 'all app',
-  },
-  {
-    org_name: 'GSDC I2IT',
-    title: 'Clippin_n_grafting-Backend',
+    title: 'Clippin n grafting-Backend',
     Ideas: ['COMMING SOON'],
     mentors: [{ name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' }],
     repo_link:
@@ -415,10 +396,17 @@ const SliderData = [
   {
     org_name: 'AsyncAPI',
     title: 'AsyncAPI',
-    Ideas: ['COMMING SOON'],
+    Ideas: [
+      "<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/157'>ISSUE 1</a>",
+      "<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/252'>ISSUE 2</a>",
+      "<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/99'>ISSUE 3</a>",
+      "<a target ='_blank' href = 'https://github.com/asyncapi/generator/issues/369'>ISSUE 4</a>",
+      "<a target ='_blank' href = 'https://github.com/asyncapi/website/issues/204'>ISSUE 5</a>",
+      "<a target ='_blank' href = 'https://github.com/asyncapi/website/issues/267'>ISSUE 6</a>",
+    ],
     mentors: [{ name: 'Khadija Sidhpuri', email: 'ksidhpuri@gmail.com' }],
     repo_link: 'https://github.com/asyncapi',
-    //org_img: edualgo,
+    org_img: asyn,
     tags: 'all app',
   },
   {

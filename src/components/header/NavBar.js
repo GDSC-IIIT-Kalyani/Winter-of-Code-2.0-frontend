@@ -67,7 +67,7 @@ const NavBar = ({ navLinkColor }) => {
           <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
-              href="/#projects"
+              href="/projects"
               onClick={handleNavClick}
             >
               Projects
