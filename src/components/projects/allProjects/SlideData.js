@@ -176,7 +176,10 @@ const SliderData = [
       'API documentation generator',
       'Workspaces',
     ],
-    mentors: [{ name: '--', email: null }],
+    mentors: [
+      { name: 'Liyas Thomas', email: 'liyascthomas@gmail.com' },
+      { name: 'Andrew Bastin', email: 'andrewbastin.k@gmail.com'},
+    ],
     repo_link: 'https://github.com/hoppscotch/hoppscotch',
     org_img: hoppscotch,
     tags: 'all web',
@@ -242,15 +245,13 @@ const SliderData = [
   {
     org_name: 'Skit AI',
     title: 'kaldis serve',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
       { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
       { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
-      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
-      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai' },
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai' },
       { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
     ],
     repo_link: 'https://github.com/skit-ai/kaldi-serve',
@@ -260,15 +261,13 @@ const SliderData = [
   {
     org_name: 'Skit AI',
     title: 'Dialogy',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
       { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
       { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
-      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
-      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai' },
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai' },
       { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
     ],
     repo_link: 'https://github.com/skit-ai/dialogy',
@@ -278,15 +277,13 @@ const SliderData = [
   {
     org_name: 'Skit AI',
     title: 'sentinel',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
       { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
       { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
-      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
-      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai' },
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai' },
       { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
     ],
     repo_link: 'https://github.com/skit-ai/sentinel',
@@ -296,15 +293,13 @@ const SliderData = [
   {
     org_name: 'Skit AI',
     title: 'EEVEE',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
       { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
       { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
-      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
-      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai' },
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai' },
       { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
     ],
     repo_link: 'https://github.com/skit-ai/eevee',
@@ -314,15 +309,13 @@ const SliderData = [
   {
     org_name: 'Skit AI',
     title: 'St Record',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
       { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
       { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
-      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
-      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai' },
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai' },
       { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
     ],
     repo_link: 'https://github.com/skit-ai/st-record',
@@ -332,22 +325,20 @@ const SliderData = [
   {
     org_name: 'Skit AI',
     title: 'TTS Middleware',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Achintya Shankhdhar', email: 'achintya.shankhdhar@skit.ai' },
       { name: 'Swaraj', email: 'swaraj@vernacular.ai' },
       { name: 'Sanchit Ahuja', email: 'sanchit.ahuja@skit.ai' },
-      { name: 'Vipul Sharma', email: 'vipul@skit.ai'},
-      { name: 'Pushkal Katara', email: 'pushkal@skit.ai'},
+      { name: 'Vipul Sharma', email: 'vipul@skit.ai' },
+      { name: 'Pushkal Katara', email: 'pushkal@skit.ai' },
       { name: 'Jaivarsan', email: 'jaivarsan@skit.ai' },
     ],
     repo_link: 'https://github.com/skit-ai/tts-middleware',
     org_img: skit,
     tags: 'all ml',
   },
-    
+
   //
   //UNFINISHED
   //
@@ -356,12 +347,8 @@ const SliderData = [
   {
     org_name: 'GDSC BIT Mesra off Campus Deoghar',
     title: 'WOC21',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Akash Dip', email: 'akash.bitd@gmail.com' },
-    ],
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Akash Dip', email: 'akash.bitd@gmail.com' }],
     repo_link: 'https://github.com/Developer-Student-Club-BIT-Deoghar/WOC21',
     //org_img: edualgo,
     tags: 'all web',
@@ -369,12 +356,8 @@ const SliderData = [
   {
     org_name: 'GDSC LNCT',
     title: 'GDSC LNCT App',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Adarsh Soni', email: 'adarshsoni6729@gmail.com' },
-    ],
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Adarsh Soni', email: 'adarshsoni6729@gmail.com' }],
     repo_link: 'https://github.com/dsclnct/DSC-App',
     //org_img: edualgo,
     tags: 'all app',
@@ -382,9 +365,7 @@ const SliderData = [
   {
     org_name: 'GDSC IIEST',
     title: 'Todo CLI',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Abhiroop Mukherjee', email: 'abhiroop.m25902@gmail.com' },
     ],
@@ -395,12 +376,8 @@ const SliderData = [
   {
     org_name: 'GDSC LBCE',
     title: 'Main Website',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Ashish Pradhan', email: 'ashishad14@gmail.com' },
-    ],
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Ashish Pradhan', email: 'ashishad14@gmail.com' }],
     repo_link: 'https://github.com/Gdsc-Lbce/GDSC_LBCE_Website',
     //org_img: edualgo,
     tags: 'all web',
@@ -408,51 +385,38 @@ const SliderData = [
   {
     org_name: 'GSDC I2IT',
     title: 'Clippin_n_grafting-Web',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' },
-    ],
-    repo_link: 'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Web',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' }],
+    repo_link:
+      'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Web',
     //org_img: edualgo,
     tags: 'all web',
   },
   {
     org_name: 'GSDC I2IT',
     title: 'Clippin_n_grafting-App',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' },
-    ],
-    repo_link: 'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-App',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' }],
+    repo_link:
+      'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-App',
     //org_img: edualgo,
     tags: 'all app',
   },
   {
     org_name: 'GSDC I2IT',
     title: 'Clippin_n_grafting-Backend',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' },
-    ],
-    repo_link: 'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Backend',
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' }],
+    repo_link:
+      'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Backend',
     //org_img: edualgo,
     tags: 'all web',
   },
   {
     org_name: 'AsyncAPI',
     title: 'AsyncAPI',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Khadija Sidhpuri', email: 'ksidhpuri@gmail.com' },
-    ],
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Khadija Sidhpuri', email: 'ksidhpuri@gmail.com' }],
     repo_link: 'https://github.com/asyncapi',
     //org_img: edualgo,
     tags: 'all app',
@@ -460,12 +424,8 @@ const SliderData = [
   {
     org_name: 'GDSC USICT',
     title: 'Laayak App',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Himesh Nayak', email: 'himeshnayak015@gmail.com' },
-    ],
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Himesh Nayak', email: 'himeshnayak015@gmail.com' }],
     repo_link: 'https://github.com/LaayaK/LaayakApp',
     //org_img: edualgo,
     tags: 'all app',
@@ -473,9 +433,7 @@ const SliderData = [
   {
     org_name: 'GDSC USICT',
     title: 'Laayak Web',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Parv Sharma', email: 'pscoder10462@gmail.com' },
       { name: 'Kashish Jain', email: 'jainabhishek7204@gmail.com' },
@@ -487,9 +445,7 @@ const SliderData = [
   {
     org_name: 'GDSC AUM',
     title: 'Human Activity',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Smitkumar Bhatesara', email: 'smitgpatel8585@gmail.com' },
     ],
@@ -500,12 +456,8 @@ const SliderData = [
   {
     org_name: 'Rajasthan Technical University',
     title: 'Resume Builder',
-    Ideas: [
-      'COMMING SOON',
-    ],
-    mentors: [
-      { name: 'Shubham Gautam', email: 'ishubham2101@gmail.com' },
-    ],
+    Ideas: ['COMMING SOON'],
+    mentors: [{ name: 'Shubham Gautam', email: 'ishubham2101@gmail.com' }],
     repo_link: 'https://github.com/GDSC-RTU/resume-builder',
     //org_img: edualgo,
     tags: 'all web',
@@ -513,9 +465,7 @@ const SliderData = [
   {
     org_name: 'GDSC SNU',
     title: 'gcptrack',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Osama Bin Junaid', email: 'osamabinjunaid36@gmail.com' },
     ],
@@ -526,9 +476,7 @@ const SliderData = [
   {
     org_name: 'GDSC SNU',
     title: 'A10Dance',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Hritik Kumar Singh', email: 'singhhritik978@gmail.com' },
     ],
@@ -539,9 +487,7 @@ const SliderData = [
   {
     org_name: 'GDSC SNU',
     title: 'CoalaDraw',
-    Ideas: [
-      'COMMING SOON',
-    ],
+    Ideas: ['COMMING SOON'],
     mentors: [
       { name: 'Soumyadip Mondal', email: 'mandal.soumyadip9714@gmail.com' },
     ],
