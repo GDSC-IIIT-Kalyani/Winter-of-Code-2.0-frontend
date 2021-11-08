@@ -536,5 +536,27 @@ const SliderData = [
     org_img: gdsc,
     tags: 'all web',
   },
+  {
+    org_name: 'GDSC IIIT Kalyani',
+    title: 'Medicare Prime',
+    Ideas: ['COMMING SOON'],
+    mentors: [
+      { name: 'Medhir Manoj', email: 'medhir23@gmail.com' },
+    ],
+    repo_link: 'https://github.com/IIITKalyaniFOSC/MediCare-Prime',
+    org_img: gdsc,
+    tags: 'all ml',
+  },
+  {
+    org_name: 'GDSC IIIT Kalyani',
+    title: 'Raksha',
+    Ideas: ['COMMING SOON'],
+    mentors: [
+      { name: 'Isha Shaw', email: 'isha372002@gmail.com' },
+    ],
+    repo_link: 'https://github.com/akshitadixit/RAKSHA',
+    org_img: gdsc,
+    tags: 'all ml',
+  },
 ];
 export default SliderData;
