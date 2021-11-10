@@ -1,15 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Projects.css";
 import "../../header/NavBar";
 import SlideData from "./SlideData";
 import proj_video from "../../../assets/projectAssests/proj_video.mp4";
 import NavBar from "../../header/NavBar";
+import ProjectCard from "./ProjectCard";
 import "./grid.css";
-import { FaGithub, FaArrowRight, FaArrowDown } from "react-icons/fa";
-import {FiMail} from "react-icons/fi"
+import {
+  FaArrowRight,
+  FaArrowLeft,
+} from "react-icons/fa";
+import "react-icons/fi";
 
 const Projects = () => {
   let [proj_type, setproj_type] = useState("all");
+  const SlidingDiv = useRef(null);
   const handleChange = (e) => {
     setproj_type(e.target.value);
   };
@@ -20,11 +25,31 @@ const Projects = () => {
         item.children[1].classList.toggle("proj-active");
         item.children[1].children[2].classList.toggle("ideas-active");
         item.children[0].classList.toggle("proj-active-left");
-        item.children[0].children[0].children[0].children[0].classList.toggle('idea-hide')
-        item.children[0].classList.toggle('back-img');
+        item.children[0].children[0].children[0].children[0].classList.toggle(
+          "idea-hide"
+        );
+        item.children[0].classList.toggle("back-img");
       });
     });
   }, []);
+  const calculatePoints = () => {
+    var x = window.screen.width;
+    if (x > 905) {
+      return 750;
+    } else if (x > 875) {
+      return 500;
+    } else if (x > 600) {
+      return 250;
+    } else {
+      return 150;
+    }
+  }
+  const slideLeft = () => {
+    SlidingDiv.current.scrollLeft -= calculatePoints();
+  };
+  const slideRight = () => {
+    SlidingDiv.current.scrollLeft += calculatePoints();
+  };
   return (
     <div className="projects">
       <NavBar navLinkColor="white" />
@@ -47,10 +72,20 @@ const Projects = () => {
           </select>
         </form>
       </div>
-
+      <div className="Container-arrows">
+        <div className="Arrow1" onClick={slideLeft}>
+          <FaArrowLeft />
+        </div>
+        <div className="Arrow2" onClick={slideRight}>
+          <FaArrowRight />
+        </div>
+      </div>
       {/* Grid section */}
-      <div className="project_grid">
+      <div ref={SlidingDiv} className="proj_slides">
         {SlideData.map((slide, idx) => {
+          return <ProjectCard key={idx} data={slide}/>;
+        })}
+        {/* {SlideData.map((slide, idx) => {
           return (
             <div
               key={idx}
@@ -107,7 +142,7 @@ const Projects = () => {
               </div>
             </div>
           );
-        })}
+        })} */}
       </div>
     </div>
   );
