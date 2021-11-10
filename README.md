@@ -1,7 +1,7 @@
 <h1 align="center">Getting Started with Winter of Code 2.0 </h1> 
 <br>
 
-<div align="center2">
+<div align="center">
 
 [![Welcome to my profile](https://img.shields.io/badge/Hello,Programmer!-Welcome-blue.svg?style=flat&logo=github)](https://github.com/GDSC-IIIT-Kalyani)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend)
