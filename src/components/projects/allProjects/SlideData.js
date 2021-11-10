@@ -558,5 +558,65 @@ const SliderData = [
     org_img: gdsc,
     tags: 'all ml',
   },
+  {
+    org_name: 'Dezenix',
+    title: 'Frontend Reactjs',
+    Ideas: ['COMMING SOON'],
+    mentors: [
+      { name: 'Raja Kumar Singh', email: 'rajasingh8889@gmail.com' },
+      { name: 'Shree Mishra', email: 'mishrashree18@gmail.com' },
+    ],
+    repo_link: 'https://github.com/Dezenix/frontend-reactjs',
+    org_img: gdsc,
+    tags: 'all web',
+  },
+  {
+    org_name: 'Dezenix',
+    title: 'Frontend HTML CSS JS',
+    Ideas: ['COMMING SOON'],
+    mentors: [
+      { name: 'Soumya Banerjee', email: 'soumyabanerjee783@gmail.com' },
+      { name: 'Pranay Gupta', email: 'pgupta@duck.com' },
+      { name: 'Pallavi Upadhyay', email: 'upallavi1812@gmail.com' },
+    ],
+    repo_link: 'https://github.com/Dezenix/frontend-html-css-js',
+    org_img: gdsc,
+    tags: 'all web',
+  },
+  {
+    org_name: 'Dezenix',
+    title: 'Website Screens',
+    Ideas: ['COMMING SOON'],
+    mentors: [
+      { name: 'Govind Singh Ranawat', email: 'govindkrsingh0605@gmail.com' },
+      { name: 'Ayush Ajay', email: 'ayushajay07@gmail.com' },
+    ],
+    repo_link: 'https://github.com/Dezenix/website-screens',
+    org_img: gdsc,
+    tags: 'all web',
+  },
+  {
+    org_name: 'Dezenix',
+    title: 'Native Frontend Flutter',
+    Ideas: ['COMMING SOON'],
+    mentors: [
+      { name: 'Naveena Ramesh Vardhini J', email: 'naveenarameshvardhini@gmail.com' },
+    ],
+    repo_link: 'https://github.com/Dezenix/native-frontend-flutter',
+    org_img: gdsc,
+    tags: 'all web',
+  },
+  {
+    org_name: 'Dezenix',
+    title: 'Mobile Screens',
+    Ideas: ['COMMING SOON'],
+    mentors: [
+      { name: 'Naveena Ramesh Vardhini J', email: 'naveenarameshvardhini@gmail.com' },
+      { name: 'Garvitraj Pandey', email: 'garvitraj.reachme@gmail.com' },
+    ],
+    repo_link: 'https://github.com/Dezenix/mobile-screens',
+    org_img: gdsc,
+    tags: 'all web',
+  },
 ];
 export default SliderData;
