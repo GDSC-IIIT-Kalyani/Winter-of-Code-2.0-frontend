@@ -367,7 +367,7 @@ const SliderData = [
   {
     org_name: 'GDSC IIIT KALYANI',
     title: 'Cogniwapp',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [
       { name: 'Vijay Shankar', email: '499_bt19@iiitkalyani.ac.in' },
       { name: 'Pallav Saxena', email: 'pallav20578@iiitkalyani.ac.in' },
@@ -382,7 +382,7 @@ const SliderData = [
   {
     org_name: 'GDSC IIIT KALYANI',
     title: 'RAKSHA',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [{ name: 'Isha Shaw', email: '461_bt19@iiitkalyani.ac.in' }],
     repo_link: 'https://github.com/GDSC-IIIT-Kalyani/RAKSHA',
     org_img: gdsc,
@@ -391,7 +391,7 @@ const SliderData = [
   {
     org_name: 'GDSC IIIT KALYANI',
     title: 'WOC 2.0 WEBSITE',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [{ name: 'GDSC IIIT KALYANI', email: 'dsc.iiitkalyani@gmail.com' }],
     repo_link: 'https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend',
     org_img: gdsc,
@@ -400,7 +400,7 @@ const SliderData = [
   {
     org_name: 'GDSC IIIT KALYANI',
     title: 'MediCare',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [
       { name: 'Medhir Manoj', email: '474_bt19@iiitkalyani.ac.in' },
       { name: 'Isha Shaw', email: '461_bt19@iiitkalyani.ac.in' },
@@ -412,7 +412,7 @@ const SliderData = [
   {
     org_name: 'GDSC IIIT KALYANI',
     title: 'Certificate generator',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [{ name: 'GDSC IIIT KALYANI', email: 'dsc.iiitkalyani@gmail.com' }],
     repo_link: 'https://github.com/GDSC-IIIT-Kalyani/WOC-certificate-generator-Hactoberfest2021',
     org_img: gdsc,
@@ -425,7 +425,7 @@ const SliderData = [
   {
     org_name: 'GDSC BIT Mesra off Campus Deoghar',
     title: 'WOC21',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [{ name: 'Akash Dip', email: 'akash.bitd@gmail.com' }],
     repo_link: 'https://github.com/Developer-Student-Club-BIT-Deoghar/WOC21',
     org_img: gdsc,
@@ -435,7 +435,7 @@ const SliderData = [
   {
     org_name: 'GDSC LNCT',
     title: 'GDSC LNCT App',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [{ name: 'Adarsh Soni', email: 'adarshsoni6729@gmail.com' }],
     repo_link: 'https://github.com/dsclnct/DSC-App',
     org_img: gdsc,
@@ -444,7 +444,7 @@ const SliderData = [
   {
     org_name: 'GDSC IIEST',
     title: 'Todo CLI',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [
       { name: 'Abhiroop Mukherjee', email: 'abhiroop.m25902@gmail.com' },
     ],
@@ -455,7 +455,7 @@ const SliderData = [
   {
     org_name: 'GDSC LBCE',
     title: 'Main Website',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [{ name: 'Ashish Pradhan', email: 'ashishad14@gmail.com' }],
     repo_link: 'https://github.com/Gdsc-Lbce/GDSC_LBCE_Website',
     org_img: gdsc,
@@ -464,7 +464,7 @@ const SliderData = [
   {
     org_name: 'GSDC I2IT',
     title: 'Clippin n grafting-Backend',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [{ name: 'Akhil Bhalerao', email: 'iamakhil1408@gmail.com' }],
     repo_link:
       'https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Backend',
@@ -515,7 +515,7 @@ const SliderData = [
   {
     org_name: 'GDSC AUM',
     title: 'Human Activity',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [
       { name: 'Smitkumar Bhatesara', email: 'smitgpatel8585@gmail.com' },
     ],
@@ -526,7 +526,7 @@ const SliderData = [
   {
     org_name: 'GDSC RTU',
     title: 'Resume Builder',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [{ name: 'Shubham Gautam', email: 'ishubham2101@gmail.com' }],
     repo_link: 'https://github.com/GDSC-RTU/resume-builder',
     org_img: gdsc,
@@ -535,7 +535,7 @@ const SliderData = [
   {
     org_name: 'GDSC SNU',
     title: 'gcptrack',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [
       { name: 'Osama Bin Junaid', email: 'osamabinjunaid36@gmail.com' },
     ],
@@ -546,7 +546,7 @@ const SliderData = [
   {
     org_name: 'GDSC SNU',
     title: 'A10Dance',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [
       { name: 'Hritik Kumar Singh', email: 'singhhritik978@gmail.com' },
     ],
@@ -557,7 +557,7 @@ const SliderData = [
   {
     org_name: 'GDSC SNU',
     title: 'CoalaDraw',
-    Ideas: ['COMMING SOON'],
+    Ideas: ['Explore the project and come up with your own ideas'],
     mentors: [
       { name: 'Soumyadip Mondal', email: 'mandal.soumyadip9714@gmail.com' },
     ],
