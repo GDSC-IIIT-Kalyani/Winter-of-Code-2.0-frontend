@@ -78,9 +78,11 @@
     transition: all ease-in-out 0.1s;
 }
 
-.mentor-flex {
+.mentors-flex {
+    text-decoration: none;
+    padding-left: 67px;
     display: block;
-    justify-content: space-around;
+    text-align: start;
 }
 
 .Project_ideas {

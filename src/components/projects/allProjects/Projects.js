@@ -15,6 +15,8 @@ import "react-icons/fi";
 const Projects = () => {
   let [proj_type, setproj_type] = useState("all");
   const SlidingDiv = useRef(null);
+  const [visibleLeftArrow, setVisibleLeftArrow] = useState(false);
+  var scroll = 0;
   const handleChange = (e) => {
     setproj_type(e.target.value);
   };
@@ -46,9 +48,13 @@ const Projects = () => {
   }
   const slideLeft = () => {
     SlidingDiv.current.scrollLeft -= calculatePoints();
+    scroll = SlidingDiv.current.scrollLeft;
+    console.log(scroll);
   };
   const slideRight = () => {
     SlidingDiv.current.scrollLeft += calculatePoints();
+    scroll = SlidingDiv.current.scrollLeft;
+    console.log(scroll);
   };
   return (
     <div className="projects">
@@ -81,7 +87,6 @@ const Projects = () => {
           <FaArrowRight />
         </div>
       </div>
-      {/* Grid section */}
       <div ref={SlidingDiv} className="proj_slides">
         {SlideData.map((slide, idx) => {
           return <ProjectCard key={idx} data={slide}/>;
