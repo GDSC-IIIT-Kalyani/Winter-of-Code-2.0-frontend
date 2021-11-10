@@ -61,6 +61,27 @@
   text-decoration: none;
   display: inline;
 }
+
+/* Custom Scroll bar */
+.Ideas::-webkit-scrollbar {
+    background: transparent;
+    /* adjust here to change the width of scrollbar */
+    width: 4px 
+} 
+
+.Ideas::-webkit-scrollbar-thumb {
+    /* change color here */
+    background: rgba(169, 169, 169, 0.747);
+    /* change the radius of scrollbar */
+    border-radius: 10px;
+}
+
+.Ideas::-webkit-scrollbar-corner {
+    /* change the radius of scrollbar */
+    border-radius: 10px;
+    /* change color here */
+    background: rgba(169, 169, 169, 0.712);
+}
   
 .dropdown-content a:hover {background-color: rgb(31, 18, 18);}
 .dropdown:hover .dropdown-content {display: block;}
