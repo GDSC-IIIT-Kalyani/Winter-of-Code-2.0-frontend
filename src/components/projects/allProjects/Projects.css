@@ -51,19 +51,6 @@
   transition: all ease-in-out 0.3s;
 }
 
-.proj_link {
-  text-decoration: none;
-}
-
-.proj_link-github {
-  color: white;
-  z-index: 100;
-}
-
-.proj_link-github:hover {
-  color: aqua;
-}
-
 .filter_option {
   display: inline-flex;
   justify-content: center;
@@ -79,6 +66,7 @@
   color: white;
   margin-right: 4rem;
 }
+<<<<<<< HEAD
 
 .proj_slides {
   padding: 20px;
@@ -96,46 +84,14 @@
   box-shadow: 1px 1px 1px 2px rgb(56, 55, 56);
   padding: 4px;
 }
+=======
+>>>>>>> cd4759e50fc7f204934c757ae15f3b1655f3cc7a
 .proj_vid video {
   right: 0;
   bottom: 0;
   width: 100vw;
   padding-right: 0.001vw;
   background-size: cover;
-}
-.proj_item:hover {
-  box-shadow: 5px 5px 2px 2px rgba(56, 55, 56, 0.534);
-  transition: all ease-in 0.2s;
-  cursor: pointer;
-}
-
-.proj_item:hover .proj_desc {
-  font-size: 1em;
-  transition: all ease-in 0.2s;
-}
-.proj_item:hover .proj_title {
-  font-size: 1.5em;
-  transition: all ease-in 0.2s;
-}
-.projects .proj_fil {
-  margin: 0% !important;
-}
-.proj_item img {
-  width: 40%;
-  object-fit: contain;
-  padding: 2vw;
-}
-.proj_title {
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  font-weight: 600;
-  font-size: 1.4em;
-  text-transform: uppercase;
-}
-.proj_desc {
-  padding-bottom: 2vh;
-  font-size: 1em;
-  text-align: left;
 }
 #proj_form {
   margin: 0% !important;
@@ -146,21 +102,6 @@
   width: 300px;
   color: rgb(255, 255, 255);
   background-color: #191714;
-}
-@keyframes fadin {
-  0% {
-    display: flex;
-    opacity: 1;
-  }
-  100% {
-    display: none;
-    opacity: 0;
-  }
-}
-
-.no_view {
-  display: none;
-  animation: fadin 2s;
 }
 @media (max-width: 800px) {
   #proj_form {
@@ -181,24 +122,10 @@
   }
 }
 @media (max-width: 400px) {
-  .proj_grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(210px, auto));
-    width: 80vw;
-    margin: 5vw auto;
-    grid-gap: 4vw;
-    text-align: center;
-    height: auto;
-  }
   .proj_slt {
     width: 50vw;
   }
-  .proj_head {
-    font-size: 14vw;
-  }
 }
-@media (max-width: 920px) {
-  .proj_grid {
-    grid-template-columns: repeat(auto-fill, minmax(250px, auto));
-  }
+.no_view{
+  display: none;
 }
