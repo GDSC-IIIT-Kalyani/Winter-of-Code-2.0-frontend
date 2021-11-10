@@ -29,7 +29,7 @@
 </div>
 
 <p align="center">
-  <b>Ofiicial website for Winter of Code 2.0 organised by IIIT Kalyani with collabaration of 10+ GDSC</b>
+  <b>Official website for Winter of Code 2.0 organised by IIIT Kalyani with collabaration of 10+ GDSC</b>
 </p>
 
 ## **Getting Started**

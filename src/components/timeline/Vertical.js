@@ -7,7 +7,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-function Veryical() {
+function Vertical() {
   return (
     <section id="timeline">
       <VerticalTimeline>
@@ -42,4 +42,4 @@ function Veryical() {
   );
 }
 
-export default Veryical;
+export default Vertical;
