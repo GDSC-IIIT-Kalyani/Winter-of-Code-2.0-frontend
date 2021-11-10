@@ -116,7 +116,7 @@ const developers = [
     image: Suryansh,
     role: "Frontend Developer",
     socialMedia: {
-      github: "###",
+      github: "https://github.com/Suryanshomar7240",
       linkedin: "https://www.linkedin.com/in/suryansh-omar",
       twitter: null,
       instagram: "https://www.instagram.com/_._suryansh__/",
