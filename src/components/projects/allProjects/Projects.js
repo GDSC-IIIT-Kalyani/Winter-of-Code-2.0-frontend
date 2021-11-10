@@ -15,7 +15,6 @@ import "react-icons/fi";
 const Projects = () => {
   let [proj_type, setproj_type] = useState("all");
   const SlidingDiv = useRef(null);
-  const [visibleLeftArrow, setVisibleLeftArrow] = useState(false);
   var scroll = 0;
   const handleChange = (e) => {
     setproj_type(e.target.value);
