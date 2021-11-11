@@ -22,6 +22,7 @@ const SliderData = [
     repo_link: "https://github.com/moja-global/FLINT-UI",
     org_img: mojo,
     tags: "all web",
+    org_tag: "all mojo"
   },
   {
     org_name: "Moja Global",
@@ -35,6 +36,7 @@ const SliderData = [
     repo_link: "https://github.com/moja-global/FLINT.cloud",
     org_img: mojo,
     tags: "all web cloud",
+    org_tag: "all mojo"
   },
   {
     org_name: "Moja Global",
@@ -48,6 +50,7 @@ const SliderData = [
     repo_link: "https://github.com/moja-global/community-website",
     org_img: mojo,
     tags: "all web",
+    org_tag: "all mojo"
   },
   {
     org_name: "Moja Global",
@@ -61,6 +64,7 @@ const SliderData = [
     repo_link: "https://github.com/moja-global/moja_global_docs",
     org_img: mojo,
     tags: "all docs",
+    org_tag: "all mojo"
   },
   {
     org_name: "LLVM",
@@ -75,6 +79,7 @@ const SliderData = [
     repo_link: "https://github.com/llvm/llvm-project",
     org_img: llvm,
     tags: "all compiler",
+    org_tag: "all llvm"
   },
   {
     org_name: "The Gita Initiative",
@@ -92,9 +97,10 @@ const SliderData = [
     repo_link: "https://github.com/gita/bhagavad-gita-api",
     org_img: geeta,
     tags: "all web",
+    org_tag: "all geeta"
   },
   {
-    org_name: "Gita Initiative",
+    org_name: "The Gita Initiative",
     title: "Gita Flutter App",
     Ideas: [
       "Add desired changes once to the MVP along with our Flutter Engineer",
@@ -108,9 +114,10 @@ const SliderData = [
     repo_link: "https://github.com/gita/Bhagavad-Gita-App",
     org_img: geeta,
     tags: "all app",
+    org_tag: "all geeta"
   },
   {
-    org_name: "Gita Initiative",
+    org_name: "The Gita Initiative",
     title: "Gita Frontend",
     Ideas: [
       "Build UI Components from Figma Design",
@@ -124,6 +131,7 @@ const SliderData = [
     repo_link: "https://github.com/gita/bg-frontend",
     org_img: geeta,
     tags: "all web",
+    org_tag: "all geeta"
   },
   {
     org_name: "Auto DL",
@@ -133,6 +141,7 @@ const SliderData = [
     repo_link: "https://github.com/Auto-DL/Auto-DL",
     org_img: autoDL,
     tags: "all app",
+    org_tag: "all autodl"
   },
   {
     org_name: "Auto DL",
@@ -142,6 +151,7 @@ const SliderData = [
     repo_link: "https://github.com/Auto-DL/auto-dl.github.io",
     org_img: autoDL,
     tags: "all web",
+    org_tag: "all autodl"
   },
   {
     org_name: "Auto DL",
@@ -151,6 +161,7 @@ const SliderData = [
     repo_link: "https://github.com/Auto-DL/Recommendation-System",
     org_img: autoDL,
     tags: "all ml",
+    org_tag: "all autodl"
   },
   {
     org_name: "Auto DL",
@@ -160,6 +171,7 @@ const SliderData = [
     repo_link: "https://github.com/Auto-DL/Deployment-Flask",
     org_img: autoDL,
     tags: "all web cloud",
+    org_tag: "all autodl"
   },
   {
     org_name: "Auto DL",
@@ -169,6 +181,7 @@ const SliderData = [
     repo_link: "https://github.com/Auto-DL/k8s-deployment",
     org_img: autoDL,
     tags: "all app cloud",
+    org_tag: "all autodl"
   },
   {
     org_name: "Hoppscotch",
@@ -185,6 +198,7 @@ const SliderData = [
     repo_link: "https://github.com/hoppscotch/hoppscotch",
     org_img: hoppscotch,
     tags: "all web",
+    org_tag: "all hoppscotch"
   },
   {
     org_name: "Jina AI",
@@ -203,6 +217,7 @@ const SliderData = [
     repo_link: "https://github.com/jina-ai/jina/issues/3650",
     org_img: jina,
     tags: "all ml",
+    org_tag: "all jina"
   },
   {
     org_name: "Jina AI",
@@ -215,6 +230,7 @@ const SliderData = [
     repo_link: "https://github.com/jina-ai/jina/issues/3643",
     org_img: jina,
     tags: "all doc",
+    org_tag: "all jina"
   },
   {
     org_name: "Edualgo Academy",
@@ -229,6 +245,7 @@ const SliderData = [
     repo_link: "https://github.com/edualgo/Grokking-Machine-Learning",
     org_img: edualgo,
     tags: "all ml",
+    org_tag: "all edulago"
   },
   {
     org_name: "Edualgo Academy",
@@ -243,6 +260,7 @@ const SliderData = [
     repo_link: "https://github.com/edualgo/Tango",
     org_img: edualgo,
     tags: "all web",
+    org_tag: "all edualgo"
   },
   {
     org_name: "Skit AI",
@@ -259,6 +277,7 @@ const SliderData = [
     repo_link: "https://github.com/skit-ai/kaldi-serve",
     org_img: skit,
     tags: "all ml",
+    org_tag: "all skit"
   },
   {
     org_name: "Skit AI",
@@ -275,6 +294,7 @@ const SliderData = [
     repo_link: "https://github.com/skit-ai/dialogy",
     org_img: skit,
     tags: "all ml",
+    org_tag: "all skit"
   },
   {
     org_name: "Skit AI",
@@ -291,6 +311,7 @@ const SliderData = [
     repo_link: "https://github.com/skit-ai/sentinel",
     org_img: skit,
     tags: "all ml",
+    org_tag: "all skit"
   },
   {
     org_name: "Skit AI",
@@ -307,6 +328,7 @@ const SliderData = [
     repo_link: "https://github.com/skit-ai/eevee",
     org_img: skit,
     tags: "all ml",
+    org_tag: "all skit"
   },
   {
     org_name: "Skit AI",
@@ -323,6 +345,7 @@ const SliderData = [
     repo_link: "https://github.com/skit-ai/st-record",
     org_img: skit,
     tags: "all ml",
+    org_tag: "all skit"
   },
   {
     org_name: "Skit AI",
@@ -339,6 +362,7 @@ const SliderData = [
     repo_link: "https://github.com/skit-ai/tts-middleware",
     org_img: skit,
     tags: "all ml",
+    org_tag: "all skit"
   },
   {
     org_name: "AsyncAPI",
@@ -355,6 +379,7 @@ const SliderData = [
     repo_link: "https://github.com/asyncapi",
     org_img: asyn,
     tags: "all app",
+    org_tag: "all asyn"
   },
   //
   //UNFINISHED
@@ -375,8 +400,8 @@ const SliderData = [
     ],
     repo_link: "https://github.com/GDSC-IIIT-Kalyani/CogniWapp",
     org_img: gdsc,
-
     tags: "all app",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC IIIT KALYANI",
@@ -386,6 +411,7 @@ const SliderData = [
     repo_link: "https://github.com/GDSC-IIIT-Kalyani/RAKSHA",
     org_img: gdsc,
     tags: "all ml web py",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC IIIT KALYANI",
@@ -398,6 +424,7 @@ const SliderData = [
       "https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC IIIT KALYANI",
@@ -410,6 +437,7 @@ const SliderData = [
     repo_link: "https://github.com/GDSC-IIIT-Kalyani/MediCare-Prime",
     org_img: gdsc,
     tags: "all ml web py",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC IIIT KALYANI",
@@ -422,6 +450,7 @@ const SliderData = [
       "https://github.com/GDSC-IIIT-Kalyani/WOC-certificate-generator-Hactoberfest2021",
     org_img: gdsc,
     tags: "all py",
+    org_tag: "all gdsc"
   },
 
   //
@@ -438,6 +467,7 @@ const SliderData = [
     repo_link: "https://github.com/Dezenix/frontend-reactjs",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "Dezenix",
@@ -451,6 +481,7 @@ const SliderData = [
     repo_link: "https://github.com/Dezenix/frontend-html-css-js",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "Dezenix",
@@ -463,6 +494,7 @@ const SliderData = [
     repo_link: "https://github.com/Dezenix/website-screens",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "Dezenix",
@@ -477,6 +509,7 @@ const SliderData = [
     repo_link: "https://github.com/Dezenix/native-frontend-flutter",
     org_img: gdsc,
     tags: "all app",
+    org_tag: "all gdsc"
   },
   {
     org_name: "Dezenix",
@@ -492,6 +525,7 @@ const SliderData = [
     repo_link: "https://github.com/Dezenix/mobile-screens",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC BIT Mesra off Campus Deoghar",
@@ -501,6 +535,7 @@ const SliderData = [
     repo_link: "https://github.com/Developer-Student-Club-BIT-Deoghar/WOC21",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
 
   {
@@ -511,6 +546,7 @@ const SliderData = [
     repo_link: "https://github.com/dsclnct/DSC-App",
     org_img: gdsc,
     tags: "all app",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC IIEST",
@@ -522,6 +558,7 @@ const SliderData = [
     repo_link: "https://github.com/dsc-iiest/todo-cli",
     org_img: gdsc,
     tags: "all app",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC LBCE",
@@ -531,6 +568,7 @@ const SliderData = [
     repo_link: "https://github.com/Gdsc-Lbce/GDSC_LBCE_Website",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GSDC I2IT",
@@ -541,6 +579,7 @@ const SliderData = [
       "https://github.com/Google-Developer-Student-Club-I2IT/Clippin_n_grafting-Backend",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC USICT",
@@ -560,6 +599,7 @@ const SliderData = [
     repo_link: "https://github.com/LaayaK/LaayakApp",
     org_img: gdsc,
     tags: "all app",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC USICT",
@@ -582,6 +622,7 @@ const SliderData = [
     repo_link: "https://github.com/LaayaK/LaayakWeb",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC AUM",
@@ -593,6 +634,7 @@ const SliderData = [
     repo_link: "https://github.com/smit8585/WOC-2.0-GDSC-AUM-",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC RTU",
@@ -602,6 +644,7 @@ const SliderData = [
     repo_link: "https://github.com/GDSC-RTU/resume-builder",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC SNU",
@@ -613,6 +656,7 @@ const SliderData = [
     repo_link: "https://github.com/gdsc-snu/gcptrack",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC SNU",
@@ -624,6 +668,7 @@ const SliderData = [
     repo_link: "https://github.com/gdsc-snu/A10Dance",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
   {
     org_name: "GDSC SNU",
@@ -635,6 +680,7 @@ const SliderData = [
     repo_link: "https://github.com/gdsc-snu/CoalaDraw",
     org_img: gdsc,
     tags: "all web",
+    org_tag: "all gdsc"
   },
 ];
 export default SliderData;
