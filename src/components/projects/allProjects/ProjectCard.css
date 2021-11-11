@@ -1,8 +1,10 @@
 .Card {
+    /* align-items: center; */
     color: white;
     margin: 20px;
     height: 324px;
     min-width: 243px;
+    max-width: 243px;
     flex-direction: column;
     background-color: rgb(56, 55, 56);
     display: inline-flex;
@@ -18,7 +20,8 @@
 .Organizer_img {
     transition: all ease-in-out 0.3s;
     z-index: 1;
-    margin: 10px;
+    margin: 20px;
+    background-position: center;
     background-size: contain;
     height: 50%;
     background-repeat: no-repeat;

@@ -18,6 +18,7 @@
 }
 
 .Arrow1 {
+  transform: scale(1.8);
   left: 25px;
   top: 221px;
   position: relative;
@@ -31,16 +32,17 @@
 }
 
 .Arrow1:hover {
-  transform: scale(1.2);
+  transform: scale(2);
 }
 
 .Arrow2:hover {
-  transform: scale(1.2);
+  transform: scale(2);
 }
 
 .Arrow2 {
+  transform: scale(1.8);
   top: 221px;
-  right: 20px;
+  right: 40px;
   position: relative;
   z-index: 1000;
   color: white;
@@ -52,14 +54,14 @@
 }
 
 .filter_option {
+  padding: 15px;
+  border-radius: 12px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   background-color: #191417;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  margin-left: 13%;
+  margin-right: 10%;
 }
 
 .filter_option h3 {
@@ -68,8 +70,29 @@
 }
 .proj_slides {
   padding: 20px;
-  overflow: hidden;
+  overflow: auto;
   display: flex;
+}
+
+/* Custom Scroll bar */
+.proj_slides::-webkit-scrollbar {
+  background: transparent;
+  /* adjust here to change the width of scrollbar */
+  height: 10px;
+} 
+
+.proj_slides::-webkit-scrollbar-thumb {
+  /* change color here */
+  background: rgba(169, 169, 169, 0.747);
+  /* change the radius of scrollbar */
+  border-radius: 10px;
+}
+
+.proj_slides::-webkit-scrollbar-corner {
+  /* change the radius of scrollbar */
+  border-radius: 10px;
+  /* change color here */
+  background: rgba(169, 169, 169, 0.712);
 }
 
 .proj_item {
@@ -95,6 +118,7 @@
   padding-top: 0px;
 }
 .proj_slt {
+  margin-right: 10px;
   width: 300px;
   color: rgb(255, 255, 255);
   background-color: #191714;
