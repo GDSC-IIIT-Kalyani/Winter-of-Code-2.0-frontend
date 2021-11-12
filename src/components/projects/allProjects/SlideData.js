@@ -420,6 +420,7 @@ const SliderData = [
     mentors: [
       { name: "Prayag Biswas", email: "tirtha070@gmail.com" },
       { name: "Akshit Chodhary", email: "akshit.chodhary@gmail.com" },
+      { name: "Yashraj Singh", email: "yashraj20623@iiitkalyani.ac.in" },
     ],
     repo_link:
       "https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend",
@@ -445,7 +446,7 @@ const SliderData = [
     title: "Certificate generator",
     Ideas: ["Explore the project and come up with your own ideas"],
     mentors: [
-      { name: "GDSC IIIT KALYANI", email: "dsc.iiitkalyani@gmail.com" },
+      { name: "Ayushman Bhatt", email: "ayushman20547@iiitkalyani.ac.in" },
     ],
     repo_link:
       "https://github.com/GDSC-IIIT-Kalyani/WOC-certificate-generator-Hactoberfest2021",
