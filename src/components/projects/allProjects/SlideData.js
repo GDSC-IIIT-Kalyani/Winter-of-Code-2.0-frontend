@@ -564,7 +564,9 @@ const SliderData = [
   {
     org_name: "GDSC LBCE",
     title: "Main Website",
-    Ideas: ["Explore the project and come up with your own ideas"],
+    Ideas: ["1.This is a community website for GDSC of Dr. Lankapalli College of Engineering to showcase past and future events, displaying our motto, core team members, leads and our projects.",
+    "2. For the Requirment details <a target ='_blank' href='https://docs.google.com/document/d/1-x4Ds8WQW8wJVayKYp5GVFQF_PkJu5LO/edit'>Refer from here</a>"
+  ],
     mentors: [{ name: "Ashish Pradhan", email: "ashishad14@gmail.com" }],
     repo_link: "https://github.com/Gdsc-Lbce/GDSC_LBCE_Website",
     org_img: gdsc,
