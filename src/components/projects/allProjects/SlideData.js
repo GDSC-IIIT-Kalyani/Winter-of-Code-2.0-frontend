@@ -396,7 +396,7 @@ const SliderData = [
     mentors: [
       { name: "Vijay Shankar", email: "499_bt19@iiitkalyani.ac.in" },
       { name: "Pallav Saxena", email: "pallav20578@iiitkalyani.ac.in" },
-      { name: "Vineel Sai", email: "pallav20578@iiitkalyani.ac.in" },
+      { name: "Vineel Sai", email: "vineelsai26@gmail.com" },
     ],
     repo_link: "https://github.com/GDSC-IIIT-Kalyani/CogniWapp",
     org_img: gdsc,
@@ -418,7 +418,8 @@ const SliderData = [
     title: "WOC 2.0 WEBSITE",
     Ideas: ["Explore the project and come up with your own ideas"],
     mentors: [
-      { name: "GDSC IIIT KALYANI", email: "dsc.iiitkalyani@gmail.com" },
+      { name: "Prayag Biswas", email: "tirtha070@gmail.com" },
+      { name: "Akshit Chodhary", email: "akshit.chodhary@gmail.com" },
     ],
     repo_link:
       "https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend",
