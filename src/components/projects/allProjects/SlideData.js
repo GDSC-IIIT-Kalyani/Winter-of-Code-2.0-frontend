@@ -397,7 +397,7 @@ const SliderData = [
     mentors: [
       { name: "Vijay Shankar", email: "499_bt19@iiitkalyani.ac.in" },
       { name: "Pallav Saxena", email: "pallav20578@iiitkalyani.ac.in" },
-      { name: "Vineel Sai", email: "pallav20578@iiitkalyani.ac.in" },
+      { name: "Vineel Sai", email: "vineelsai26@gmail.com" },
     ],
     repo_link: "https://github.com/GDSC-IIIT-Kalyani/CogniWapp",
     org_img: gdsc,
@@ -419,7 +419,9 @@ const SliderData = [
     title: "WOC 2.0 WEBSITE",
     Ideas: ["Explore the project and come up with your own ideas"],
     mentors: [
-      { name: "GDSC IIIT KALYANI", email: "dsc.iiitkalyani@gmail.com" },
+      { name: "Prayag Biswas", email: "tirtha070@gmail.com" },
+      { name: "Akshit Chodhary", email: "akshit.chodhary@gmail.com" },
+      { name: "Yashraj Singh", email: "yashraj20623@iiitkalyani.ac.in" },
     ],
     repo_link:
       "https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend",
@@ -445,7 +447,7 @@ const SliderData = [
     title: "Certificate generator",
     Ideas: ["Explore the project and come up with your own ideas"],
     mentors: [
-      { name: "GDSC IIIT KALYANI", email: "dsc.iiitkalyani@gmail.com" },
+      { name: "Ayushman Bhatt", email: "ayushman20547@iiitkalyani.ac.in" },
     ],
     repo_link:
       "https://github.com/GDSC-IIIT-Kalyani/WOC-certificate-generator-Hactoberfest2021",
@@ -564,7 +566,9 @@ const SliderData = [
   {
     org_name: "GDSC LBCE",
     title: "Main Website",
-    Ideas: ["Explore the project and come up with your own ideas"],
+    Ideas: ["1.This is a community website for GDSC of Dr. Lankapalli College of Engineering to showcase past and future events, displaying our motto, core team members, leads and our projects.",
+    ReactHtmlParser("2. For the Requirment details <a target ='_blank' href='https://docs.google.com/document/d/1-x4Ds8WQW8wJVayKYp5GVFQF_PkJu5LO/edit'>Refer from here</a>")
+  ],
     mentors: [{ name: "Ashish Pradhan", email: "ashishad14@gmail.com" }],
     repo_link: "https://github.com/Gdsc-Lbce/GDSC_LBCE_Website",
     org_img: gdsc,
