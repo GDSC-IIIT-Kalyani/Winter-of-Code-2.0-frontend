@@ -508,6 +508,10 @@ const SliderData = [
         name: "Naveena Ramesh Vardhini J",
         email: "naveenarameshvardhini@gmail.com",
       },
+      {
+        name: "Jaideep Singh",
+        email: "jaideep320@gmail.com",
+      },
     ],
     repo_link: "https://github.com/Dezenix/native-frontend-flutter",
     org_img: gdsc,
