@@ -18,8 +18,8 @@ const timeLine = [
     active: false,
   },
   {
-    date: "8th Nov - 15th Nov",
-    topHeading: "8TH NOV - 15TH NOV",
+    date: "8th Nov - 22th Nov",
+    topHeading: "8TH NOV - 22TH NOV",
     subHeading: "Student Proposals submission",
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
