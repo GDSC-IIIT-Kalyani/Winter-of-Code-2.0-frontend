@@ -474,20 +474,6 @@ const SliderData = [
   },
   {
     org_name: "Dezenix",
-    title: "Frontend HTML CSS JS",
-    Ideas: ["Explore the project and come up with your own ideas"],
-    mentors: [
-      { name: "Soumya Banerjee", email: "soumyabanerjee783@gmail.com" },
-      { name: "Pranay Gupta", email: "pgupta@duck.com" },
-      { name: "Pallavi Upadhyay", email: "upallavi1812@gmail.com" },
-    ],
-    repo_link: "https://github.com/Dezenix/frontend-html-css-js",
-    org_img: gdsc,
-    tags: "all web",
-    org_tag: "all gdsc"
-  },
-  {
-    org_name: "Dezenix",
     title: "Website Screens",
     Ideas: ["Explore the project and come up with your own ideas"],
     mentors: [
