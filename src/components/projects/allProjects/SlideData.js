@@ -266,7 +266,7 @@ const SliderData = [
   {
     org_name: "Skit AI",
     title: "kaldis serve",
-    Ideas: ["COMMING SOON"],
+    Ideas: ["Coming Soon"],
     mentors: [
       { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
       { name: "Swaraj", email: "swaraj@vernacular.ai" },
@@ -283,7 +283,7 @@ const SliderData = [
   {
     org_name: "Skit AI",
     title: "Dialogy",
-    Ideas: ["COMMING SOON"],
+    Ideas: ["Coming Soon"],
     mentors: [
       { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
       { name: "Swaraj", email: "swaraj@vernacular.ai" },
@@ -300,7 +300,7 @@ const SliderData = [
   {
     org_name: "Skit AI",
     title: "sentinel",
-    Ideas: ["COMMING SOON"],
+    Ideas: ["Coming Soon"],
     mentors: [
       { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
       { name: "Swaraj", email: "swaraj@vernacular.ai" },
@@ -317,7 +317,7 @@ const SliderData = [
   {
     org_name: "Skit AI",
     title: "EEVEE",
-    Ideas: ["COMMING SOON"],
+    Ideas: ["Coming Soon"],
     mentors: [
       { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
       { name: "Swaraj", email: "swaraj@vernacular.ai" },
@@ -334,7 +334,7 @@ const SliderData = [
   {
     org_name: "Skit AI",
     title: "St Record",
-    Ideas: ["COMMING SOON"],
+    Ideas: ["Coming Soon"],
     mentors: [
       { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
       { name: "Swaraj", email: "swaraj@vernacular.ai" },
@@ -351,7 +351,7 @@ const SliderData = [
   {
     org_name: "Skit AI",
     title: "TTS Middleware",
-    Ideas: ["COMMING SOON"],
+    Ideas: ["Coming Soon"],
     mentors: [
       { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
       { name: "Swaraj", email: "swaraj@vernacular.ai" },
@@ -361,6 +361,42 @@ const SliderData = [
       { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
     ],
     repo_link: "https://github.com/skit-ai/tts-middleware",
+    org_img: skit,
+    tags: "all ml",
+    org_tag: "all skit"
+  },
+  {
+    org_name: "Skit AI",
+    title: "Multilingual sentence embeddings",
+    Ideas: [
+      ReactHtmlParser("<a target='_blank' href='https://docs.google.com/document/d/1G8oNU3a9bJSRp3J5K7mehKhQAy1K9u8O2sY6FWuTuu4/edit?usp=sharing'>Refer for ideas</a>")],
+    mentors: [
+      { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
+      { name: "Swaraj", email: "swaraj@vernacular.ai" },
+      { name: "Sanchit Ahuja", email: "sanchit.ahuja@skit.ai" },
+      { name: "Vipul Sharma", email: "vipul@skit.ai" },
+      { name: "Pushkal Katara", email: "pushkal@skit.ai" },
+      { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
+    ],
+    repo_link: "https://github.com/skit-ai/dialogy",
+    org_img: skit,
+    tags: "all ml",
+    org_tag: "all skit"
+  },
+  {
+    org_name: "Skit AI",
+    title: "Text to speech",
+    Ideas: [
+      ReactHtmlParser("<a target='_blank' href='https://docs.google.com/document/d/18-oCRc9AmaUqWcs_FoYwTrSiqd56Y4VGPB4vBVTtO1A/edit?usp=sharing'>Refer for ideas</a>")],
+    mentors: [
+      { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
+      { name: "Swaraj", email: "swaraj@vernacular.ai" },
+      { name: "Sanchit Ahuja", email: "sanchit.ahuja@skit.ai" },
+      { name: "Vipul Sharma", email: "vipul@skit.ai" },
+      { name: "Pushkal Katara", email: "pushkal@skit.ai" },
+      { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
+    ],
+    repo_link: "https://github.com/skit-ai/kaldi-serve",
     org_img: skit,
     tags: "all ml",
     org_tag: "all skit"
@@ -493,6 +529,10 @@ const SliderData = [
       {
         name: "Naveena Ramesh Vardhini J",
         email: "naveenarameshvardhini@gmail.com",
+      },
+      {
+        name: "Jaideep Singh",
+        email: "jaideep320@gmail.com",
       },
     ],
     repo_link: "https://github.com/Dezenix/native-frontend-flutter",
