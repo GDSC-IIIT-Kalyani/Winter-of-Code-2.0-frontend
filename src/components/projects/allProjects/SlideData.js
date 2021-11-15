@@ -8,6 +8,7 @@ import edualgo from "../../../assets/organizations/abc.jpg";
 import skit from "../../../assets/organizations/skit.png";
 import asyn from "../../../assets/organizations/asyncAPI4.png";
 import gdsc from "../../../assets/organizations/gdsc.png";
+import ReactHtmlParser from 'react-html-parser'; 
 
 const SliderData = [
   {
@@ -204,14 +205,14 @@ const SliderData = [
     org_name: "Jina AI",
     title: "Build with Jina",
     Ideas: [
-      "<a href = 'https://github.com/jina-ai/jina/issues/3650'>Build using Jina : Shazam using Jina - enter an audio and search which song is it </a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3649'>Build using Jina : Pet image classification - upload image of your pet, find which breed it is/ info about it</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3648'>Build using Jina : Movie recommender search engine!</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3647'>Build using Jina : Build a search for weird data (not audio/text/image/video) but any other data!</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3646'>Build using Jina : Match the manga - capture the expression and see which manga character fits you</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3645'>Build using Jina : Find your celebrity twin image search!</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3651'>Feature improvement : Meme search - support multilingual search for memes</a>",
-      "<a href = 'https://github.com/jina-ai/jina/issues/3652'>Build using Jina : Product look-alike - enter a product, search for similar products</a>",
+      ReactHtmlParser("<a href = 'https://github.com/jina-ai/jina/issues/3650'>Build using Jina : Shazam using Jina - enter an audio and search which song is it </a>"),
+      ReactHtmlParser("<a href = 'https://github.com/jina-ai/jina/issues/3649'>Build using Jina : Pet image classification - upload image of your pet, find which breed it is/ info about it</a>"),
+      ReactHtmlParser("<a href = 'https://github.com/jina-ai/jina/issues/3648'>Build using Jina : Movie recommender search engine!</a>"),
+      ReactHtmlParser("<a href = 'https://github.com/jina-ai/jina/issues/3647'>Build using Jina : Build a search for weird data (not audio/text/image/video) but any other data!</a>"),
+      ReactHtmlParser("<a href = 'https://github.com/jina-ai/jina/issues/3646'>Build using Jina : Match the manga - capture the expression and see which manga character fits you</a>"),
+      ReactHtmlParser("<a href = 'https://github.com/jina-ai/jina/issues/3645'>Build using Jina : Find your celebrity twin image search!</a>"),
+      ReactHtmlParser("<a href = 'https://github.com/jina-ai/jina/issues/3651'>Feature improvement : Meme search - support multilingual search for memes</a>"),
+      ReactHtmlParser("<a href = 'https://github.com/jina-ai/jina/issues/3652'>Build using Jina : Product look-alike - enter a product, search for similar products</a>"),
     ],
     mentors: [{ name: "Jyoti Bisht", email: "jyoti.bisht@jina.ai" }],
     repo_link: "https://github.com/jina-ai/jina/issues/3650",
@@ -223,8 +224,8 @@ const SliderData = [
     org_name: "Jina AI",
     title: "Write a Blog",
     Ideas: [
-      '<a href="https://github.com/jina-ai/jina/issues/3643">Write a blog on - "Jina and open source - what actually Jina is"',
-      '<a href="https://github.com/jina-ai/jina/issues/3642">Write a blog on - "What is neural search and how does Jina use neural search?"',
+      ReactHtmlParser('<a href="https://github.com/jina-ai/jina/issues/3643">Write a blog on - "Jina and open source - what actually Jina is"'),
+      ReactHtmlParser('<a href="https://github.com/jina-ai/jina/issues/3642">Write a blog on - "What is neural search and how does Jina use neural search?"'),
     ],
     mentors: [{ name: "Jyoti Bisht", email: "jyoti.bisht@jina.ai" }],
     repo_link: "https://github.com/jina-ai/jina/issues/3643",
@@ -368,12 +369,12 @@ const SliderData = [
     org_name: "AsyncAPI",
     title: "AsyncAPI",
     Ideas: [
-      "<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/157'>ISSUE 1</a>",
-      "<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/252'>ISSUE 2</a>",
-      "<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/99'>ISSUE 3</a>",
-      "<a target ='_blank' href = 'https://github.com/asyncapi/generator/issues/369'>ISSUE 4</a>",
-      "<a target ='_blank' href = 'https://github.com/asyncapi/website/issues/204'>ISSUE 5</a>",
-      "<a target ='_blank' href = 'https://github.com/asyncapi/website/issues/267'>ISSUE 6</a>",
+      ReactHtmlParser("<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/157'>ISSUE 1</a>"),
+      ReactHtmlParser("<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/252'>ISSUE 2</a>"),
+      ReactHtmlParser("<a target ='_blank' href = 'https://github.com/asyncapi/parser-js/issues/99'>ISSUE 3</a>"),
+      ReactHtmlParser("<a target ='_blank' href = 'https://github.com/asyncapi/generator/issues/369'>ISSUE 4</a>"),
+      ReactHtmlParser("<a target ='_blank' href = 'https://github.com/asyncapi/website/issues/204'>ISSUE 5</a>"),
+      ReactHtmlParser("<a target ='_blank' href = 'https://github.com/asyncapi/website/issues/267'>ISSUE 6</a>"),
     ],
     mentors: [{ name: "Khadija Sidhpuri", email: "ksidhpuri@gmail.com" }],
     repo_link: "https://github.com/asyncapi",
@@ -396,7 +397,7 @@ const SliderData = [
     mentors: [
       { name: "Vijay Shankar", email: "499_bt19@iiitkalyani.ac.in" },
       { name: "Pallav Saxena", email: "pallav20578@iiitkalyani.ac.in" },
-      { name: "Vineel Sai", email: "pallav20578@iiitkalyani.ac.in" },
+      { name: "Vineel Sai", email: "vineelsai26@gmail.com" },
     ],
     repo_link: "https://github.com/GDSC-IIIT-Kalyani/CogniWapp",
     org_img: gdsc,
@@ -418,7 +419,9 @@ const SliderData = [
     title: "WOC 2.0 WEBSITE",
     Ideas: ["Explore the project and come up with your own ideas"],
     mentors: [
-      { name: "GDSC IIIT KALYANI", email: "dsc.iiitkalyani@gmail.com" },
+      { name: "Prayag Biswas", email: "tirtha070@gmail.com" },
+      { name: "Akshit Chodhary", email: "akshit.chodhary@gmail.com" },
+      { name: "Yashraj Singh", email: "yashraj20623@iiitkalyani.ac.in" },
     ],
     repo_link:
       "https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend",
@@ -444,7 +447,7 @@ const SliderData = [
     title: "Certificate generator",
     Ideas: ["Explore the project and come up with your own ideas"],
     mentors: [
-      { name: "GDSC IIIT KALYANI", email: "dsc.iiitkalyani@gmail.com" },
+      { name: "Ayushman Bhatt", email: "ayushman20547@iiitkalyani.ac.in" },
     ],
     repo_link:
       "https://github.com/GDSC-IIIT-Kalyani/WOC-certificate-generator-Hactoberfest2021",
@@ -563,7 +566,9 @@ const SliderData = [
   {
     org_name: "GDSC LBCE",
     title: "Main Website",
-    Ideas: ["Explore the project and come up with your own ideas"],
+    Ideas: ["1.This is a community website for GDSC of Dr. Lankapalli College of Engineering to showcase past and future events, displaying our motto, core team members, leads and our projects.",
+    ReactHtmlParser("2. For the Requirment details <a target ='_blank' href='https://docs.google.com/document/d/1-x4Ds8WQW8wJVayKYp5GVFQF_PkJu5LO/edit'>Refer from here</a>")
+  ],
     mentors: [{ name: "Ashish Pradhan", email: "ashishad14@gmail.com" }],
     repo_link: "https://github.com/Gdsc-Lbce/GDSC_LBCE_Website",
     org_img: gdsc,

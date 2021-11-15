@@ -15,10 +15,37 @@ import "react-icons/fi";
 const Projects = () => {
   let [proj_type, setproj_type] = useState("all");
   let [proj_org, setproj_org] = useState("all");
+  const [empty, setEmpty] = useState(false);
   const handleChange = (e) => {
+
+    let empty = true
+    for(let i=0; i<SlideData.length; i++)
+    {
+
+      if (SlideData[i].tags.includes(e.target.value) && SlideData[i].org_tag.includes(proj_org))
+      {
+        empty = false;
+        break;
+      }
+    }
+    setEmpty(empty);
+
     setproj_type(e.target.value);
   };
   const handleOrg = (e) => {
+
+    let empty = true
+    for(let i=0; i<SlideData.length; i++)
+    {
+
+      if (SlideData[i].tags.includes(proj_type) && SlideData[i].org_tag.includes(e.target.value))
+      {
+        empty = false;
+        break;
+      }
+    }
+    setEmpty(empty);
+
     setproj_org(e.target.value);
   };
   useEffect(() => {
@@ -88,6 +115,8 @@ const Projects = () => {
           </select>
         </form>
       </div>
+      {!empty?
+      <>
       <div className="Container-arrows">
         <div className="Arrow1" onClick={slideLeft}>
           <FaArrowLeft />
@@ -105,6 +134,10 @@ const Projects = () => {
           }
         })}
       </div>
+      </>
+      :<div className="empty_text">
+          <h1>No Result Found :(</h1>
+        </div>}
     </div>
   );
 };
