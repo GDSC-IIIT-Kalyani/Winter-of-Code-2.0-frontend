@@ -1,0 +1,162 @@
+.Card {
+    /* align-items: center; */
+    color: white;
+    margin: 20px;
+    height: 324px;
+    min-width: 243px;
+    max-width: 243px;
+    flex-direction: column;
+    background-color: rgb(56, 55, 56);
+    display: inline-flex;
+    border-radius: 8px;
+    z-index: 0;
+    transition: all ease-in-out 0.4s;
+}
+.proj_slider{
+    width:70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Card:hover {
+    transform: scale(1.15);
+}
+
+.Organizer_img {
+    transition: all ease-in-out 0.3s;
+    z-index: 1;
+    margin: 20px;
+    background-position: center;
+    background-size: contain;
+    height: 50%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.Ideas a{
+    color : white;
+}
+.dropbtn {
+  border-radius: 5px;
+  transition: all ease-in-out 0.2s;
+  background-color: #134bb3;
+  /* background-image: linear-gradient(-90deg, #134bb3 0%, #2e68d3 100%); */
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+}
+  
+.dropdown {
+  transition: all ease-in-out 0.2s;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  padding-top: 5px;
+  display: none;
+  position: absolute;
+  background-color: #1b0404e5;
+  min-width: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10000;
+  
+}
+
+.dropdown-content a {
+  width: 100%;
+  z-index: 100000;
+  color: black;
+  padding: 2px 6px;
+  text-decoration: none;
+  display: inline;
+}
+
+/* Custom Scroll bar */
+.Ideas::-webkit-scrollbar {
+    background: transparent;
+    /* adjust here to change the width of scrollbar */
+    width: 4px 
+} 
+
+.Ideas::-webkit-scrollbar-thumb {
+    /* change color here */
+    background: rgba(169, 169, 169, 0.747);
+    /* change the radius of scrollbar */
+    border-radius: 10px;
+}
+
+.Ideas::-webkit-scrollbar-corner {
+    /* change the radius of scrollbar */
+    border-radius: 10px;
+    /* change color here */
+    background: rgba(169, 169, 169, 0.712);
+}
+  
+.dropdown-content a:hover {background-color: rgb(31, 18, 18);}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #2162db;}
+
+.Project_name {
+    z-index: 1;
+    height: 30%;
+    padding: 1em 1.5em 1em 1.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    visibility: visible;
+    transition: all ease-in-out 0.1s;
+}
+
+.mentors-flex {
+    text-decoration: none;
+    padding-left: 67px;
+    display: block;
+    text-align: start;
+}
+
+.Project_ideas {
+    cursor: pointer;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 20%;
+    transition: all ease-in-out 0.3s;
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+    text-align: center;
+}
+
+.github {
+    margin: 20px;
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.flex-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.github:hover {
+    transform: scale(1.7) rotateZ(360deg);
+}
+
+.Ideas {
+    background-image: linear-gradient(0deg, #00000083 0%, #00000000 100%);
+    text-align: center;
+    z-index: 100;
+    transition: all ease-in-out 0.3s;
+    height: 0%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+    bottom: 0px;
+    overflow: auto;
+}
+
+/* #191417 */

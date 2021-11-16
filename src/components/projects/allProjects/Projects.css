@@ -1,26 +1,125 @@
 .projects {
-  margin: 0%;
-  padding: 0%;
-  width: 100%;
-  height: auto;
+  overflow: hidden;
   background: #000000;
-  padding-bottom: 2vh;
+  scroll-behavior: smooth;
+  padding-bottom: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.Container-arrows {
+  justify-content: space-between;
+  position: relative;
+  background-color: rgb(255, 0, 0);
+  background-color: black;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  color: white;
+}
+
+.Arrow1 {
+  transform: scale(1.8);
+  left: 25px;
+  top: 221px;
+  position: relative;
+  z-index: 1000;
+  color: white;
+  /* border: 3px solid white; */
+  padding: 10px 12px;
+  /* border-radius: 50px; */
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.Arrow1:hover {
+  transform: scale(2);
+}
+
+.Arrow2:hover {
+  transform: scale(2);
+}
+
+.Arrow2 {
+  transform: scale(1.8);
+  top: 221px;
+  right: 40px;
+  position: relative;
+  z-index: 1000;
+  color: white;
+  /* border: 3px solid white; */
+  padding: 10px 12px;
+  /* border-radius: 50px; */
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
 }
 
 .filter_option {
-  display: flex;
+  padding: 15px;
+  border-radius: 12px;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   background-color: #191417;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  margin-left: 13%;
+  margin-right: 10%;
 }
 
 .filter_option h3 {
   color: white;
   margin-right: 4rem;
+}
+.proj_slides {
+  padding: 20px;
+  overflow: auto;
+  display: flex;
+}
+
+.empty_text {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.empty_text h1 {
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  font-size: xx-large;
+}
+
+/* Custom Scroll bar */
+.proj_slides::-webkit-scrollbar {
+  background: transparent;
+  /* adjust here to change the width of scrollbar */
+  height: 10px;
+} 
+
+.proj_slides::-webkit-scrollbar-thumb {
+  /* change color here */
+  background: rgba(169, 169, 169, 0.747);
+  /* change the radius of scrollbar */
+  border-radius: 10px;
+}
+
+.proj_slides::-webkit-scrollbar-corner {
+  /* change the radius of scrollbar */
+  border-radius: 10px;
+  /* change color here */
+  background: rgba(169, 169, 169, 0.712);
+}
+
+.proj_item {
+  display: flex;
+  background-color: #191417;
+  color: rgb(212, 208, 208);
+  border-radius: 5px;
+  border: 2px solid rgb(128, 125, 125);
+  transition: all ease 1s;
+  box-shadow: 1px 1px 1px 2px rgb(56, 55, 56);
+  padding: 4px;
 }
 .proj_vid video {
   right: 0;
@@ -35,6 +134,7 @@
   padding-top: 0px;
 }
 .proj_slt {
+  margin-right: 10px;
   width: 300px;
   color: rgb(255, 255, 255);
   background-color: #191714;
