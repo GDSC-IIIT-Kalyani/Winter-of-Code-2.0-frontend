@@ -21,9 +21,7 @@ const ProjectCard = (props) => {
             </div> 
             <div className="Ideas" style={{visibility: `${showIdeas ? 'visible' : 'hidden'}`, height: `${showIdeas ? '290' : '0'}%`}}>
                 <div className="flex-container">
-                    <FaGithub className="github" onClick={() => {
-                        window.location = props.data.repo_link;
-                    }}/>
+                    <a href={props.data.repo_link} className="git_hub" target='_blank' rel='noreferrer'><FaGithub /></a>
                 </div>
                 <div>
                     {props.data.mentors.map((mentor, idx) => {

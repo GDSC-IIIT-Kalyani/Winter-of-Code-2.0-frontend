@@ -57,6 +57,10 @@
   color: #f03120;
 }
 
+.contact .github:hover {
+  color: #731280;
+}
+
 @media screen and (max-width:749px){
   .icon{
     width: 40px;
