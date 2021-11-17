@@ -7,6 +7,7 @@ import jina from "../../../assets/organizations/jinaAi.png";
 import edualgo from "../../../assets/organizations/abc.jpg";
 import skit from "../../../assets/organizations/skit.png";
 import asyn from "../../../assets/organizations/asyncAPI4.png";
+import dezenix from "../../../assets/organizations/Dezenix.png";
 import gdsc from "../../../assets/organizations/gdsc.png";
 import ReactHtmlParser from 'react-html-parser'; 
 
@@ -498,33 +499,46 @@ const SliderData = [
   {
     org_name: "Dezenix",
     title: "Frontend Reactjs",
-    Ideas: ["Explore the project and come up with your own ideas"],
+    Ideas: [
+      "Create react components with a responsive layout that can be used by other developers during their development journey.",
+      "Add components and code UI from the Figma Designs provided in the particular issue.",
+      "Refinement of pre-existing UI.",
+      "Work on interactions and effects.",
+    ],
     mentors: [
       { name: "Raja Kumar Singh", email: "rajasingh8889@gmail.com" },
       { name: "Shree Mishra", email: "mishrashree18@gmail.com" },
     ],
     repo_link: "https://github.com/Dezenix/frontend-reactjs",
-    org_img: gdsc,
+    org_img: dezenix,
     tags: "all web",
     org_tag: "all gdsc"
   },
   {
     org_name: "Dezenix",
     title: "Website Screens",
-    Ideas: ["Explore the project and come up with your own ideas"],
+    Ideas: [
+      "Design a responsive website with good auto-layout components that drives the maximum user experience and enhance the product design.",
+      "You may use any design tool like Figma, Adobe XD or Sketch.",
+    ],
     mentors: [
       { name: "Govind Singh Ranawat", email: "govindkrsingh0605@gmail.com" },
       { name: "Ayush Ajay", email: "ayushajay07@gmail.com" },
     ],
     repo_link: "https://github.com/Dezenix/website-screens",
-    org_img: gdsc,
+    org_img: dezenix,
     tags: "all web",
     org_tag: "all gdsc"
   },
   {
     org_name: "Dezenix",
     title: "Native Frontend Flutter",
-    Ideas: ["Explore the project and come up with your own ideas"],
+    Ideas: [
+      "Create end-to-end mobile templates that can be used by other developers during their Flutter development journey.",
+      "Add components and code UI from the Figma Designs provided in the particular issue.",
+      "Refinement of pre-existing UI.",
+      "Work on interactions and effects.",
+    ],
     mentors: [
       {
         name: "Naveena Ramesh Vardhini J",
@@ -536,14 +550,17 @@ const SliderData = [
       },
     ],
     repo_link: "https://github.com/Dezenix/native-frontend-flutter",
-    org_img: gdsc,
+    org_img: dezenix,
     tags: "all app",
     org_tag: "all gdsc"
   },
   {
     org_name: "Dezenix",
     title: "Mobile Screens",
-    Ideas: ["Explore the project and come up with your own ideas"],
+    Ideas: [
+      "Design high fidelity mobile screen with good auto-layout components that drives the maximum user experience and enhance the existing product designs.",
+      "You may use any design tool like Figma, Adobe XD or Sketch.",
+    ],
     mentors: [
       {
         name: "Naveena Ramesh Vardhini J",
@@ -552,7 +569,7 @@ const SliderData = [
       { name: "Garvitraj Pandey", email: "garvitraj.reachme@gmail.com" },
     ],
     repo_link: "https://github.com/Dezenix/mobile-screens",
-    org_img: gdsc,
+    org_img: dezenix,
     tags: "all web",
     org_tag: "all gdsc"
   },
