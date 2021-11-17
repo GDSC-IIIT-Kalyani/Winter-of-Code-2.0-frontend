@@ -100,6 +100,8 @@ const Projects = () => {
             <option value="compiler">Compiler</option>
             <option value="py">Python</option>
           </select>
+        </form>
+        <form id="proj_form">
           <select className="proj_slt" onChange={handleOrg}>
             <option value="all">All organizations</option>
             <option value="mojo">Mojo Global</option>

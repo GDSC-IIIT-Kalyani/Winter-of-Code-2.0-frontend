@@ -129,8 +129,8 @@
     text-align: center;
 }
 
-.github {
-    margin: 20px;
+.git_hub {
+    margin: 15px;
     transform: scale(1.5);
     cursor: pointer;
     transition: all ease-in-out 0.3s;
@@ -142,7 +142,7 @@
     justify-content: space-evenly;
 }
 
-.github:hover {
+.git_hub:hover {
     transform: scale(1.7) rotateZ(360deg);
 }
 
