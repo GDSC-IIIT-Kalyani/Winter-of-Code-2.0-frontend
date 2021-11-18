@@ -264,36 +264,15 @@ const SliderData = [
     tags: "all web",
     org_tag: "all edualgo"
   },
+  
   {
     org_name: "Skit AI",
     title: "kaldis serve",
     Ideas: ["Coming Soon"],
     mentors: [
-      { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
-      { name: "Swaraj", email: "swaraj@vernacular.ai" },
-      { name: "Sanchit Ahuja", email: "sanchit.ahuja@skit.ai" },
-      { name: "Vipul Sharma", email: "vipul@skit.ai" },
-      { name: "Pushkal Katara", email: "pushkal@skit.ai" },
-      { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
+      { name: "Prabhsimran", email: "prabhsimran@skit.ai" },
     ],
     repo_link: "https://github.com/skit-ai/kaldi-serve",
-    org_img: skit,
-    tags: "all ml",
-    org_tag: "all skit"
-  },
-  {
-    org_name: "Skit AI",
-    title: "Dialogy",
-    Ideas: ["Coming Soon"],
-    mentors: [
-      { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
-      { name: "Swaraj", email: "swaraj@vernacular.ai" },
-      { name: "Sanchit Ahuja", email: "sanchit.ahuja@skit.ai" },
-      { name: "Vipul Sharma", email: "vipul@skit.ai" },
-      { name: "Pushkal Katara", email: "pushkal@skit.ai" },
-      { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
-    ],
-    repo_link: "https://github.com/skit-ai/dialogy",
     org_img: skit,
     tags: "all ml",
     org_tag: "all skit"
@@ -303,48 +282,9 @@ const SliderData = [
     title: "sentinel",
     Ideas: ["Coming Soon"],
     mentors: [
-      { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
-      { name: "Swaraj", email: "swaraj@vernacular.ai" },
-      { name: "Sanchit Ahuja", email: "sanchit.ahuja@skit.ai" },
       { name: "Vipul Sharma", email: "vipul@skit.ai" },
-      { name: "Pushkal Katara", email: "pushkal@skit.ai" },
-      { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
     ],
     repo_link: "https://github.com/skit-ai/sentinel",
-    org_img: skit,
-    tags: "all ml",
-    org_tag: "all skit"
-  },
-  {
-    org_name: "Skit AI",
-    title: "EEVEE",
-    Ideas: ["Coming Soon"],
-    mentors: [
-      { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
-      { name: "Swaraj", email: "swaraj@vernacular.ai" },
-      { name: "Sanchit Ahuja", email: "sanchit.ahuja@skit.ai" },
-      { name: "Vipul Sharma", email: "vipul@skit.ai" },
-      { name: "Pushkal Katara", email: "pushkal@skit.ai" },
-      { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
-    ],
-    repo_link: "https://github.com/skit-ai/eevee",
-    org_img: skit,
-    tags: "all ml",
-    org_tag: "all skit"
-  },
-  {
-    org_name: "Skit AI",
-    title: "St Record",
-    Ideas: ["Coming Soon"],
-    mentors: [
-      { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
-      { name: "Swaraj", email: "swaraj@vernacular.ai" },
-      { name: "Sanchit Ahuja", email: "sanchit.ahuja@skit.ai" },
-      { name: "Vipul Sharma", email: "vipul@skit.ai" },
-      { name: "Pushkal Katara", email: "pushkal@skit.ai" },
-      { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
-    ],
-    repo_link: "https://github.com/skit-ai/st-record",
     org_img: skit,
     tags: "all ml",
     org_tag: "all skit"
@@ -354,12 +294,7 @@ const SliderData = [
     title: "TTS Middleware",
     Ideas: ["Coming Soon"],
     mentors: [
-      { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
-      { name: "Swaraj", email: "swaraj@vernacular.ai" },
-      { name: "Sanchit Ahuja", email: "sanchit.ahuja@skit.ai" },
-      { name: "Vipul Sharma", email: "vipul@skit.ai" },
-      { name: "Pushkal Katara", email: "pushkal@skit.ai" },
-      { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
+      { name: "Ayush Shridhar", email: "ayush.shridhar@skit.ai" },
     ],
     repo_link: "https://github.com/skit-ai/tts-middleware",
     org_img: skit,
@@ -372,30 +307,20 @@ const SliderData = [
     Ideas: [
       ReactHtmlParser("<a target='_blank' href='https://docs.google.com/document/d/1G8oNU3a9bJSRp3J5K7mehKhQAy1K9u8O2sY6FWuTuu4/edit?usp=sharing'>Refer for ideas</a>")],
     mentors: [
-      { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
-      { name: "Swaraj", email: "swaraj@vernacular.ai" },
-      { name: "Sanchit Ahuja", email: "sanchit.ahuja@skit.ai" },
-      { name: "Vipul Sharma", email: "vipul@skit.ai" },
-      { name: "Pushkal Katara", email: "pushkal@skit.ai" },
-      { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
+      { name: "Pushkal Katara", email: "pushkal@skit.ai" }
     ],
-    repo_link: "https://github.com/skit-ai/dialogy",
+    repo_link: "https://github.com/skit-ai/tts-middleware",
     org_img: skit,
     tags: "all ml",
     org_tag: "all skit"
   },
   {
     org_name: "Skit AI",
-    title: "Text to speech",
+    title: "Speech enchancement Text to speech",
     Ideas: [
       ReactHtmlParser("<a target='_blank' rel='noreferrer' href='https://docs.google.com/document/d/18-oCRc9AmaUqWcs_FoYwTrSiqd56Y4VGPB4vBVTtO1A/edit?usp=sharing'>Refer for ideas</a>")],
     mentors: [
-      { name: "Achintya Shankhdhar", email: "achintya.shankhdhar@skit.ai" },
-      { name: "Swaraj", email: "swaraj@vernacular.ai" },
-      { name: "Sanchit Ahuja", email: "sanchit.ahuja@skit.ai" },
-      { name: "Vipul Sharma", email: "vipul@skit.ai" },
-      { name: "Pushkal Katara", email: "pushkal@skit.ai" },
-      { name: "Jaivarsan", email: "jaivarsan@skit.ai" },
+      { name: "Swaraj Dalmia", email: "swaraj@skit.ai" }
     ],
     repo_link: "https://github.com/skit-ai/kaldi-serve",
     org_img: skit,
