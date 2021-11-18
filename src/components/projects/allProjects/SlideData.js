@@ -309,9 +309,9 @@ const SliderData = [
     mentors: [
       { name: "Pushkal Katara", email: "pushkal@skit.ai" }
     ],
-    repo_link: "https://github.com/skit-ai/tts-middleware",
+    repo_link:null,
     org_img: skit,
-    tags: "all ml",
+    tags: "all ml remove",
     org_tag: "all skit"
   },
   {
@@ -322,9 +322,9 @@ const SliderData = [
     mentors: [
       { name: "Swaraj Dalmia", email: "swaraj@skit.ai" }
     ],
-    repo_link: "https://github.com/skit-ai/kaldi-serve",
+    repo_link:null,
     org_img: skit,
-    tags: "all ml",
+    tags: "all ml remove",
     org_tag: "all skit"
   },
   {

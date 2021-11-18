@@ -21,7 +21,7 @@ const ProjectCard = (props) => {
             </div> 
             <div className="Ideas" style={{visibility: `${showIdeas ? 'visible' : 'hidden'}`, height: `${showIdeas ? '290' : '0'}%`}}>
                 <div className="flex-container">
-                    <a href={props.data.repo_link} className="git_hub" target='_blank' rel='noreferrer'><FaGithub /></a>
+                    <a href={props.data.repo_link} className={props.data.tags.includes("remove")?"no_view":"git_hub"} target='_blank' rel='noreferrer'><FaGithub /></a>
                 </div>
                 <div>
                     {props.data.mentors.map((mentor, idx) => {
