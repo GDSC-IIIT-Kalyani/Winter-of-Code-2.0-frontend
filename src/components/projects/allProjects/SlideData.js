@@ -10,6 +10,7 @@ import asyn from "../../../assets/organizations/asyncAPI4.png";
 import dezenix from "../../../assets/organizations/Dezenix.png";
 import gdsc from "../../../assets/organizations/gdsc.png";
 import ReactHtmlParser from 'react-html-parser'; 
+import codedigger from "../../../assets/organizations/coindigeer.png";
 
 const SliderData = [
   {
@@ -343,6 +344,30 @@ const SliderData = [
     org_img: asyn,
     tags: "all app",
     org_tag: "all asyn"
+  },
+  {
+    org_name: "Code Digger",
+    title: "Code-digger Frontend",
+    Ideas: ["Explore the project and come up with your own ideas"],
+    mentors: [
+      { name: "Code digger", email: "contact.codedigger@gmail.com" }
+    ],
+    repo_link:"https://github.com/Code-dig-ger/Frontend",
+    org_img: codedigger,
+    tags: "all web",
+    org_tag: "all codedigger"
+  },
+  {
+    org_name: "Code Digger",
+    title: "Code-digger Backend",
+    Ideas: ["Explore the project and come up with your own ideas"],
+    mentors: [
+      { name: "Code digger", email: "contact.codedigger@gmail.com" }
+    ],
+    repo_link:"https://github.com/Code-dig-ger/Backend",
+    org_img: codedigger,
+    tags: "all web",
+    org_tag: "all codedigger"
   },
   //
   //UNFINISHED
