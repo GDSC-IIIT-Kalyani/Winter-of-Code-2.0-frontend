@@ -8,6 +8,7 @@ import jinaAi from "../../assets/organizations/jinaAi.png";
 import autodl from "../../assets/organizations/auto-dl.png";
 import mojo from "../../assets/organizations/moja-global.png";
 import edualgo from '../../assets/organizations/abc.jpg';
+import coindigger from "../../assets/organizations/coindigeer.png";
 
 import "./Project.css";
 
@@ -41,6 +42,9 @@ function Orgs() {
         </li>
         <li>
           <img src={edualgo} alt="org_logo" />
+        </li>
+        <li>
+          <img src={coindigger} alt="org_logo" />
         </li>
       </ul>
       <div class="desc">ORGANISATIONS</div>

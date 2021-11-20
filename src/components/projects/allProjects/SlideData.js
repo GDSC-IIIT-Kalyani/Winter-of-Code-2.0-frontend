@@ -11,6 +11,7 @@ import codedigger from "../../../assets/organizations/Codedigger.png"
 import dezenix from "../../../assets/organizations/Dezenix.png";
 import gdsc from "../../../assets/organizations/gdsc.png";
 import ReactHtmlParser from 'react-html-parser'; 
+import codedigger from "../../../assets/organizations/coindigeer.png";
 
 const SliderData = [
   {
