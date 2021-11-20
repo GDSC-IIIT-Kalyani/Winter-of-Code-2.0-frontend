@@ -113,6 +113,7 @@ const Projects = () => {
             <option value="edualgo">Edualgo Academy</option>
             <option value="skit">Skit AI</option>
             <option value="asyn">AsyncAPI</option>
+            <option value="codedigger">Codedigger</option>
             <option value="gdsc">GDSC</option>
           </select>
         </form>
