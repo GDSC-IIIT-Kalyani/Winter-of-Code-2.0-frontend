@@ -7,6 +7,7 @@ import jina from "../../../assets/organizations/jinaAi.png";
 import edualgo from "../../../assets/organizations/abc.jpg";
 import skit from "../../../assets/organizations/skit.png";
 import asyn from "../../../assets/organizations/asyncAPI4.png";
+import codedigger from "../../../assets/organizations/Codedigger.png"
 import dezenix from "../../../assets/organizations/Dezenix.png";
 import gdsc from "../../../assets/organizations/gdsc.png";
 import ReactHtmlParser from 'react-html-parser'; 
@@ -346,27 +347,37 @@ const SliderData = [
     org_tag: "all asyn"
   },
   {
-    org_name: "Code Digger",
-    title: "Code-digger Frontend",
-    Ideas: ["Explore the project and come up with your own ideas"],
-    mentors: [
-      { name: "Code digger", email: "contact.codedigger@gmail.com" }
-    ],
-    repo_link:"https://github.com/Code-dig-ger/Frontend",
+    org_name: "Codedigger",
+    title: "Frontend: HTML CSS JS ReactJS",
+    Ideas: [ReactHtmlParser("Blog Feature"),
+            ReactHtmlParser("Making a Custom Contest"),
+            ReactHtmlParser("Open Innovation"),
+            ReactHtmlParser("Issues in repositories")],
+    mentors: [{ name: "Sai Keshari", email: "saikeshari@gmail.com" },
+              { name: "Anurag Gupta", email: "anuragguota5086@gmail.com" },
+              { name: "Shivam Singhal", email: "shivamsinghal1012@gmail.com" },
+              { name: "Aaradhya Beri", email: "aaradhyaberi@gmail.com" }
+            ],
+    repo_link: "https://github.com/Code-dig-ger/Frontend",
     org_img: codedigger,
     tags: "all web",
     org_tag: "all codedigger"
   },
   {
-    org_name: "Code Digger",
-    title: "Code-digger Backend",
-    Ideas: ["Explore the project and come up with your own ideas"],
-    mentors: [
-      { name: "Code digger", email: "contact.codedigger@gmail.com" }
-    ],
-    repo_link:"https://github.com/Code-dig-ger/Backend",
+    org_name: "Codedigger",
+    title: "Backend: Python Django",
+    Ideas: [ReactHtmlParser("Blog Feature"),
+            ReactHtmlParser("Making a Custom Contest"),
+            ReactHtmlParser("Open Innovation"),
+            ReactHtmlParser("Issues in repositories")],
+    mentors: [{ name: "Sai Keshari", email: "saikeshari@gmail.com" },
+              { name: "Anurag Gupta", email: "anuragguota5086@gmail.com" },
+              { name: "Shivam Singhal", email: "shivamsinghal1012@gmail.com" },
+              { name: "Aaradhya Beri", email: "aaradhyaberi@gmail.com" }
+            ],
+    repo_link: "https://github.com/Code-dig-ger/Backend",
     org_img: codedigger,
-    tags: "all web",
+    tags: "all python web",
     org_tag: "all codedigger"
   },
   //
