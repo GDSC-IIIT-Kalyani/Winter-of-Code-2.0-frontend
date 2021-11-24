@@ -8,6 +8,7 @@ import edualgo from "../../../assets/organizations/abc.jpg";
 import skit from "../../../assets/organizations/skit.png";
 import asyn from "../../../assets/organizations/asyncAPI4.png";
 import gdsc from "../../../assets/organizations/gdsc.png";
+import laayak from "../../../assets/organizations/laayak.png";
 import ReactHtmlParser from 'react-html-parser'; 
 
 const SliderData = [
@@ -602,7 +603,7 @@ const SliderData = [
     ],
     mentors: [{ name: "Himesh Nayak", email: "himeshnayak015@gmail.com" }],
     repo_link: "https://github.com/LaayaK/LaayakApp",
-    org_img: gdsc,
+    org_img: laayak,
     tags: "all app",
     org_tag: "all gdsc"
   },
@@ -625,7 +626,7 @@ const SliderData = [
       { name: "Kashish Jain", email: "jainabhishek7204@gmail.com" },
     ],
     repo_link: "https://github.com/LaayaK/LaayakWeb",
-    org_img: gdsc,
+    org_img: laayak,
     tags: "all web",
     org_tag: "all gdsc"
   },
