@@ -12,7 +12,6 @@ import dezenix from "../../../assets/organizations/Dezenix.png";
 import gdsc from "../../../assets/organizations/gdsc.png";
 import laayak from "../../../assets/organizations/laayak.png";
 import ReactHtmlParser from 'react-html-parser'; 
-import codedigger from "../../../assets/organizations/coindigeer.png";
 
 const SliderData = [
   {
