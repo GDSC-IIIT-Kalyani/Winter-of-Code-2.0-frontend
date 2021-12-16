@@ -33,7 +33,7 @@ const timeLine = [
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
     activeStyle: { background: "rgb(150, 150, 243)", color: "white" },
-    active: true,
+    active: false,
   },
   {
     date: "5th Dec - 5th Feb",
@@ -42,7 +42,7 @@ const timeLine = [
     content: "",
     contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
     activeStyle: { background: "rgb(150, 150, 243)", color: "white" },
-    active: false,
+    active: true,
   },
   {
     date: "5th Feb - 15th Feb",
