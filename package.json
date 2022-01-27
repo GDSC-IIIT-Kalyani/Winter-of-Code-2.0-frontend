@@ -35,7 +35,7 @@
     "slick-carousel": "^1.8.1",
     "start": "^5.1.0",
     "styled-components": "^5.3.1",
-    "three": "^0.132.2",
+    "three": "^0.137.0",
     "three-bmfont-text": "^3.0.1",
     "three-orbit-controls": "^82.1.0",
     "web-vitals": "^1.1.2"
